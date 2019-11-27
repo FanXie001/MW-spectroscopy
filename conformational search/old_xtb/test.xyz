@@ -1,0 +1,10 @@
+$set
+chrg 0
+mdtime    400.0       # MD run time in ps
+mddump    1000.       # dump (=optimize) structure in siman every mddump fs      
+mdstep      5.0       # MD time step in fs (automatically determined if < 0), could be 7-8 fs with shake =2, md_hmass
+md_hmass      4       # increase hydrogen mass to this value in amu (at const. tot. mass) allowing large time steps (=0 off)
+shake         2       # shake on (=0: off which is default) for X-H bonds only (=1), or all bonds (=2)
+nsiman        3       # number of siman annealing blocks
+tend         3000       # highest siman annealing temperature (very system specific)
+$end

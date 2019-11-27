@@ -1,0 +1,7 @@
+%mem=25GB
+%nprocshared=8
+# opt freq rb3lyp def2tzvp empiricaldispersion=gd3bj  output=pickett
+
+Energy:    -41.41777444
+
+0 1
