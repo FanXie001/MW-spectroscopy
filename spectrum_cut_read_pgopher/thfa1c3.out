@@ -1,0 +1,1087 @@
+PGOPHER 10.1.182 4 Dec 2018 16:58 64 bit Unicode (Delphi 32/32)
+Mixture: thfa1c3.pgo
+  Units               MHz
+  PrintLevel          Minimal
+  Precision           4
+  BasisOrder          boDefault
+  QuantumNumberFormat J
+  FitCycles           1
+  FitDetails          False
+  AutoReplot          True
+  AllowComplex        False
+  NoLineList          False
+  ShowEstUnc          False
+  ShowDerivatives     False
+  SVDlimit            5
+  ShowSubBasis        False
+  AllowZeroI          False
+  ScaledParameters    False
+  FixTransitionPhase  False
+  OldHyperfineOrder   False
+  OldColourOrder      False
+  SVDThresh    1E-6
+  ScaleChanges 1
+  SmallE       5.99584916E-14
+  Species: Species
+    Jmax 20
+    Concentration 1
+    AsymmetricMolecule: AsymmetricTop
+      Jmax           20
+      JAdjustSym     True
+      BlockMatrix    True
+      AbsoluteE      False
+      PointGroup     C1
+      Representation Ir
+      SReduction     False
+      eeWt           1
+      eoWt           1
+      oeWt           1
+      ooWt           1
+      C2zAxis        a
+      C2xAxis        c
+      PseudoC2v      False
+      FakeSym        False
+      PhaseAdjust    False
+      SingleSubBasis False
+      Abundance     1
+      AssumedOrigin 1E99
+      AsymmetricManifold: Ground
+        Jmax          20
+        Initial       True
+        EigenSearch   True
+        LimitSearch   True
+        AutoQConverge True
+        UsePopParams  False
+        AsymmetricTop: v=0
+          Symmetry A
+          Kmin     all
+          Kmax     all
+          A      3698.71712026641           Float, Std Dev = 0.0459812028104942
+          B      1727.71023147252           Float, Std Dev = 0.000371511735471887
+          C      1419.26960546146           Float, Std Dev = 0.000368239757129838
+          DK     0.00345914406292738
+          DJK    -0.00220825180833823
+          DJ     0.000661429291228594
+          deltaK 0.000350034240582242
+          deltaJ 7.88045798164394E-5
+          <N  ,K  |A|N,K> = K^2
+
+          <N  ,K-2|B|N,K> = sqrt((N*(N+1)+(-K+1)*(K-2))*(N*(N+1)-K*(K-1)))/4
+          <N  ,K  |B|N,K> = (N*(N+1)-K^2)/2
+          <N  ,K+2|B|N,K> = sqrt((N*(N+1)+(-K-1)*(K+2))*(N*(N+1)-K*(K+1)))/4
+
+          <N  ,K-2|C|N,K> = (-sqrt((N*(N+1)+(-K+1)*(K-2))*(N*(N+1)-K*(K-1))))/4
+          <N  ,K  |C|N,K> = (N*(N+1)-K^2)/2
+          <N  ,K+2|C|N,K> = (-sqrt((N*(N+1)+(-K-1)*(K+2))*(N*(N+1)-K*(K+1))))/4
+
+          <N  ,K  |DK|N,K> = -K^4
+
+          <N  ,K  |DJK|N,K> = -N*(N+1)*K^2
+
+          <N  ,K  |DJ|N,K> = -N^2*(N+1)^2
+
+          <N  ,K-2|deltaK|N,K> = (-sqrt((N*(N+1)+(-K+1)*(K-2))*(N*(N+1)-K*(K-1)))*(K^2+(K-2)^2))/2
+          <N  ,K+2|deltaK|N,K> = (-sqrt((N*(N+1)+(-K-1)*(K+2))*(N*(N+1)-K*(K+1)))*(K^2+(K+2)^2))/2
+
+          <N  ,K-2|deltaJ|N,K> = -N*(N+1)*sqrt((N*(N+1)+(-K+1)*(K-2))*(N*(N+1)-K*(K-1)))
+          <N  ,K+2|deltaJ|N,K> = -N*(N+1)*sqrt((N*(N+1)+(-K-1)*(K+2))*(N*(N+1)-K*(K+1)))
+
+      TransitionMoments: <Ground|mu|Ground>
+        CartesianTransitionMoment: <v=0|a|v=0>
+          Axis a
+          Strength 5.2
+        Reduced Matrix Elements of <v=0|a|v=0>
+        <N-1,K  |a|N,K> = -1^(2*N-2*K-3)*sqrt(((N-K)*(N+K))/N)
+        <N  ,K  |a|N,K> = (-1^(2*(N-K))*(2*N+1)*K)/sqrt(N*(2*N+1)*(N+1))
+        <N+1,K  |a|N,K> = -1^(2*(N-K+1))*sqrt(((N-K+1)*(N+K+1))/(N+1))
+        Line Strengths from <v=0|a|v=0>
+        S<N-1,K  |a|N,K> = (-1^(2*(2*N-2*K-3))*(N-K)*(N+K))/N
+        S<N  ,K  |a|N,K> = (-1^(4*(N-K))*(2*N+1)*K^2)/(N*(N+1))
+        S<N+1,K  |a|N,K> = (-1^(4*(N-K+1))*(N-K+1)*(N+K+1))/(N+1)
+
+        CartesianTransitionMoment: <v=0|b|v=0>
+          Axis b
+          Strength 0.18
+        Reduced Matrix Elements of <v=0|b|v=0>
+        <N-1,K-1|b|N,K> = (-1^(2*(N-K))*sqrt(((N+K)*(N+K-1))/N))/2
+        <N-1,K+1|b|N,K> = (-1^(2*N-2*K-3)*sqrt(((N-K)*(N-K-1))/N))/2
+        <N  ,K-1|b|N,K> = (-1^(2*(N-K+1))*(2*N+1)*sqrt(((N-K+1)*(N+K))/(N*(2*N+1)*(N+1))))/2
+        <N  ,K+1|b|N,K> = (-1^(2*(N-K))*(2*N+1)*sqrt(((N-K)*(N+K+1))/(N*(2*N+1)*(N+1))))/2
+        <N+1,K-1|b|N,K> = (-1^(2*(N-K+2))*sqrt(((N-K+1)*(N-K+2))/(N+1)))/2
+        <N+1,K+1|b|N,K> = (-1^(2*N-2*K+1)*sqrt(((N+K+1)*(N+K+2))/(N+1)))/2
+        Line Strengths from <v=0|b|v=0>
+        S<N-1,K-1|b|N,K> = (-1^(4*(N-K))*(N+K)*(N+K-1))/(4*N)
+        S<N-1,K+1|b|N,K> = (-1^(2*(2*N-2*K-3))*(N-K)*(N-K-1))/(4*N)
+        S<N  ,K-1|b|N,K> = (-1^(4*(N-K+1))*(2*N+1)*(N-K+1)*(N+K))/(4*N*(N+1))
+        S<N  ,K+1|b|N,K> = (-1^(4*(N-K))*(2*N+1)*(N-K)*(N+K+1))/(4*N*(N+1))
+        S<N+1,K-1|b|N,K> = (-1^(4*(N-K+2))*(N-K+1)*(N-K+2))/(4*(N+1))
+        S<N+1,K+1|b|N,K> = (-1^(2*(2*N-2*K+1))*(N+K+1)*(N+K+2))/(4*(N+1))
+
+        CartesianTransitionMoment: <v=0|c|v=0>
+          Axis c
+          Strength 0.45
+        Reduced Matrix Elements of <v=0|c|v=0>
+        <N-1,K-1|c|N,K> = (-1^(2*N-2*K-1)*sqrt(((-N-K)*(N+K-1))/N))/2
+        <N-1,K+1|c|N,K> = (-1^(2*N-2*K-3)*sqrt(((-N+K)*(N-K-1))/N))/2
+        <N  ,K-1|c|N,K> = (-1^(2*N-2*K+1)*(2*N+1)*sqrt(((-N+K-1)*(N+K))/(N*(2*N+1)*(N+1))))/2
+        <N  ,K+1|c|N,K> = (-1^(2*(N-K))*(2*N+1)*sqrt(((-N+K)*(N+K+1))/(N*(2*N+1)*(N+1))))/2
+        <N+1,K-1|c|N,K> = (-1^(2*N-2*K+3)*sqrt(((-N+K-1)*(N-K+2))/(N+1)))/2
+        <N+1,K+1|c|N,K> = (-1^(2*N-2*K+1)*sqrt(((-N-K-1)*(N+K+2))/(N+1)))/2
+        Line Strengths from <v=0|c|v=0>
+        S<N-1,K-1|c|N,K> = (-1^(2*(2*N-2*K-1))*(-N-K)*(N+K-1))/(4*N)
+        S<N-1,K+1|c|N,K> = (-1^(2*(2*N-2*K-3))*(-N+K)*(N-K-1))/(4*N)
+        S<N  ,K-1|c|N,K> = (-1^(2*(2*N-2*K+1))*(2*N+1)*(-N+K-1)*(N+K))/(4*N*(N+1))
+        S<N  ,K+1|c|N,K> = (-1^(4*(N-K))*(2*N+1)*(-N+K)*(N+K+1))/(4*N*(N+1))
+        S<N+1,K-1|c|N,K> = (-1^(2*(2*N-2*K+3))*(-N+K-1)*(N-K+2))/(4*(N+1))
+        S<N+1,K+1|c|N,K> = (-1^(2*(2*N-2*K+1))*(-N-K-1)*(N+K+2))/(4*(N+1))
+
+  Correlations: Correlations
+                                   Species.AsymmetricTop.Ground.v=0.B Species.AsymmetricTop.Ground.v=0.A Species.AsymmetricTop.Ground.v=0.C
+Species.AsymmetricTop.Ground.v=0.B                           1.000000
+Species.AsymmetricTop.Ground.v=0.A                          -0.070431                           1.000000
+Species.AsymmetricTop.Ground.v=0.C                           0.430407                          -0.015438                           1.000000
+
+  Simulation: Simulation
+    Intensity factor:0.333333333333333 (1 from Spol)
+    IntensityUnits Normalized
+    LifeModel      lmNone
+    PlotUnits      MHz
+    Fluorescence   False
+    nDF            2000
+    WidthMult      6
+    AutoMin        True
+    AutoMax        True
+    ShowSum        True
+    ShowParts      False
+    ShowFortrat    False
+    UseUpper       True
+    ShowSymmetry   True
+    ShowDeltaJ     False
+    ScaleMarkSize  True
+    UseSymmetry    False
+    UseStateNumber False
+    FortratQno     J
+    PreserveArea   False
+    SeparateScales False
+    LogScale       False
+    Show2DPlot     False
+    Auto2DY        True
+    Fmin        2219.4646956346
+    Fmax        9751.5773043654
+    Ymax        3217.77873760788
+    Temperature 1
+    SMargin     -1
+    OThreshold  1E-10
+    Tvib        -1
+    MinI        0.01
+    Tspin       -1
+    IScale      1
+    PlotSplit   0.5
+  Fundamental Constants from CODATA 2014: h=6.62607004E-34 k=1.38064852E-23 NA=6.022140857E23 e=1.6021766208E-19 me=9.10938356E-31
+
+     Molecule Manifo'   J' S' #'Manifo"   J" S" #"      Position I               Eupper        Elower Spol     A        Width
+AsymmetricTop Ground    4  A  9 Ground    4  A  8         0.1290 3.026e-7    65499.2022    65499.0732 64.82920 5.40e-22 0.000000 : qQ4,1(4) : v=0  4  4  0 - v=0  4  4  1
+AsymmetricTop Ground    5  A  9 Ground    5  A  8         1.1561 1.031e-6    81309.3793    81308.2232 52.66786 2.58e-19 0.000000 : qQ4,2(5) : v=0  5  4  1 - v=0  5  4  2
+AsymmetricTop Ground    3  A  7 Ground    3  A  6         2.2822 1.458e-5    38030.9462    38028.6640 47.24154 2.80e-18 0.000000 : qQ3,1(3) : v=0  3  3  0 - v=0  3  3  1
+AsymmetricTop Ground    6  A  9 Ground    6  A  8         5.7357 1.727e-6   100307.9472   100302.2115 44.23069 2.24e-17 0.000000 : qQ4,3(6) : v=0  6  4  2 - v=0  6  4  3
+AsymmetricTop Ground    4  A  7 Ground    4  A  6        15.8680 4.236e-5    50693.0094    50677.1414 36.24800 5.62e-16 0.000000 : qQ3,2(4) : v=0  4  3  1 - v=0  4  3  2
+AsymmetricTop Ground    7  A  9 Ground    7  A  8        20.7701 1.849e-6   122512.2185   122491.4484 37.95705 7.92e-16 0.000000 : qQ4,4(7) : v=0  7  4  3 - v=0  7  4  4
+AsymmetricTop Ground    2  A  5 Ground    2  A  4        33.4411 .0003545    17975.2633    17941.8222 29.92718 7.82e-15 0.000000 : qQ2,1(2) : v=0  2  2  0 - v=0  2  2  1
+AsymmetricTop Ground    8  A  9 Ground    8  A  8        61.1381 1.399e-6   147946.4211   147885.2830 33.02789 1.55e-14 0.000000 : qQ4,5(8) : v=0  8  4  4 - v=0  8  4  5
+AsymmetricTop Ground    5  A  7 Ground    5  A  6        62.6290 6.298e-5    66567.4663    66504.8373 29.21791 2.28e-14 0.000000 : qQ3,3(5) : v=0  5  3  2 - v=0  5  3  3
+AsymmetricTop Ground    8  A  2 Ground    8  A  1       143.4871 6.083e-7   108688.3134   108544.8263 .9280625 5.63e-15 0.000000 : rQ0,8(8) : v=0  8  1  8 - v=0  8  0  8
+AsymmetricTop Ground    9  A  9 Ground    9  A  8       154.5841 7.842e-7   176644.6417   176490.0576 28.96370 1.97e-13 0.000000 : qQ4,6(9) : v=0  9  4  5 - v=0  9  4  6
+AsymmetricTop Ground    3  A  5 Ground    3  A  4       164.6705 .0007629    27547.4137    27382.7432 20.63892 4.60e-13 0.000000 : qQ2,2(3) : v=0  3  2  1 - v=0  3  2  2
+AsymmetricTop Ground    6  A  7 Ground    6  A  6       183.4624 6.117e-5    85696.8378    85513.3754 24.18973 4.01e-13 0.000000 : qQ3,4(6) : v=0  6  3  3 - v=0  6  3  4
+AsymmetricTop Ground    7  A  2 Ground    7  A  1       249.2315 2.786e-6    85187.3835    84938.1520 .7901028 2.85e-14 0.000000 : rQ0,7(7) : v=0  7  1  7 - v=0  7  0  7
+AsymmetricTop Ground    1  A  3 Ground    1  A  2       308.4386 .0027155     5426.4246     5117.9861 13.52000 4.62e-12 0.000000 : qQ1,1(1) : v=0  1  1  0 - v=0  1  1  1
+AsymmetricTop Ground    6  A  6 Ground    7  A  2       325.9919 1.672e-7    85513.3754    85187.3835 .0367541 3.42e-15 0.000000 : sP1,7(7) : v=0  6  3  4 - v=0  7  1  7
+AsymmetricTop Ground   10  A  9 Ground   10  A  8       346.5431 3.341e-7   208653.5365   208306.9935 25.46017 1.76e-12 0.000000 : qQ4,7(10) : v=0 10  4  6 - v=0 10  4  7
+AsymmetricTop Ground    6  A  2 Ground    6  A  1       416.4479 1.038e-5    64556.3615    64139.9136 .6521386 1.27e-13 0.000000 : rQ0,6(6) : v=0  6  1  6 - v=0  6  0  6
+AsymmetricTop Ground    7  A  7 Ground    7  A  6       440.9951 4.224e-5   108138.4465   107697.4514 20.27564 4.05e-12 0.000000 : qQ3,5(7) : v=0  7  3  4 - v=0  7  3  5
+AsymmetricTop Ground    4  A  5 Ground    4  A  4       477.6701 .0008988    40422.1510    39944.4809 15.43428 6.53e-12 0.000000 : qQ2,3(4) : v=0  4  2  2 - v=0  4  2  3
+AsymmetricTop Ground    5  A  2 Ground    5  A  1       660.6673 3.076e-5    46811.2853    46150.6180 .5166870 4.73e-13 0.000000 : rQ0,5(5) : v=0  5  1  5 - v=0  5  0  5
+AsymmetricTop Ground    5  A  3 Ground    4  A  7       682.0869 1.953e-6    51375.0962    50693.0094 .0395359 3.98e-14 0.000000 : oR3,1(4) : v=0  5  1  4 - v=0  4  3  1
+AsymmetricTop Ground    3  A  1 Ground    2  A  5       741.8500 1.099e-5    18717.1133    17975.2633 .0426099 8.68e-14 0.000000 : oR2,0(2) : v=0  3  0  3 - v=0  2  2  0
+AsymmetricTop Ground    8  A  7 Ground    8  A  6       913.4397 2.155e-5   133957.1097   133043.6700 17.04450 2.67e-11 0.000000 : qQ3,6(8) : v=0  8  3  5 - v=0  8  3  6
+AsymmetricTop Ground    2  A  3 Ground    2  A  2       925.3120 .0033462    12028.8087    11103.4967 7.511111 4.16e-11 0.000000 : qQ1,2(2) : v=0  2  1  1 - v=0  2  1  2
+AsymmetricTop Ground    4  A  2 Ground    4  A  1       980.4570 7.062e-5    31972.1916    30991.7347 .3890568 1.42e-12 0.000000 : rQ0,4(4) : v=0  4  1  4 - v=0  4  0  4
+AsymmetricTop Ground    8  A  2 Ground    7  A  6       990.8620 2.092e-7   108688.3134   107697.4514 .0452945 9.05e-14 0.000000 : oR3,5(7) : v=0  8  1  8 - v=0  7  3  5
+AsymmetricTop Ground    5  A  6 Ground    4  A  8      1005.7641 2.237e-7    66504.8373    65499.0732 .0062993 2.03e-14 0.000000 : pR4,1(4) : v=0  5  3  3 - v=0  4  4  1
+AsymmetricTop Ground    6  A  9 Ground    7  A  5      1043.2445 2.475e-7   100307.9472    99264.7027 .0339901 1.04e-13 0.000000 : sP2,5(7) : v=0  6  4  2 - v=0  7  2  5
+AsymmetricTop Ground    5  A  5 Ground    5  A  4      1052.3282 .0007158    56657.2376    55604.9094 11.99249 4.44e-11 0.000000 : qQ2,4(5) : v=0  5  2  3 - v=0  5  2  4
+AsymmetricTop Ground    5  A  7 Ground    4  A  9      1068.2641 2.377e-7    66567.4663    65499.2022 .0063100 2.44e-14 0.000000 : pR4,0(4) : v=0  5  3  2 - v=0  4  4  0
+AsymmetricTop Ground    3  A  2 Ground    3  A  1      1344.7373 .0001227    20061.8506    18717.1133 .2757940 3.35e-12 0.000000 : rQ0,3(3) : v=0  3  1  3 - v=0  3  0  3
+AsymmetricTop Ground    9  A  4 Ground    9  A  3      1403.9123 6.058e-7   148646.6551   147242.7428 .6235777 3.17e-12 0.000000 : rQ1,8(9) : v=0  9  2  8 - v=0  9  1  8
+AsymmetricTop Ground    7  A  8 Ground    8  A  4      1600.1458 1.708e-7   122491.4484   120891.3026 .0437503 4.17e-13 0.000000 : sP2,7(8) : v=0  7  4  4 - v=0  8  2  7
+AsymmetricTop Ground    9  A  7 Ground    9  A  6      1676.6754 8.315e-6   163207.2441   161530.5687 14.31985 1.24e-10 0.000000 : qQ3,7(9) : v=0  9  3  6 - v=0  9  3  7
+AsymmetricTop Ground    2  A  2 Ground    2  A  1      1696.0221 .0001570    11103.4967     9407.4746 .1804607 6.15e-12 0.000000 : rQ0,2(2) : v=0  2  1  2 - v=0  2  0  2
+AsymmetricTop Ground    3  A  3 Ground    3  A  2      1848.3305 .0029926    21910.1811    20061.8506 5.283668 1.66e-10 0.000000 : qQ1,3(3) : v=0  3  1  2 - v=0  3  1  3
+AsymmetricTop Ground    4  A  4 Ground    3  A  7      1913.5347 3.500e-7    39944.4809    38030.9462 .0014162 3.85e-14 0.000000 : pR3,0(3) : v=0  4  2  3 - v=0  3  3  0
+AsymmetricTop Ground    4  A  4 Ground    3  A  6      1915.8168 1.919e-6    39944.4809    38028.6640 .0077555 2.12e-13 0.000000 : pR3,1(3) : v=0  4  2  3 - v=0  3  3  1
+AsymmetricTop Ground    6  A  5 Ground    6  A  4      1939.7602 .0004196    76276.8558    74337.0956 9.571475 1.88e-10 0.000000 : qQ2,5(6) : v=0  6  2  4 - v=0  6  2  5
+AsymmetricTop Ground    5  A  6 Ground    6  A  2      1948.4758 1.795e-6    66504.8373    64556.3615 .0254930 5.99e-13 0.000000 : sP1,6(6) : v=0  5  3  3 - v=0  6  1  6
+AsymmetricTop Ground    1  A  2 Ground    1  A  1      1971.0089 .0001373     5117.9861     3146.9772 .1012500 9.02e-12 0.000000 : rQ0,1(1) : v=0  1  1  1 - v=0  1  0  1
+AsymmetricTop Ground    9  A  2 Ground    8  A  6      2003.6674 1.357e-7   135047.3373   133043.6700 .0502214 7.42e-13 0.000000 : oR3,6(8) : v=0  9  1  9 - v=0  8  3  6
+AsymmetricTop Ground    8  A  4 Ground    8  A  3      2015.2866 2.662e-6   120891.3026   118876.0161 .4963382 8.34e-12 0.000000 : rQ1,7(8) : v=0  8  2  7 - v=0  8  1  7
+AsymmetricTop Ground    3  A  2 Ground    2  A  5      2086.5873 1.047e-6    20061.8506    17975.2633 .0014898 6.75e-14 0.000000 : pR2,0(2) : v=0  3  1  3 - v=0  2  2  0
+AsymmetricTop Ground    3  A  2 Ground    2  A  4      2120.0284 6.094e-6    20061.8506    17941.8222 .0085274 4.05e-13 0.000000 : pR2,1(2) : v=0  3  1  3 - v=0  2  2  1
+AsymmetricTop Ground    1  A  3 Ground    1  A  1      2279.4475 2.522e-5     5426.4246     3146.9772 .0162000 2.23e-12 0.000000 : rQ0,1(1) : v=0  1  1  0 - v=0  1  0  1
+AsymmetricTop Ground    4  A  5 Ground    3  A  7      2391.2048 2.445e-6    40422.1510    38030.9462 .0080071 4.25e-13 0.000000 : pR3,0(3) : v=0  4  2  2 - v=0  3  3  0
+AsymmetricTop Ground    4  A  5 Ground    3  A  6      2393.4869 4.477e-7    40422.1510    38028.6640 .0014645 7.79e-14 0.000000 : pR3,1(3) : v=0  4  2  2 - v=0  3  3  1
+AsymmetricTop Ground    2  A  3 Ground    2  A  1      2621.3341 3.286e-5    12028.8087     9407.4746 .0249858 3.14e-12 0.000000 : rQ0,2(2) : v=0  2  1  1 - v=0  2  0  2
+AsymmetricTop Ground    7  A  4 Ground    7  A  3      2728.5064 9.338e-6    96110.2677    93381.7613 .3847659 1.82e-11 0.000000 : rQ1,6(7) : v=0  7  2  6 - v=0  7  1  6
+AsymmetricTop Ground   10  A  7 Ground   10  A  6      2781.7524 2.486e-6   195911.3851   193129.6327 12.06639 4.32e-10 0.000000 : qQ3,8(10) : v=0 10  3  7 - v=0 10  3  8
+AsymmetricTop Ground    3  A  7 Ground    4  A  3      2990.2934 4.043e-6    38030.9462    35040.6528 .0093013 1.24e-12 0.000000 : sP1,3(4) : v=0  3  3  0 - v=0  4  1  3
+AsymmetricTop Ground    8  A  5 Ground    7  A  9      3060.9364 4.897e-7   125573.1549   122512.2185 .0733707 4.32e-12 0.000000 : oR4,3(7) : v=0  8  2  6 - v=0  7  4  3
+AsymmetricTop Ground    4  A  3 Ground    4  A  2      3068.4612 .0021353    35040.6528    31972.1916 4.139209 4.64e-10 0.000000 : qQ1,4(4) : v=0  4  1  3 - v=0  4  1  4
+AsymmetricTop Ground    1  A  1 Ground    0  A  1      3146.9772 .0220795     3146.9772        0.0000 9.013333 3.270e-9 0.000000 : qR0,0(0) : v=0  1  0  1 - v=0  0  0  0
+AsymmetricTop Ground    7  A  5 Ground    7  A  4      3154.4350 .0001916    99264.7027    96110.2677 7.860806 5.74e-10 0.000000 : qQ2,6(7) : v=0  7  2  5 - v=0  7  2  6
+AsymmetricTop Ground    3  A  3 Ground    3  A  1      3193.0678 3.126e-5    21910.1811    18717.1133 .0309177 5.02e-12 0.000000 : rQ0,3(3) : v=0  3  1  2 - v=0  3  0  3
+AsymmetricTop Ground    4  A  1 Ground    3  A  5      3444.3210 9.206e-5    30991.7347    27547.4137 .1297027 2.06e-11 0.000000 : oR2,1(3) : v=0  4  0  4 - v=0  3  2  1
+AsymmetricTop Ground    6  A  4 Ground    6  A  3      3487.3230 2.623e-5    74337.0956    70849.7725 .2919078 3.33e-11 0.000000 : rQ1,5(6) : v=0  6  2  5 - v=0  6  1  5
+AsymmetricTop Ground    4  A  6 Ground    5  A  2      3865.8561 4.309e-6    50677.1414    46811.2853 .0137680 3.09e-12 0.000000 : sP1,5(5) : v=0  4  3  2 - v=0  5  1  5
+AsymmetricTop Ground    3  A  3 Ground    2  A  5      3934.9178 1.636e-5    21910.1811    17975.2633 .0128878 3.92e-12 0.000000 : pR2,0(2) : v=0  3  1  2 - v=0  2  2  0
+AsymmetricTop Ground    3  A  3 Ground    2  A  4      3968.3589 3.012e-6    21910.1811    17941.8222 .0023512 7.33e-13 0.000000 : pR2,1(2) : v=0  3  1  2 - v=0  2  2  1
+AsymmetricTop Ground    2  A  1 Ground    1  A  3      3981.0499 6.260e-5     9407.4746     5426.4246 .0267236 1.18e-11 0.000000 : pR1,0(1) : v=0  2  0  2 - v=0  1  1  0
+AsymmetricTop Ground    4  A  3 Ground    4  A  1      4048.9182 2.341e-5    35040.6528    30991.7347 .0335712 8.65e-12 0.000000 : rQ0,4(4) : v=0  4  1  3 - v=0  4  0  4
+AsymmetricTop Ground    6  A  8 Ground    7  A  4      4191.9438 7.834e-7   100302.2115    96110.2677 .0247808 4.90e-12 0.000000 : sP2,6(7) : v=0  6  4  3 - v=0  7  2  6
+AsymmetricTop Ground    6  A  6 Ground    5  A  9      4203.9960 1.852e-7    85513.3754    81309.3793 .0028721 5.73e-13 0.000000 : pR4,1(5) : v=0  6  3  4 - v=0  5  4  1
+AsymmetricTop Ground    6  A  6 Ground    5  A  8      4205.1521 1.020e-6    85513.3754    81308.2232 .0158163 3.16e-12 0.000000 : pR4,2(5) : v=0  6  3  4 - v=0  5  4  2
+AsymmetricTop Ground    5  A  4 Ground    5  A  3      4229.8131 5.912e-5    55604.9094    51375.0962 .2167611 5.21e-11 0.000000 : rQ1,4(5) : v=0  5  2  4 - v=0  5  1  4
+AsymmetricTop Ground   11  A  7 Ground   11  A  6      4242.6117 5.914e-7   232049.6058   227806.9941 10.28630 1.193e-9 0.000000 : qQ3,9(11) : v=0 11  3  8 - v=0 11  3  9
+AsymmetricTop Ground    6  A  3 Ground    5  A  7      4282.3062 1.403e-5    70849.7725    66567.4663 .1054969 2.23e-11 0.000000 : oR3,2(5) : v=0  6  1  5 - v=0  5  3  2
+AsymmetricTop Ground    2  A  1 Ground    1  A  2      4289.4885 1.681e-5     9407.4746     5117.9861 .0066085 3.64e-12 0.000000 : pR1,1(1) : v=0  2  0  2 - v=0  1  1  1
+AsymmetricTop Ground    6  A  7 Ground    5  A  9      4387.4584 1.065e-6    85696.8378    81309.3793 .0158985 3.61e-12 0.000000 : pR4,1(5) : v=0  6  3  3 - v=0  5  4  1
+AsymmetricTop Ground    6  A  7 Ground    5  A  8      4388.6145 1.936e-7    85696.8378    81308.2232 .0028881 6.56e-13 0.000000 : pR4,2(5) : v=0  6  3  3 - v=0  5  4  2
+AsymmetricTop Ground    4  A  2 Ground    3  A  5      4424.7779 2.360e-6    31972.1916    27547.4137 .0026477 8.90e-13 0.000000 : pR2,1(3) : v=0  4  1  4 - v=0  3  2  1
+AsymmetricTop Ground    4  A  7 Ground    5  A  1      4542.3914 1.458e-7    50693.0094    46150.6180 .0003901 1.42e-13 0.000000 : tP0,5(5) : v=0  4  3  1 - v=0  5  0  5
+AsymmetricTop Ground    5  A  3 Ground    5  A  2      4563.8109 .0012662    51375.0962    46811.2853 3.483031 1.051e-9 0.000000 : qQ1,5(5) : v=0  5  1  4 - v=0  5  1  5
+AsymmetricTop Ground    4  A  2 Ground    3  A  4      4589.4484 1.597e-5    31972.1916    27382.7432 .0172007 6.45e-12 0.000000 : pR2,2(3) : v=0  4  1  4 - v=0  3  2  2
+AsymmetricTop Ground    8  A  5 Ground    8  A  4      4681.8523 7.095e-5   125573.1549   120891.3026 6.676337 1.407e-9 0.000000 : qQ2,7(8) : v=0  8  2  6 - v=0  8  2  7
+AsymmetricTop Ground    4  A  4 Ground    4  A  3      4903.8280 .0001061    39944.4809    35040.6528 .1556829 7.12e-11 0.000000 : rQ1,3(4) : v=0  4  2  3 - v=0  4  1  3
+AsymmetricTop Ground    5  A  4 Ground    4  A  7      4911.9000 1.051e-6    55604.9094    50693.0094 .0032632 1.23e-12 0.000000 : pR3,1(4) : v=0  5  2  4 - v=0  4  3  1
+AsymmetricTop Ground    5  A  4 Ground    4  A  6      4927.7680 5.948e-6    55604.9094    50677.1414 .0183961 6.99e-12 0.000000 : pR3,2(4) : v=0  5  2  4 - v=0  4  3  2
+AsymmetricTop Ground    5  A  9 Ground    6  A  5      5032.5235 1.265e-6    81309.3793    76276.8558 .0131213 5.31e-12 0.000000 : sP2,4(6) : v=0  5  4  1 - v=0  6  2  4
+AsymmetricTop Ground    1  A  2 Ground    0  A  1      5117.9861 4.110e-5     5117.9861        0.0000 .0108000 1.69e-11 0.000000 : rR0,0(0) : v=0  1  1  1 - v=0  0  0  0
+AsymmetricTop Ground    5  A  3 Ground    5  A  1      5224.4782 1.420e-5    51375.0962    46150.6180 .0335551 1.52e-11 0.000000 : rQ0,5(5) : v=0  5  1  4 - v=0  5  0  5
+AsymmetricTop Ground   10  A  6 Ground   10  A  5      5268.8348 1.827e-7   193129.6327   187860.7979 .3853080 9.37e-11 0.000000 : rQ2,8(10) : v=0 10  3  8 - v=0 10  2  8
+AsymmetricTop Ground    5  A  5 Ground    5  A  3      5282.1413 1.528e-5    56657.2376    51375.0962 .0459575 2.15e-11 0.000000 : rQ1,4(5) : v=0  5  2  3 - v=0  5  1  4
+AsymmetricTop Ground    4  A  5 Ground    4  A  3      5381.4981 2.487e-5    40422.1510    35040.6528 .0336047 2.03e-11 0.000000 : rQ1,3(4) : v=0  4  2  2 - v=0  4  1  3
+AsymmetricTop Ground    1  A  3 Ground    0  A  1      5426.4246 .0002704     5426.4246        0.0000 .0675000 1.26e-10 0.000000 : rR0,0(0) : v=0  1  1  0 - v=0  0  0  0
+AsymmetricTop Ground    6  A  5 Ground    6  A  3      5427.0833 7.589e-6    76276.8558    70849.7725 .0567649 2.44e-11 0.000000 : rQ1,5(6) : v=0  6  2  4 - v=0  6  1  5
+AsymmetricTop Ground    3  A  4 Ground    3  A  3      5472.5622 .0001467    27382.7432    21910.1811 .1040334 8.51e-11 0.000000 : rQ1,2(3) : v=0  3  2  2 - v=0  3  1  2
+AsymmetricTop Ground    3  A  5 Ground    3  A  3      5637.2326 3.136e-5    27547.4137    21910.1811 .0216676 1.94e-11 0.000000 : rQ1,2(3) : v=0  3  2  1 - v=0  3  1  2
+AsymmetricTop Ground    5  A  1 Ground    4  A  5      5728.4670 .0001295    46150.6180    40422.1510 .2145637 1.28e-10 0.000000 : oR2,2(4) : v=0  5  0  5 - v=0  4  2  2
+AsymmetricTop Ground    7  A  5 Ground    7  A  3      5882.9414 3.122e-6    99264.7027    93381.7613 .0641854 3.04e-11 0.000000 : rQ1,6(7) : v=0  7  2  5 - v=0  7  1  6
+AsymmetricTop Ground    2  A  4 Ground    2  A  3      5913.0135 .0001363    17941.8222    12028.8087 .0562500 8.12e-11 0.000000 : rQ1,1(2) : v=0  2  2  1 - v=0  2  1  1
+AsymmetricTop Ground    2  A  5 Ground    2  A  3      5946.4546 2.683e-5    17975.2633    12028.8087 .0110142 1.62e-11 0.000000 : rQ1,1(2) : v=0  2  2  0 - v=0  2  1  1
+AsymmetricTop Ground    5  A  5 Ground    4  A  7      5964.2282 7.591e-6    56657.2376    50693.0094 .0198806 1.34e-11 0.000000 : pR3,1(4) : v=0  5  2  3 - v=0  4  3  1
+AsymmetricTop Ground    5  A  5 Ground    4  A  6      5980.0962 1.362e-6    56657.2376    50677.1414 .0035550 2.41e-12 0.000000 : pR3,2(4) : v=0  5  2  3 - v=0  4  3  2
+AsymmetricTop Ground    2  A  2 Ground    1  A  2      5985.5106 .0461437    11103.4967     5117.9861 13.52000 2.025e-8 0.000000 : qR1,1(1) : v=0  2  1  2 - v=0  1  1  1
+AsymmetricTop Ground   12  A  7 Ground   12  A  6      6039.2046 1.151e-7   271564.7590   265525.5544 8.956939 2.756e-9 0.000000 : qQ3,10(12) : v=0 12  3  9 - v=0 12  3 10
+AsymmetricTop Ground    3  A  6 Ground    4  A  2      6056.4724 4.311e-6    38028.6640    31972.1916 .0045365 5.03e-12 0.000000 : sP1,4(4) : v=0  3  3  1 - v=0  4  1  4
+AsymmetricTop Ground    2  A  1 Ground    1  A  1      6260.4974 .0700190     9407.4746     3146.9772 17.95631 3.077e-8 0.000000 : qR0,1(1) : v=0  2  0  2 - v=0  1  0  1
+AsymmetricTop Ground    6  A  3 Ground    6  A  2      6293.4111 .0006381    70849.7725    64556.3615 3.103954 2.078e-9 0.000000 : qQ1,6(6) : v=0  6  1  5 - v=0  6  1  6
+AsymmetricTop Ground    5  A  2 Ground    4  A  5      6389.1344 2.011e-6    46811.2853    40422.1510 .0030329 2.51e-12 0.000000 : pR2,2(4) : v=0  5  1  5 - v=0  4  2  2
+AsymmetricTop Ground    9  A  6 Ground    9  A  5      6396.9912 8.403e-7   161530.5687   155133.5775 .3113643 1.50e-10 0.000000 : rQ2,7(9) : v=0  9  3  7 - v=0  9  2  7
+AsymmetricTop Ground    8  A  8 Ground    7  A 10      6405.5757 1.241e-7   147885.2830   141479.7073 .0238583 1.29e-11 0.000000 : pR5,3(7) : v=0  8  4  5 - v=0  7  5  3
+AsymmetricTop Ground    8  A  9 Ground    7  A 11      6466.2827 1.253e-7   147946.4211   141480.1385 .0238808 1.33e-11 0.000000 : pR5,2(7) : v=0  8  4  4 - v=0  7  5  2
+AsymmetricTop Ground    9  A  5 Ground    9  A  4      6486.9224 2.195e-5   155133.5775   148646.6551 5.886617 2.953e-9 0.000000 : qQ2,8(9) : v=0  9  2  7 - v=0  9  2  8
+AsymmetricTop Ground    2  A  3 Ground    1  A  3      6602.3840 .0494513    12028.8087     5426.4246 13.52000 2.718e-8 0.000000 : qR1,0(1) : v=0  2  1  1 - v=0  1  1  0
+AsymmetricTop Ground    3  A  1 Ground    2  A  3      6688.3046 .0001206    18717.1133    12028.8087 .0447621 6.68e-11 0.000000 : pR1,1(2) : v=0  3  0  3 - v=0  2  1  1
+AsymmetricTop Ground    8  A  5 Ground    8  A  3      6697.1389 1.078e-6   125573.1549   118876.0161 .0674315 4.16e-11 0.000000 : rQ1,7(8) : v=0  8  2  6 - v=0  8  1  7
+AsymmetricTop Ground    6  A  3 Ground    6  A  1      6709.8590 7.134e-6    70849.7725    64139.9136 .0322056 2.61e-11 0.000000 : rQ0,6(6) : v=0  6  1  5 - v=0  6  0  6
+AsymmetricTop Ground    2  A  4 Ground    2  A  2      6838.3255 2.582e-5    17941.8222    11103.4967 .0090000 2.01e-11 0.000000 : rQ1,2(2) : v=0  2  2  1 - v=0  2  1  2
+AsymmetricTop Ground    5  A  2 Ground    4  A  4      6866.8045 1.756e-5    46811.2853    39944.4809 .0243424 2.50e-11 0.000000 : pR2,3(4) : v=0  5  1  5 - v=0  4  2  3
+AsymmetricTop Ground    2  A  5 Ground    2  A  2      6871.7666 .0001283    17975.2633    11103.4967 .0445393 1.01e-10 0.000000 : rQ1,2(2) : v=0  2  2  0 - v=0  2  1  2
+AsymmetricTop Ground    5  A  8 Ground    6  A  4      6971.1277 1.549e-6    81308.2232    74337.0956 .0110471 1.19e-11 0.000000 : sP2,5(6) : v=0  5  4  2 - v=0  6  2  5
+AsymmetricTop Ground    9  A  5 Ground    8  A  9      7187.1564 5.984e-7   155133.5775   147946.4211 .1422943 9.71e-11 0.000000 : oR4,4(8) : v=0  9  2  7 - v=0  8  4  4
+AsymmetricTop Ground    3  A  4 Ground    3  A  2      7320.8927 2.952e-5    27382.7432    20061.8506 .0149319 2.92e-11 0.000000 : rQ1,3(3) : v=0  3  2  2 - v=0  3  1  3
+AsymmetricTop Ground    7  A  6 Ground    6  A  9      7389.5042 2.053e-7   107697.4514   100307.9472 .0048489 4.55e-12 0.000000 : pR4,2(6) : v=0  7  3  5 - v=0  6  4  2
+AsymmetricTop Ground    7  A  6 Ground    6  A  8      7395.2399 1.154e-6   107697.4514   100302.2115 .0272375 2.56e-11 0.000000 : pR4,3(6) : v=0  7  3  5 - v=0  6  4  3
+AsymmetricTop Ground    8  A  6 Ground    8  A  5      7470.5151 3.216e-6   133043.6700   125573.1549 .2530432 2.17e-10 0.000000 : rQ2,6(8) : v=0  8  3  6 - v=0  8  2  6
+AsymmetricTop Ground    6  A  1 Ground    5  A  5      7482.6760 8.511e-5    64139.9136    56657.2376 .2448329 2.76e-10 0.000000 : oR2,3(5) : v=0  6  0  6 - v=0  5  2  3
+AsymmetricTop Ground    3  A  5 Ground    3  A  2      7485.5632 .0001282    27547.4137    20061.8506 .0636581 1.33e-10 0.000000 : rQ1,3(3) : v=0  3  2  1 - v=0  3  1  3
+AsymmetricTop Ground    4  A  3 Ground    3  A  5      7493.2391 4.576e-5    35040.6528    27547.4137 .0325215 5.31e-11 0.000000 : pR2,1(3) : v=0  4  1  3 - v=0  3  2  1
+AsymmetricTop Ground    7  A 11 Ground    8  A  7      7523.0288 1.476e-7   141480.1385   133957.1097 .0172710 1.71e-11 0.000000 : sP3,5(8) : v=0  7  5  2 - v=0  8  3  5
+AsymmetricTop Ground    3  A  1 Ground    2  A  2      7613.6166 4.617e-5    18717.1133    11103.4967 .0147066 3.24e-11 0.000000 : pR1,2(2) : v=0  3  0  3 - v=0  2  1  2
+AsymmetricTop Ground    4  A  3 Ground    3  A  4      7657.9096 8.485e-6    35040.6528    27382.7432 .0058754 1.02e-11 0.000000 : pR2,2(3) : v=0  4  1  3 - v=0  3  2  2
+AsymmetricTop Ground    7  A  3 Ground    6  A  7      7684.9235 1.911e-5    93381.7613    85696.8378 .2167281 2.29e-10 0.000000 : oR3,3(6) : v=0  7  1  6 - v=0  6  3  3
+AsymmetricTop Ground    6  A  4 Ground    5  A  7      7769.6293 1.128e-6    74337.0956    66567.4663 .0050598 6.37e-12 0.000000 : pR3,2(5) : v=0  6  2  5 - v=0  5  3  2
+AsymmetricTop Ground    7  A  7 Ground    6  A  9      7830.4993 1.226e-6   108138.4465   100307.9472 .0276055 3.09e-11 0.000000 : pR4,2(6) : v=0  7  3  4 - v=0  6  4  2
+AsymmetricTop Ground    6  A  4 Ground    5  A  6      7832.2583 6.753e-6    74337.0956    66504.8373 .0300078 3.87e-11 0.000000 : pR3,3(5) : v=0  6  2  5 - v=0  5  3  3
+AsymmetricTop Ground    7  A  7 Ground    6  A  8      7836.2350 2.188e-7   108138.4465   100302.2115 .0049218 5.51e-12 0.000000 : pR4,3(6) : v=0  7  3  4 - v=0  6  4  3
+AsymmetricTop Ground    9  A  5 Ground    9  A  3      7890.8347 3.153e-7   155133.5775   147242.7428 .0670913 6.06e-11 0.000000 : rQ1,8(9) : v=0  9  2  7 - v=0  9  1  8
+AsymmetricTop Ground    6  A  2 Ground    5  A  5      7899.1239 1.002e-6    64556.3615    56657.2376 .0027552 3.65e-12 0.000000 : pR2,3(5) : v=0  6  1  6 - v=0  5  2  3
+AsymmetricTop Ground    2  A  2 Ground    1  A  1      7956.5195 7.726e-5    11103.4967     3146.9772 .0162000 5.70e-11 0.000000 : rR0,1(1) : v=0  2  1  2 - v=0  1  0  1
+AsymmetricTop Ground    4  A  4 Ground    4  A  2      7972.2892 2.319e-5    39944.4809    31972.1916 .0193625 3.81e-11 0.000000 : rQ1,4(4) : v=0  4  2  3 - v=0  4  1  4
+AsymmetricTop Ground    9  A  7 Ground    9  A  5      8073.6666 2.527e-7   163207.2441   155133.5775 .0770430 7.45e-11 0.000000 : rQ2,7(9) : v=0  9  3  6 - v=0  9  2  7
+AsymmetricTop Ground    7  A  3 Ground    7  A  2      8194.3778 .0002766    93381.7613    85187.3835 2.903122 3.719e-9 0.000000 : qQ1,7(7) : v=0  7  1  6 - v=0  7  1  7
+AsymmetricTop Ground    8  A  7 Ground    8  A  5      8383.9547 8.818e-7   133957.1097   125573.1549 .0631076 7.64e-11 0.000000 : rQ2,6(8) : v=0  8  3  5 - v=0  8  2  6
+AsymmetricTop Ground    7  A  6 Ground    7  A  5      8432.7487 1.024e-5   107697.4514    99264.7027 .2064260 2.88e-10 0.000000 : rQ2,5(7) : v=0  7  3  5 - v=0  7  2  5
+AsymmetricTop Ground    7  A 10 Ground    8  A  6      8436.0373 1.639e-7   141479.7073   133043.6700 .0167011 2.33e-11 0.000000 : sP3,6(8) : v=0  7  5  3 - v=0  8  3  6
+AsymmetricTop Ground    7  A  3 Ground    7  A  1      8443.6093 3.035e-6    93381.7613    84938.1520 .0307244 4.31e-11 0.000000 : rQ0,7(7) : v=0  7  1  6 - v=0  7  0  7
+AsymmetricTop Ground    4  A  5 Ground    4  A  2      8449.9593 8.284e-5    40422.1510    31972.1916 .0659598 1.54e-10 0.000000 : rQ1,4(4) : v=0  4  2  2 - v=0  4  1  4
+AsymmetricTop Ground   10  A  5 Ground   10  A  4      8516.3337 5.783e-6   187860.7979   179344.4642 5.395917 5.542e-9 0.000000 : qQ2,9(10) : v=0 10  2  8 - v=0 10  2  9
+AsymmetricTop Ground    2  A  4 Ground    2  A  1      8534.3476 .0004385    17941.8222     9407.4746 .1172671 5.09e-10 0.000000 : sQ0,2(2) : v=0  2  2  1 - v=0  2  0  2
+AsymmetricTop Ground    7  A  1 Ground    6  A  5      8661.2962 3.364e-5    84938.1520    76276.8558 .2201403 3.33e-10 0.000000 : oR2,4(6) : v=0  7  0  7 - v=0  6  2  4
+AsymmetricTop Ground    3  A  4 Ground    3  A  1      8665.6299 .0009497    27382.7432    18717.1133 .3921954 1.273e-9 0.000000 : sQ0,3(3) : v=0  3  2  2 - v=0  3  0  3
+AsymmetricTop Ground    5  A  4 Ground    5  A  2      8793.6241 1.440e-5    55604.9094    46811.2853 .0226360 4.89e-11 0.000000 : rQ1,5(5) : v=0  5  2  4 - v=0  5  1  5
+AsymmetricTop Ground    4  A  9 Ground    5  A  5      8841.9647 1.323e-6    65499.2022    56657.2376 .0033201 8.90e-12 0.000000 : sP2,3(5) : v=0  4  4  0 - v=0  5  2  3
+AsymmetricTop Ground    7  A  7 Ground    7  A  5      8873.7438 2.571e-6   108138.4465    99264.7027 .0497145 8.09e-11 0.000000 : rQ2,5(7) : v=0  7  3  4 - v=0  7  2  5
+AsymmetricTop Ground    2  A  3 Ground    1  A  1      8881.8315 .0005280    12028.8087     3146.9772 .1012500 4.95e-10 0.000000 : rR0,1(1) : v=0  2  1  1 - v=0  1  0  1
+AsymmetricTop Ground    7  A  2 Ground    6  A  5      8910.5277 3.411e-7    85187.3835    76276.8558 .0021813 3.59e-12 0.000000 : pR2,4(6) : v=0  7  1  7 - v=0  6  2  4
+AsymmetricTop Ground    6  A  2 Ground    5  A  4      8951.4521 1.254e-5    64556.3615    55604.9094 .0296225 5.71e-11 0.000000 : pR2,4(5) : v=0  6  1  6 - v=0  5  2  4
+AsymmetricTop Ground    4  A  4 Ground    4  A  1      8952.7462 .0011351    39944.4809    30991.7347 .8230230 2.291e-9 0.000000 : sQ0,4(4) : v=0  4  2  3 - v=0  4  0  4
+AsymmetricTop Ground    3  A  2 Ground    2  A  2      8958.3539 .0860492    20061.8506    11103.4967 24.00896 8.610e-8 0.000000 : qR1,2(2) : v=0  3  1  3 - v=0  2  1  2
+AsymmetricTop Ground   10  A  1 Ground    9  A  5      9078.8711 3.524e-7   164212.4487   155133.5775 .0977337 1.22e-10 0.000000 : oR2,7(9) : v=0 10  0 10 - v=0  9  2  7
+AsymmetricTop Ground    4  A  1 Ground    3  A  3      9081.5536 .0001146    30991.7347    21910.1811 .0531299 1.54e-10 0.000000 : pR1,2(3) : v=0  4  0  4 - v=0  3  1  2
+AsymmetricTop Ground    6  A  6 Ground    6  A  5      9236.5196 2.694e-5    85513.3754    76276.8558 .1674256 3.54e-10 0.000000 : rQ2,4(6) : v=0  6  3  4 - v=0  6  2  4
+AsymmetricTop Ground    8  A  1 Ground    7  A  5      9280.1236 9.306e-6   108544.8263    99264.7027 .1736688 2.85e-10 0.000000 : oR2,5(7) : v=0  8  0  8 - v=0  7  2  5
+AsymmetricTop Ground    3  A  1 Ground    2  A  1      9309.6387 .1073335    18717.1133     9407.4746 26.77328 1.078e-7 0.000000 : qR0,2(2) : v=0  3  0  3 - v=0  2  0  2
+AsymmetricTop Ground    9  A  1 Ground    8  A  5      9393.9318 1.993e-6   134967.0867   125573.1549 .1302185 1.98e-10 0.000000 : oR2,6(8) : v=0  9  0  9 - v=0  8  2  6
+AsymmetricTop Ground    6  A  7 Ground    6  A  5      9419.9820 6.218e-6    85696.8378    76276.8558 .0380490 8.54e-11 0.000000 : rQ2,4(6) : v=0  6  3  3 - v=0  6  2  4
+AsymmetricTop Ground    3  A  4 Ground    2  A  4      9440.9211 .0404300    27382.7432    17941.8222 15.02222 6.306e-8 0.000000 : qR2,1(2) : v=0  3  2  2 - v=0  2  2  1
+AsymmetricTop Ground    5  A  4 Ground    5  A  1      9454.2914 .0009266    55604.9094    46150.6180 1.331634 3.572e-9 0.000000 : sQ0,5(5) : v=0  5  2  4 - v=0  5  0  5
+AsymmetricTop Ground    3  A  5 Ground    2  A  5      9572.1504 .0408190    27547.4137    17975.2633 15.02652 6.574e-8 0.000000 : qR2,0(2) : v=0  3  2  1 - v=0  2  2  0
+AsymmetricTop Ground    6  A  5 Ground    5  A  7      9709.3895 9.374e-6    76276.8558    66567.4663 .0351442 8.64e-11 0.000000 : pR3,2(5) : v=0  6  2  4 - v=0  5  3  2
+AsymmetricTop Ground    6  A  5 Ground    5  A  6      9772.0185 1.639e-6    76276.8558    66504.8373 .0060951 1.53e-11 0.000000 : pR3,3(5) : v=0  6  2  4 - v=0  5  3  3
+AsymmetricTop Ground    6  A  4 Ground    6  A  2      9780.7341 7.372e-6    74337.0956    64556.3615 .0249536 6.27e-11 0.000000 : rQ1,6(6) : v=0  6  2  5 - v=0  6  1  6
+AsymmetricTop Ground    5  A  5 Ground    5  A  2      9845.9523 3.991e-5    56657.2376    46811.2853 .0573381 1.74e-10 0.000000 : rQ1,5(5) : v=0  5  2  3 - v=0  5  1  5
+AsymmetricTop Ground    5  A  6 Ground    5  A  5      9847.5997 5.723e-5    66504.8373    56657.2376 .1318839 4.00e-10 0.000000 : rQ2,3(5) : v=0  5  3  3 - v=0  5  2  3
+AsymmetricTop Ground    3  A  3 Ground    2  A  3      9881.3724 .0889276    21910.1811    12028.8087 24.00252 1.155e-7 0.000000 : qR1,1(2) : v=0  3  1  2 - v=0  2  1  1
+AsymmetricTop Ground    4  A  8 Ground    5  A  4      9894.1638 1.402e-6    65499.0732    55604.9094 .0030599 1.15e-11 0.000000 : sP2,4(5) : v=0  4  4  1 - v=0  5  2  4
+AsymmetricTop Ground    5  A  7 Ground    5  A  5      9910.2287 1.227e-5    66567.4663    56657.2376 .0281269 8.69e-11 0.000000 : rQ2,3(5) : v=0  5  3  2 - v=0  5  2  3
+AsymmetricTop Ground    8  A  3 Ground    8  A  2     10187.7026 .0001034   118876.0161   108688.3134 2.819937 6.125e-9 0.000000 : qQ1,8(8) : v=0  8  1  7 - v=0  8  1  8
+AsymmetricTop Ground    6  A  4 Ground    6  A  1     10197.1820 .0005631    74337.0956    64139.9136 1.808336 5.150e-9 0.000000 : sQ0,6(6) : v=0  6  2  5 - v=0  6  0  6
+AsymmetricTop Ground    4  A  6 Ground    4  A  5     10254.9904 9.330e-5    50677.1414    40422.1510 .0955824 4.00e-10 0.000000 : rQ2,2(4) : v=0  4  3  2 - v=0  4  2  2
+AsymmetricTop Ground    4  A  7 Ground    4  A  5     10270.8584 1.880e-5    50693.0094    40422.1510 .0192346 8.09e-11 0.000000 : rQ2,2(4) : v=0  4  3  1 - v=0  4  2  2
+AsymmetricTop Ground    8  A  3 Ground    8  A  1     10331.1897 1.108e-6   118876.0161   108544.8263 .0296891 6.72e-11 0.000000 : rQ0,8(8) : v=0  8  1  7 - v=0  8  0  8
+AsymmetricTop Ground    7  A  4 Ground    6  A  7     10413.4300 7.234e-7    96110.2677    85696.8378 .0064320 1.69e-11 0.000000 : pR3,3(6) : v=0  7  2  6 - v=0  6  3  3
+AsymmetricTop Ground    3  A  6 Ground    3  A  5     10481.2503 9.954e-5    38028.6640    27547.4137 .0540505 3.10e-10 0.000000 : rQ2,1(3) : v=0  3  3  1 - v=0  3  2  1
+AsymmetricTop Ground    3  A  7 Ground    3  A  5     10483.5325 1.910e-5    38030.9462    27547.4137 .0103689 5.96e-11 0.000000 : rQ2,1(3) : v=0  3  3  0 - v=0  3  2  1
+AsymmetricTop Ground    8  A  6 Ground    7  A  9     10531.4515 1.336e-7   133043.6700   122512.2185 .0068910 1.65e-11 0.000000 : pR4,3(7) : v=0  8  3  6 - v=0  7  4  3
+AsymmetricTop Ground    8  A  6 Ground    7  A  8     10552.2216 7.740e-7   133043.6700   122491.4484 .0398325 9.61e-11 0.000000 : pR4,4(7) : v=0  8  3  6 - v=0  7  4  4
+AsymmetricTop Ground    7  A  4 Ground    6  A  6     10596.8923 4.762e-6    96110.2677    85513.3754 .0414154 1.15e-10 0.000000 : pR3,4(6) : v=0  7  2  6 - v=0  6  3  4
+AsymmetricTop Ground    3  A  6 Ground    3  A  4     10645.9208 1.929e-5    38028.6640    27382.7432 .0102681 6.18e-11 0.000000 : rQ2,2(3) : v=0  3  3  1 - v=0  3  2  2
+AsymmetricTop Ground    3  A  7 Ground    3  A  4     10648.2029 .0001005    38030.9462    27382.7432 .0534666 3.22e-10 0.000000 : rQ2,2(3) : v=0  3  3  0 - v=0  3  2  2
+AsymmetricTop Ground    3  A  2 Ground    2  A  1     10654.3760 9.967e-5    20061.8506     9407.4746 .0223777 1.35e-10 0.000000 : rR0,2(2) : v=0  3  1  3 - v=0  2  0  2
+AsymmetricTop Ground   11  A  5 Ground   11  A  4     10698.7930 1.312e-6   223655.2220   212956.4290 5.132275 9.542e-9 0.000000 : qQ2,10(11) : v=0 11  2  9 - v=0 11  2 10
+AsymmetricTop Ground    4  A  6 Ground    4  A  4     10732.6605 1.931e-5    50677.1414    39944.4809 .0186666 8.95e-11 0.000000 : rQ2,3(4) : v=0  4  3  2 - v=0  4  2  3
+AsymmetricTop Ground    8  A  3 Ground    7  A  7     10737.5695 1.403e-5   118876.0161   108138.4465 .3577874 9.10e-10 0.000000 : oR3,4(7) : v=0  8  1  7 - v=0  7  3  4
+AsymmetricTop Ground    4  A  7 Ground    4  A  4     10748.5285 9.554e-5    50693.0094    39944.4809 .0922634 4.45e-10 0.000000 : rQ2,3(4) : v=0  4  3  1 - v=0  4  2  3
+AsymmetricTop Ground    7  A  2 Ground    6  A  4     10850.2879 6.648e-6    85187.3835    74337.0956 .0332093 9.88e-11 0.000000 : pR2,5(6) : v=0  7  1  7 - v=0  6  2  5
+AsymmetricTop Ground    5  A  6 Ground    5  A  4     10899.9279 1.292e-5    66504.8373    55604.9094 .0261828 1.08e-10 0.000000 : rQ2,4(5) : v=0  5  3  3 - v=0  5  2  4
+AsymmetricTop Ground    7  A  4 Ground    7  A  2     10922.8842 3.169e-6    96110.2677    85187.3835 .0265125 8.04e-11 0.000000 : rQ1,7(7) : v=0  7  2  6 - v=0  7  1  7
+AsymmetricTop Ground    4  A  1 Ground    3  A  2     10929.8841 6.650e-5    30991.7347    20061.8506 .0244158 1.24e-10 0.000000 : pR1,3(3) : v=0  4  0  4 - v=0  3  1  3
+AsymmetricTop Ground    5  A  3 Ground    4  A  5     10952.9453 5.853e-5    51375.0962    40422.1510 .0570078 2.38e-10 0.000000 : pR2,2(4) : v=0  5  1  4 - v=0  4  2  2
+AsymmetricTop Ground    5  A  7 Ground    5  A  4     10962.5569 5.971e-5    66567.4663    55604.9094 .1204324 5.04e-10 0.000000 : rQ2,4(5) : v=0  5  3  2 - v=0  5  2  4
+AsymmetricTop Ground    5  A  1 Ground    4  A  3     11109.9652 7.217e-5    46150.6180    35040.6528 .0537076 2.34e-10 0.000000 : pR1,3(4) : v=0  5  0  5 - v=0  4  1  3
+AsymmetricTop Ground    7  A  4 Ground    7  A  1     11172.1158 .0002688    96110.2677    84938.1520 2.184362 7.091e-9 0.000000 : sQ0,7(7) : v=0  7  2  6 - v=0  7  0  7
+AsymmetricTop Ground    6  A  6 Ground    6  A  4     11176.2798 6.755e-6    85513.3754    74337.0956 .0329943 1.24e-10 0.000000 : rQ2,5(6) : v=0  6  3  4 - v=0  6  2  5
+AsymmetricTop Ground    6  A 11 Ground    7  A  7     11193.3981 2.887e-7   119331.8446   108138.4465 .0071314 2.69e-11 0.000000 : sP3,4(7) : v=0  6  5  1 - v=0  7  3  4
+AsymmetricTop Ground   10  A  5 Ground    9  A  9     11216.1562 3.832e-7   187860.7979   176644.6417 .2531789 5.94e-10 0.000000 : oR4,5(9) : v=0 10  2  8 - v=0  9  4  5
+AsymmetricTop Ground    6  A  7 Ground    6  A  4     11359.7422 2.846e-5    85696.8378    74337.0956 .1373040 5.41e-10 0.000000 : rQ2,5(6) : v=0  6  3  3 - v=0  6  2  5
+AsymmetricTop Ground    5  A  3 Ground    4  A  4     11430.6154 1.150e-5    51375.0962    39944.4809 .0106011 5.03e-11 0.000000 : pR2,3(4) : v=0  5  1  4 - v=0  4  2  3
+AsymmetricTop Ground    8  A  7 Ground    7  A  9     11444.8912 8.484e-7   133957.1097   122512.2185 .0410907 1.27e-10 0.000000 : pR4,3(7) : v=0  8  3  5 - v=0  7  4  3
+AsymmetricTop Ground    8  A  7 Ground    7  A  8     11465.6613 1.479e-7   133957.1097   122491.4484 .0071440 2.21e-11 0.000000 : pR4,4(7) : v=0  8  3  5 - v=0  7  4  4
+AsymmetricTop Ground    7  A  6 Ground    7  A  4     11587.1837 2.888e-6   107697.4514    96110.2677 .0390271 1.41e-10 0.000000 : rQ2,6(7) : v=0  7  3  5 - v=0  7  2  6
+AsymmetricTop Ground    6  A 10 Ground    7  A  6     11634.3209 2.992e-7   119331.7723   107697.4514 .0070311 2.97e-11 0.000000 : sP3,5(7) : v=0  6  5  2 - v=0  7  3  5
+AsymmetricTop Ground    6  A  5 Ground    6  A  2     11720.4944 1.518e-5    76276.8558    64556.3615 .0447468 1.94e-10 0.000000 : rQ1,6(6) : v=0  6  2  4 - v=0  6  1  6
+AsymmetricTop Ground    4  A  2 Ground    3  A  2     11910.3411 .0979503    31972.1916    20061.8506 33.71794 2.210e-7 0.000000 : qR1,3(3) : v=0  4  1  4 - v=0  3  1  3
+AsymmetricTop Ground    7  A  7 Ground    7  A  4     12028.1788 1.075e-5   108138.4465    96110.2677 .1412767 5.72e-10 0.000000 : rQ2,6(7) : v=0  7  3  4 - v=0  7  2  6
+AsymmetricTop Ground    8  A  6 Ground    8  A  4     12152.3674 1.030e-6   133043.6700   120891.3026 .0441539 1.63e-10 0.000000 : rQ2,7(8) : v=0  8  3  6 - v=0  8  2  7
+AsymmetricTop Ground    9  A  3 Ground    9  A  2     12195.4055 3.331e-5   147242.7428   135047.3373 2.808115 9.361e-9 0.000000 : qQ1,9(9) : v=0  9  1  8 - v=0  9  1  9
+AsymmetricTop Ground    8  A  4 Ground    8  A  2     12202.9892 1.157e-6   120891.3026   108688.3134 .0275101 1.03e-10 0.000000 : rQ1,8(8) : v=0  8  2  7 - v=0  8  1  8
+AsymmetricTop Ground    4  A  1 Ground    3  A  1     12274.6214 .1123677    30991.7347    18717.1133 35.46629 2.545e-7 0.000000 : qR0,3(3) : v=0  4  0  4 - v=0  3  0  3
+AsymmetricTop Ground    9  A  3 Ground    9  A  1     12275.6561 3.488e-7   147242.7428   134967.0867 .0291543 9.91e-11 0.000000 : rQ0,9(9) : v=0  9  1  8 - v=0  9  0  9
+AsymmetricTop Ground    8  A  4 Ground    8  A  1     12346.4763 .0001046   120891.3026   108544.8263 2.450401 9.473e-9 0.000000 : sQ0,8(8) : v=0  8  2  7 - v=0  8  0  8
+AsymmetricTop Ground   10  A  8 Ground   10  A  7     12395.6084 1.682e-7   208306.9935   195911.3851 .2601495 8.24e-10 0.000000 : rQ3,7(10) : v=0 10  4  7 - v=0 10  3  7
+AsymmetricTop Ground    3  A  3 Ground    2  A  1     12502.7065 .0006534    21910.1811     9407.4746 .1301645 1.269e-9 0.000000 : rR0,2(2) : v=0  3  1  2 - v=0  2  0  2
+AsymmetricTop Ground    2  A  4 Ground    1  A  3     12515.3975 9.852e-5    17941.8222     5426.4246 .0162000 2.22e-10 0.000000 : rR1,0(1) : v=0  2  2  1 - v=0  1  1  0
+AsymmetricTop Ground    2  A  5 Ground    1  A  3     12548.8386 .0006598    17975.2633     5426.4246 .1082764 1.494e-9 0.000000 : rR1,0(1) : v=0  2  2  0 - v=0  1  1  0
+AsymmetricTop Ground    4  A  4 Ground    3  A  4     12561.7376 .0574272    39944.4809    27382.7432 27.01240 2.077e-7 0.000000 : qR2,2(3) : v=0  4  2  3 - v=0  3  2  2
+AsymmetricTop Ground    8  A  2 Ground    7  A  4     12578.0457 2.788e-6   108688.3134    96110.2677 .0354639 1.45e-10 0.000000 : pR2,6(7) : v=0  8  1  8 - v=0  7  2  6
+AsymmetricTop Ground    4  A  6 Ground    3  A  6     12648.4773 .0202388    50677.1414    38028.6640 15.78874 1.240e-7 0.000000 : qR3,1(3) : v=0  4  3  2 - v=0  3  3  1
+AsymmetricTop Ground    4  A  7 Ground    3  A  7     12662.0632 .0202525    50693.0094    38030.9462 15.78881 1.244e-7 0.000000 : qR3,0(3) : v=0  4  3  1 - v=0  3  3  0
+AsymmetricTop Ground    8  A  4 Ground    7  A  7     12752.8561 3.158e-7   120891.3026   108138.4465 .0070832 3.02e-11 0.000000 : pR3,4(7) : v=0  8  2  7 - v=0  7  3  4
+AsymmetricTop Ground    6  A  1 Ground    5  A  3     12764.8173 3.415e-5    64139.9136    51375.0962 .0502199 2.81e-10 0.000000 : pR1,4(5) : v=0  6  0  6 - v=0  5  1  4
+AsymmetricTop Ground    2  A  4 Ground    1  A  2     12823.8361 .0006361    17941.8222     5117.9861 .1012500 1.491e-9 0.000000 : rR1,1(1) : v=0  2  2  1 - v=0  1  1  1
+AsymmetricTop Ground    2  A  5 Ground    1  A  2     12857.2772 9.436e-5    17975.2633     5117.9861 .0149915 2.23e-10 0.000000 : rR1,1(1) : v=0  2  2  0 - v=0  1  1  1
+AsymmetricTop Ground    4  A  5 Ground    3  A  5     12874.7373 .0580836    40422.1510    27547.4137 27.05050 2.240e-7 0.000000 : qR2,1(3) : v=0  4  2  2 - v=0  3  2  1
+AsymmetricTop Ground    9  A  6 Ground    9  A  4     12883.9136 3.104e-7   161530.5687   148646.6551 .0482934 1.90e-10 0.000000 : rQ2,8(9) : v=0  9  3  7 - v=0  9  2  8
+AsymmetricTop Ground   12  A  5 Ground   12  A  4     12950.3269 2.573e-7   262409.3922   249459.0654 5.035155 1.527e-8 0.000000 : qQ2,11(12) : v=0 12  2 10 - v=0 12  2 11
+AsymmetricTop Ground    8  A  7 Ground    8  A  4     13065.8070 3.256e-6   133957.1097   120891.3026 .1323745 6.06e-10 0.000000 : rQ2,7(8) : v=0  8  3  5 - v=0  8  2  7
+AsymmetricTop Ground    4  A  3 Ground    3  A  3     13130.4718 .0961382    35040.6528    21910.1811 33.67978 2.958e-7 0.000000 : qR1,2(3) : v=0  4  1  3 - v=0  3  1  2
+AsymmetricTop Ground    8  A  4 Ground    7  A  6     13193.8512 2.415e-6   120891.3026   107697.4514 .0517518 2.44e-10 0.000000 : pR3,5(7) : v=0  8  2  7 - v=0  7  3  5
+AsymmetricTop Ground    4  A  2 Ground    3  A  1     13255.0783 9.980e-5    31972.1916    18717.1133 .0297931 2.69e-10 0.000000 : rR0,3(3) : v=0  4  1  4 - v=0  3  0  3
+AsymmetricTop Ground    9  A  8 Ground    9  A  7     13282.8135 7.530e-7   176490.0576   163207.2441 .2305118 9.93e-10 0.000000 : rQ3,6(9) : v=0  9  4  6 - v=0  9  3  6
+AsymmetricTop Ground    9  A  3 Ground    8  A  7     13285.6332 6.344e-6   147242.7428   133957.1097 .4770534 2.056e-9 0.000000 : oR3,5(8) : v=0  9  1  8 - v=0  8  3  5
+AsymmetricTop Ground    9  A  9 Ground    9  A  7     13437.3976 1.794e-7   176644.6417   163207.2441 .0544620 2.43e-10 0.000000 : rQ3,6(9) : v=0  9  4  5 - v=0  9  3  6
+AsymmetricTop Ground    7  A  5 Ground    6  A  7     13567.8650 7.472e-6    99264.7027    85696.8378 .0546058 3.17e-10 0.000000 : pR3,3(6) : v=0  7  2  5 - v=0  6  3  3
+AsymmetricTop Ground    9  A  4 Ground    9  A  2     13599.3178 3.609e-7   148646.6551   135047.3373 .0281224 1.30e-10 0.000000 : rQ1,9(9) : v=0  9  2  8 - v=0  9  1  9
+AsymmetricTop Ground    9  A  6 Ground    8  A  8     13645.2857 3.684e-7   161530.5687   147885.2830 .0530317 2.48e-10 0.000000 : pR4,5(8) : v=0  9  3  7 - v=0  8  4  5
+AsymmetricTop Ground    9  A  4 Ground    9  A  1     13679.5684 3.401e-5   148646.6551   134967.0867 2.629017 1.237e-8 0.000000 : sQ0,9(9) : v=0  9  2  8 - v=0  9  0  9
+AsymmetricTop Ground    7  A  5 Ground    6  A  6     13751.3274 1.279e-6    99264.7027    85513.3754 .0091777 5.56e-11 0.000000 : pR3,4(6) : v=0  7  2  5 - v=0  6  3  4
+AsymmetricTop Ground    8  A  8 Ground    8  A  7     13928.1734 2.779e-6   147885.2830   133957.1097 .2020946 1.122e-9 0.000000 : rQ3,5(8) : v=0  8  4  5 - v=0  8  3  5
+AsymmetricTop Ground    8  A  9 Ground    8  A  7     13989.3115 6.219e-7   147946.4211   133957.1097 .0450878 2.54e-10 0.000000 : rQ3,5(8) : v=0  8  4  4 - v=0  8  3  5
+AsymmetricTop Ground    7  A  5 Ground    7  A  2     14077.3192 4.765e-6    99264.7027    85187.3835 .0331146 2.15e-10 0.000000 : rQ1,7(7) : v=0  7  2  5 - v=0  7  1  7
+AsymmetricTop Ground    7  A  1 Ground    6  A  3     14088.3794 1.316e-5    84938.1520    70849.7725 .0459317 2.99e-10 0.000000 : pR1,5(6) : v=0  7  0  7 - v=0  6  1  5
+AsymmetricTop Ground    9  A  2 Ground    8  A  4     14156.0347 9.576e-7   135047.3373   120891.3026 .0367755 1.92e-10 0.000000 : pR2,7(8) : v=0  9  1  9 - v=0  8  2  7
+AsymmetricTop Ground   10  A  3 Ground   10  A  2     14161.5900 9.203e-6   178417.9401   164256.3501 2.831810 1.337e-8 0.000000 : qQ1,10(10) : v=0 10  1  9 - v=0 10  1 10
+AsymmetricTop Ground    8  A  6 Ground    8  A  3     14167.6539 4.861e-5   133043.6700   118876.0161 1.693871 9.894e-9 0.000000 : sQ1,7(8) : v=0  8  3  6 - v=0  8  1  7
+AsymmetricTop Ground    5  A  1 Ground    4  A  2     14178.4264 6.572e-5    46150.6180    31972.1916 .0353425 3.20e-10 0.000000 : pR1,4(4) : v=0  5  0  5 - v=0  4  1  4
+AsymmetricTop Ground    6  A  3 Ground    5  A  5     14192.5350 4.670e-5    70849.7725    56657.2376 .0820571 6.30e-10 0.000000 : pR2,3(5) : v=0  6  1  5 - v=0  5  2  3
+AsymmetricTop Ground    9  A  6 Ground    9  A  3     14287.8259 1.800e-5   161530.5687   147242.7428 2.433287 1.304e-8 0.000000 : sQ1,8(9) : v=0  9  3  7 - v=0  9  1  8
+AsymmetricTop Ground    7  A  6 Ground    7  A  3     14315.6901 .0001039   107697.4514    93381.7613 1.057886 7.225e-9 0.000000 : sQ1,6(7) : v=0  7  3  5 - v=0  7  1  6
+AsymmetricTop Ground    7  A  8 Ground    7  A  7     14353.0019 8.344e-6   122491.4484   108138.4465 .1720908 1.185e-9 0.000000 : rQ3,4(7) : v=0  7  4  4 - v=0  7  3  4
+AsymmetricTop Ground    7  A  9 Ground    7  A  7     14373.7720 1.771e-6   122512.2185   108138.4465 .0364820 2.52e-10 0.000000 : rQ3,4(7) : v=0  7  4  3 - v=0  7  3  4
+AsymmetricTop Ground    9  A  7 Ground    9  A  4     14560.5890 7.986e-7   163207.2441   148646.6551 .1139487 6.46e-10 0.000000 : rQ2,8(9) : v=0  9  3  6 - v=0  9  2  8
+AsymmetricTop Ground    6  A  8 Ground    6  A  7     14605.3738 1.998e-5   100302.2115    85696.8378 .1386977 1.161e-9 0.000000 : rQ3,3(6) : v=0  6  4  3 - v=0  6  3  3
+AsymmetricTop Ground    6  A  9 Ground    6  A  7     14611.1095 4.055e-6   100307.9472    85696.8378 .0281371 2.36e-10 0.000000 : rQ3,3(6) : v=0  6  4  2 - v=0  6  3  3
+AsymmetricTop Ground    6  A  6 Ground    6  A  3     14663.6029 .0001736    85513.3754    70849.7725 .5891170 4.989e-9 0.000000 : sQ1,5(6) : v=0  6  3  4 - v=0  6  1  5
+AsymmetricTop Ground    5  A 11 Ground    6  A  7     14668.9549 2.712e-7   100365.7926    85696.8378 .0018765 1.88e-11 0.000000 : sP3,3(6) : v=0  5  5  0 - v=0  6  3  3
+AsymmetricTop Ground   10  A  6 Ground   10  A  3     14711.6926 5.356e-6   193129.6327   178417.9401 3.167299 1.677e-8 0.000000 : sQ1,9(10) : v=0 10  3  8 - v=0 10  1  9
+AsymmetricTop Ground    5  A  8 Ground    5  A  7     14740.7569 3.652e-5    81308.2232    66567.4663 .1005603 1.022e-9 0.000000 : rQ3,2(5) : v=0  5  4  2 - v=0  5  3  2
+AsymmetricTop Ground    5  A  9 Ground    5  A  7     14741.9130 7.138e-6    81309.3793    66567.4663 .0196570 2.00e-10 0.000000 : rQ3,2(5) : v=0  5  4  1 - v=0  5  3  2
+AsymmetricTop Ground    6  A  8 Ground    6  A  6     14788.8362 4.105e-6   100302.2115    85513.3754 .0280005 2.43e-10 0.000000 : rQ3,4(6) : v=0  6  4  3 - v=0  6  3  4
+AsymmetricTop Ground    7  A  8 Ground    7  A  6     14793.9970 1.822e-6   122491.4484   107697.4514 .0360301 2.72e-10 0.000000 : rQ3,5(7) : v=0  7  4  4 - v=0  7  3  5
+AsymmetricTop Ground    6  A  9 Ground    6  A  6     14794.5718 2.022e-5   100307.9472    85513.3754 .1378899 1.199e-9 0.000000 : rQ3,4(6) : v=0  6  4  2 - v=0  6  3  4
+AsymmetricTop Ground    5  A  8 Ground    5  A  6     14803.3859 7.169e-6    81308.2232    66504.8373 .0196254 2.02e-10 0.000000 : rQ3,3(5) : v=0  5  4  2 - v=0  5  3  3
+AsymmetricTop Ground    5  A  9 Ground    5  A  6     14804.5420 3.667e-5    81309.3793    66504.8373 .1003747 1.034e-9 0.000000 : rQ3,3(5) : v=0  5  4  1 - v=0  5  3  3
+AsymmetricTop Ground    4  A  8 Ground    4  A  7     14806.0638 4.351e-5    65499.0732    50693.0094 .0557583 7.02e-10 0.000000 : rQ3,1(4) : v=0  4  4  1 - v=0  4  3  1
+AsymmetricTop Ground    4  A  9 Ground    4  A  7     14806.1928 8.248e-6    65499.2022    50693.0094 .0105711 1.33e-10 0.000000 : rQ3,1(4) : v=0  4  4  0 - v=0  4  3  1
+AsymmetricTop Ground    7  A  9 Ground    7  A  6     14814.7671 8.574e-6   122512.2185   107697.4514 .1694028 1.282e-9 0.000000 : rQ3,5(7) : v=0  7  4  3 - v=0  7  3  5
+AsymmetricTop Ground    4  A  8 Ground    4  A  6     14821.9318 8.257e-6    65499.0732    50677.1414 .0105669 1.33e-10 0.000000 : rQ3,2(4) : v=0  4  4  1 - v=0  4  3  2
+AsymmetricTop Ground    4  A  9 Ground    4  A  6     14822.0609 4.355e-5    65499.2022    50677.1414 .0557335 7.04e-10 0.000000 : rQ3,2(4) : v=0  4  4  0 - v=0  4  3  2
+AsymmetricTop Ground    2  A  5 Ground    1  A  1     14828.2861 .0005383    17975.2633     3146.9772 .0703603 1.602e-9 0.000000 : sR0,1(1) : v=0  2  2  0 - v=0  1  0  1
+AsymmetricTop Ground    5  A  2 Ground    4  A  2     14839.0937 .0827145    46811.2853    31972.1916 43.10012 4.471e-7 0.000000 : qR1,4(4) : v=0  5  1  5 - v=0  4  1  4
+AsymmetricTop Ground    8  A  8 Ground    8  A  6     14841.6130 6.580e-7   147885.2830   133043.6700 .0438191 2.94e-10 0.000000 : rQ3,6(8) : v=0  8  4  5 - v=0  8  3  6
+AsymmetricTop Ground    5  A 10 Ground    6  A  6     14852.4107 2.744e-7   100365.7860    85513.3754 .0018665 1.94e-11 0.000000 : sP3,4(6) : v=0  5  5  1 - v=0  6  3  4
+AsymmetricTop Ground    8  A  9 Ground    8  A  6     14902.7512 2.929e-6   147946.4211   133043.6700 .1945335 1.323e-9 0.000000 : rQ3,6(8) : v=0  8  4  4 - v=0  8  3  6
+AsymmetricTop Ground    9  A  8 Ground    9  A  6     14959.4888 1.975e-7   176490.0576   161530.5687 .0513245 3.16e-10 0.000000 : rQ3,7(9) : v=0  9  4  6 - v=0  9  3  7
+AsymmetricTop Ground   11  A  5 Ground   10  A  9     15001.6854 1.648e-7   223655.2220   208653.5365 .4104528 2.104e-9 0.000000 : oR4,6(10) : v=0 11  2  9 - v=0 10  4  6
+AsymmetricTop Ground    9  A  9 Ground    9  A  6     15114.0730 8.206e-7   176644.6417   161530.5687 .2118108 1.344e-9 0.000000 : rQ3,7(9) : v=0  9  4  5 - v=0  9  3  7
+AsymmetricTop Ground    5  A  6 Ground    5  A  3     15129.7410 .0002205    66504.8373    51375.0962 .2877125 3.163e-9 0.000000 : sQ1,4(5) : v=0  5  3  3 - v=0  5  1  4
+AsymmetricTop Ground   10  A  4 Ground   10  A  1     15132.0155 9.368e-6   179344.4642   164212.4487 2.747940 1.583e-8 0.000000 : sQ0,10(10) : v=0 10  2  9 - v=0 10  0 10
+AsymmetricTop Ground    5  A  1 Ground    4  A  1     15158.8833 .0900634    46150.6180    30991.7347 44.12509 4.879e-7 0.000000 : qR0,4(4) : v=0  5  0  5 - v=0  4  0  4
+AsymmetricTop Ground    8  A  1 Ground    7  A  3     15163.0650 4.345e-6   108544.8263    93381.7613 .0425077 3.04e-10 0.000000 : pR1,6(7) : v=0  8  0  8 - v=0  7  1  6
+AsymmetricTop Ground   10  A  3 Ground    9  A  7     15210.6960 1.867e-6   178417.9401   163207.2441 .5201065 3.044e-9 0.000000 : oR3,6(9) : v=0 10  1  9 - v=0  9  3  6
+AsymmetricTop Ground    6  A  3 Ground    5  A  4     15244.8631 1.056e-5    70849.7725    55604.9094 .0167892 1.60e-10 0.000000 : pR2,4(5) : v=0  6  1  5 - v=0  5  2  4
+AsymmetricTop Ground    9  A  7 Ground    8  A  9     15260.8230 4.238e-7   163207.2441   147946.4211 .0566294 3.70e-10 0.000000 : pR4,4(8) : v=0  9  3  6 - v=0  8  4  4
+AsymmetricTop Ground    3  A  4 Ground    2  A  3     15353.9345 9.208e-5    27382.7432    12028.8087 .0180000 3.25e-10 0.000000 : rR1,1(2) : v=0  3  2  2 - v=0  2  1  1
+AsymmetricTop Ground    6  A  9 Ground    7  A  1     15369.7953 1.446e-7   100307.9472    84938.1520 .0009349 9.12e-12 0.000000 : uP0,7(7) : v=0  6  4  2 - v=0  7  0  7
+AsymmetricTop Ground   11  A  6 Ground   11  A  3     15434.5631 1.302e-6   227806.9941   212372.4310 3.801828 2.122e-8 0.000000 : sQ1,10(11) : v=0 11  3  9 - v=0 11  1 10
+AsymmetricTop Ground    3  A  5 Ground    2  A  3     15518.6050 .0006968    27547.4137    12028.8087 .1352379 2.521e-9 0.000000 : rR1,1(2) : v=0  3  2  1 - v=0  2  1  1
+AsymmetricTop Ground   10  A  9 Ground   10  A  6     15523.9039 1.897e-7   208653.5365   193129.6327 .2190647 1.363e-9 0.000000 : rQ3,8(10) : v=0 10  4  6 - v=0 10  3  8
+AsymmetricTop Ground    9  A  4 Ground    8  A  6     15602.9851 9.387e-7   148646.6551   133043.6700 .0604291 4.22e-10 0.000000 : pR3,6(8) : v=0  9  2  8 - v=0  8  3  6
+AsymmetricTop Ground   10  A  2 Ground    9  A  4     15609.6950 2.754e-7   164256.3501   148646.6551 .0374762 2.37e-10 0.000000 : pR2,8(9) : v=0 10  1 10 - v=0  9  2  8
+AsymmetricTop Ground    4  A  6 Ground    4  A  3     15636.4885 .0001999    50677.1414    35040.6528 .1164530 1.727e-9 0.000000 : sQ1,3(4) : v=0  4  3  2 - v=0  4  1  3
+AsymmetricTop Ground    5  A  4 Ground    4  A  4     15660.4285 .0512790    55604.9094    39944.4809 37.76852 4.605e-7 0.000000 : qR2,3(4) : v=0  5  2  4 - v=0  4  2  3
+AsymmetricTop Ground    5  A  8 Ground    4  A  8     15809.1501 .0065102    81308.2232    65499.0732 16.24302 2.037e-7 0.000000 : qR4,1(4) : v=0  5  4  2 - v=0  4  4  1
+AsymmetricTop Ground    5  A  9 Ground    4  A  9     15810.1771 .0065104    81309.3793    65499.2022 16.24302 2.038e-7 0.000000 : qR4,0(4) : v=0  5  4  1 - v=0  4  4  0
+AsymmetricTop Ground    5  A  2 Ground    4  A  1     15819.5507 8.111e-5    46811.2853    30991.7347 .0386104 4.85e-10 0.000000 : rR0,4(4) : v=0  5  1  5 - v=0  4  0  4
+AsymmetricTop Ground    5  A  6 Ground    4  A  6     15827.6959 .0235807    66504.8373    50677.1414 28.86414 3.633e-7 0.000000 : qR3,2(4) : v=0  5  3  3 - v=0  4  3  2
+AsymmetricTop Ground    5  A  7 Ground    4  A  7     15874.4569 .0236100    66567.4663    50693.0094 28.86508 3.666e-7 0.000000 : qR3,1(4) : v=0  5  3  2 - v=0  4  3  1
+AsymmetricTop Ground   11  A  3 Ground   11  A  2     16062.3249 2.181e-6   212372.4310   196310.1061 2.867816 1.804e-8 0.000000 : qQ1,11(11) : v=0 11  1 10 - v=0 11  1 11
+AsymmetricTop Ground    9  A  1 Ground    8  A  3     16091.0706 1.262e-6   134967.0867   118876.0161 .0403260 3.09e-10 0.000000 : pR1,7(8) : v=0  9  0  9 - v=0  8  1  7
+AsymmetricTop Ground    3  A  6 Ground    3  A  3     16118.4830 .0001050    38028.6640    21910.1811 .0319275 6.67e-10 0.000000 : sQ1,2(3) : v=0  3  3  1 - v=0  3  1  2
+AsymmetricTop Ground    5  A  5 Ground    4  A  5     16235.0866 .0515360    56657.2376    40422.1510 37.91734 5.151e-7 0.000000 : qR2,2(4) : v=0  5  2  3 - v=0  4  2  2
+AsymmetricTop Ground    3  A  4 Ground    2  A  2     16279.2465 .0006256    27382.7432    11103.4967 .1125000 2.421e-9 0.000000 : rR1,2(2) : v=0  3  2  2 - v=0  2  1  2
+AsymmetricTop Ground    4  A  3 Ground    3  A  1     16323.5395 .0005836    35040.6528    18717.1133 .1509628 2.548e-9 0.000000 : rR0,3(3) : v=0  4  1  3 - v=0  3  0  3
+AsymmetricTop Ground    5  A  3 Ground    4  A  3     16334.4434 .0759198    51375.0962    35040.6528 42.97035 5.945e-7 0.000000 : qR1,3(4) : v=0  5  1  4 - v=0  4  1  3
+AsymmetricTop Ground   12  A  6 Ground   12  A  3     16421.2078 2.632e-7   265525.5544   249104.3466 4.297831 2.658e-8 0.000000 : sQ1,11(12) : v=0 12  3 10 - v=0 12  1 11
+AsymmetricTop Ground    3  A  5 Ground    2  A  2     16443.9170 7.889e-5    27547.4137    11103.4967 .0140934 3.13e-10 0.000000 : rR1,2(2) : v=0  3  2  1 - v=0  2  1  2
+AsymmetricTop Ground   11  A  3 Ground   10  A  7     16461.0459 3.791e-7   212372.4310   195911.3851 .4812785 3.259e-9 0.000000 : oR3,7(10) : v=0 11  1 10 - v=0 10  3  7
+AsymmetricTop Ground   10  A  7 Ground   10  A  4     16566.9209 1.608e-7   195911.3851   179344.4642 .0917845 6.94e-10 0.000000 : rQ2,9(10) : v=0 10  3  7 - v=0 10  2  9
+AsymmetricTop Ground   10  A  6 Ground    9  A  8     16639.5751 1.335e-7   193129.6327   176490.0576 .0662568 5.08e-10 0.000000 : pR4,6(9) : v=0 10  3  8 - v=0  9  4  6
+AsymmetricTop Ground   11  A  4 Ground   11  A  1     16669.9255 2.207e-6   212956.4290   196286.5035 2.828978 1.990e-8 0.000000 : sQ0,11(11) : v=0 11  2 10 - v=0 11  0 11
+AsymmetricTop Ground    8  A  5 Ground    8  A  2     16884.8415 1.278e-6   125573.1549   108688.3134 .0242701 2.40e-10 0.000000 : rQ1,8(8) : v=0  8  2  6 - v=0  8  1  8
+AsymmetricTop Ground   10  A  1 Ground    9  A  3     16969.7058 3.251e-7   164212.4487   147242.7428 .0391418 3.18e-10 0.000000 : pR1,8(9) : v=0 10  0 10 - v=0  9  1  8
+AsymmetricTop Ground    7  A  3 Ground    6  A  5     17104.9055 2.555e-5    93381.7613    76276.8558 .1015501 1.183e-9 0.000000 : pR2,4(6) : v=0  7  1  6 - v=0  6  2  4
+AsymmetricTop Ground    5  A  9 Ground    6  A  1     17169.4658 1.561e-7    81309.3793    64139.9136 .0003457 5.55e-12 0.000000 : uP0,6(6) : v=0  5  4  1 - v=0  6  0  6
+AsymmetricTop Ground    6  A  1 Ground    5  A  2     17328.6283 4.886e-5    64139.9136    46811.2853 .0468237 6.54e-10 0.000000 : pR1,5(5) : v=0  6  0  6 - v=0  5  1  5
+AsymmetricTop Ground    8  A  5 Ground    7  A  7     17434.7084 4.362e-6   125573.1549   108138.4465 .0790119 8.60e-10 0.000000 : pR3,4(7) : v=0  8  2  6 - v=0  7  3  4
+AsymmetricTop Ground    6  A  2 Ground    5  A  2     17745.0761 .0554268    64556.3615    46811.2853 52.31335 7.852e-7 0.000000 : qR1,5(5) : v=0  6  1  6 - v=0  5  1  5
+AsymmetricTop Ground   10  A  4 Ground    9  A  6     17813.8954 2.899e-7   179344.4642   161530.5687 .0671744 6.31e-10 0.000000 : pR3,7(9) : v=0 10  2  9 - v=0  9  3  7
+AsymmetricTop Ground    8  A  5 Ground    7  A  6     17875.7035 7.471e-7   125573.1549   107697.4514 .0130410 1.53e-10 0.000000 : pR3,5(7) : v=0  8  2  6 - v=0  7  3  5
+AsymmetricTop Ground   12  A  3 Ground   12  A  2     17898.9877 4.439e-7   249104.3466   231205.3589 2.904617 2.326e-8 0.000000 : qQ1,12(12) : v=0 12  1 11 - v=0 12  1 12
+AsymmetricTop Ground    3  A  7 Ground    3  A  2     17969.0956 7.959e-5    38030.9462    20061.8506 .0206441 5.98e-10 0.000000 : sQ1,3(3) : v=0  3  3  0 - v=0  3  1  3
+AsymmetricTop Ground    6  A  1 Ground    5  A  1     17989.2956 .0583109    64139.9136    46150.6180 52.85938 8.266e-7 0.000000 : qR0,5(5) : v=0  6  0  6 - v=0  5  0  5
+AsymmetricTop Ground    4  A  4 Ground    3  A  3     18034.2998 7.305e-5    39944.4809    21910.1811 .0206566 4.70e-10 0.000000 : rR1,2(3) : v=0  4  2  3 - v=0  3  1  2
+AsymmetricTop Ground    3  A  5 Ground    2  A  1     18139.9391 .0014216    27547.4137     9407.4746 .2198147 6.545e-9 0.000000 : sR0,2(2) : v=0  3  2  1 - v=0  2  0  2
+AsymmetricTop Ground   12  A  4 Ground   12  A  1     18266.2191 4.471e-7   249459.0654   231192.8462 2.886588 2.457e-8 0.000000 : sQ0,12(12) : v=0 12  2 11 - v=0 12  0 12
+AsymmetricTop Ground    6  A  2 Ground    5  A  1     18405.7435 5.437e-5    64556.3615    46150.6180 .0485839 8.14e-10 0.000000 : rR0,5(5) : v=0  6  1  6 - v=0  5  0  5
+AsymmetricTop Ground   10  A 10 Ground   10  A  9     18461.1490 1.129e-7   227114.6856   208653.5365 .2454115 2.568e-9 0.000000 : rQ4,6(10) : v=0 10  5  6 - v=0 10  4  6
+AsymmetricTop Ground    4  A  5 Ground    3  A  3     18511.9699 .0006192    40422.1510    21910.1811 .1722473 4.240e-9 0.000000 : rR1,2(3) : v=0  4  2  2 - v=0  3  1  2
+AsymmetricTop Ground    9  A 10 Ground    9  A  9     18715.7984 4.651e-7   195360.4401   176644.6417 .2158136 2.600e-9 0.000000 : rQ4,5(9) : v=0  9  5  5 - v=0  9  4  5
+AsymmetricTop Ground    4  A  7 Ground    4  A  2     18720.8178 .0001258    50693.0094    31972.1916 .0563420 1.434e-9 0.000000 : sQ1,4(4) : v=0  4  3  1 - v=0  4  1  4
+AsymmetricTop Ground    6  A  4 Ground    5  A  4     18732.1862 .0344147    74337.0956    55604.9094 47.88676 8.455e-7 0.000000 : qR2,4(5) : v=0  6  2  5 - v=0  5  2  4
+AsymmetricTop Ground   10  A 11 Ground   10  A  8     18826.5902 1.153e-7   227133.5837   208306.9935 .2436455 2.703e-9 0.000000 : rQ4,7(10) : v=0 10  5  5 - v=0 10  4  7
+AsymmetricTop Ground    8  A 10 Ground    8  A  9     18872.6785 1.570e-6   166819.0996   147946.4211 .1828222 2.524e-9 0.000000 : rQ4,4(8) : v=0  8  5  4 - v=0  8  4  4
+AsymmetricTop Ground    8  A 11 Ground    8  A  9     18874.5310 3.198e-7   166820.9522   147946.4211 .0372343 5.14e-10 0.000000 : rQ4,4(8) : v=0  8  5  3 - v=0  8  4  4
+AsymmetricTop Ground    9  A 11 Ground    9  A  8     18876.7884 4.697e-7   195366.8460   176490.0576 .2151851 2.660e-9 0.000000 : rQ4,6(9) : v=0  9  5  4 - v=0  9  4  6
+AsymmetricTop Ground    8  A 10 Ground    8  A  8     18933.8166 3.210e-7   166819.0996   147885.2830 .0372014 5.19e-10 0.000000 : rQ4,5(8) : v=0  8  5  4 - v=0  8  4  5
+AsymmetricTop Ground    8  A 11 Ground    8  A  8     18935.6691 1.576e-6   166820.9522   147885.2830 .1826260 2.547e-9 0.000000 : rQ4,5(8) : v=0  8  5  3 - v=0  8  4  5
+AsymmetricTop Ground    6  A 10 Ground    5  A 10     18965.9863 .0013982   119331.7723   100365.7860 16.54490 3.032e-7 0.000000 : qR5,1(5) : v=0  6  5  2 - v=0  5  5  1
+AsymmetricTop Ground    6  A 11 Ground    5  A 11     18966.0519 .0013982   119331.8446   100365.7926 16.54490 3.032e-7 0.000000 : qR5,0(5) : v=0  6  5  1 - v=0  5  5  0
+AsymmetricTop Ground    7  A 10 Ground    7  A  9     18967.4888 4.263e-6   141479.7073   122512.2185 .1460067 2.319e-9 0.000000 : rQ4,3(7) : v=0  7  5  3 - v=0  7  4  3
+AsymmetricTop Ground    7  A 11 Ground    7  A  9     18967.9199 8.426e-7   141480.1385   122512.2185 .0288601 4.58e-10 0.000000 : rQ4,3(7) : v=0  7  5  2 - v=0  7  4  3
+AsymmetricTop Ground    7  A 10 Ground    7  A  8     18988.2589 8.438e-7   141479.7073   122491.4484 .0288516 4.60e-10 0.000000 : rQ4,4(7) : v=0  7  5  3 - v=0  7  4  4
+AsymmetricTop Ground    7  A 11 Ground    7  A  8     18988.6901 4.269e-6   141480.1385   122491.4484 .1459561 2.326e-9 0.000000 : rQ4,4(7) : v=0  7  5  2 - v=0  7  4  4
+AsymmetricTop Ground    6  A  8 Ground    5  A  8     18993.9883 .0063496   100302.2115    81308.2232 30.07755 5.536e-7 0.000000 : qR4,2(5) : v=0  6  4  3 - v=0  5  4  2
+AsymmetricTop Ground    6  A  9 Ground    5  A  9     18998.5679 .0063502   100307.9472    81309.3793 30.07758 5.540e-7 0.000000 : qR4,1(5) : v=0  6  4  2 - v=0  5  4  1
+AsymmetricTop Ground    6  A  6 Ground    5  A  6     19008.5381 .0174390    85513.3754    66504.8373 40.57595 7.486e-7 0.000000 : qR3,3(5) : v=0  6  3  4 - v=0  5  3  3
+AsymmetricTop Ground    6  A 10 Ground    6  A  9     19023.8251 8.879e-6   119331.7723   100307.9472 .1045774 1.934e-9 0.000000 : rQ4,2(6) : v=0  6  5  2 - v=0  6  4  2
+AsymmetricTop Ground    6  A 11 Ground    6  A  9     19023.8974 1.710e-6   119331.8446   100307.9472 .0201439 3.73e-10 0.000000 : rQ4,2(6) : v=0  6  5  1 - v=0  6  4  2
+AsymmetricTop Ground    6  A 10 Ground    6  A  8     19029.5608 1.711e-6   119331.7723   100302.2115 .0201423 3.73e-10 0.000000 : rQ4,3(6) : v=0  6  5  2 - v=0  6  4  3
+AsymmetricTop Ground    6  A 11 Ground    6  A  8     19029.6330 8.882e-6   119331.8446   100302.2115 .1045678 1.936e-9 0.000000 : rQ4,3(6) : v=0  6  5  1 - v=0  6  4  3
+AsymmetricTop Ground    7  A  3 Ground    6  A  4     19044.6657 7.297e-6    93381.7613    74337.0956 .0246972 3.97e-10 0.000000 : pR2,5(6) : v=0  7  1  6 - v=0  6  2  5
+AsymmetricTop Ground    5  A 10 Ground    5  A  9     19056.4067 1.205e-5   100365.7860    81309.3793 .0569802 1.252e-9 0.000000 : rQ4,1(5) : v=0  5  5  1 - v=0  5  4  1
+AsymmetricTop Ground    5  A 11 Ground    5  A  9     19056.4133 2.271e-6   100365.7926    81309.3793 .0107372 2.36e-10 0.000000 : rQ4,1(5) : v=0  5  5  0 - v=0  5  4  1
+AsymmetricTop Ground    5  A 10 Ground    5  A  8     19057.5628 2.271e-6   100365.7860    81308.2232 .0107371 2.36e-10 0.000000 : rQ4,2(5) : v=0  5  5  1 - v=0  5  4  2
+AsymmetricTop Ground    5  A 11 Ground    5  A  8     19057.5694 1.205e-5   100365.7926    81308.2232 .0569792 1.252e-9 0.000000 : rQ4,2(5) : v=0  5  5  0 - v=0  5  4  2
+AsymmetricTop Ground    6  A  7 Ground    5  A  7     19129.3715 .0174569    85696.8378    66567.4663 40.58249 7.631e-7 0.000000 : qR3,2(5) : v=0  6  3  3 - v=0  5  3  2
+AsymmetricTop Ground   10  A  7 Ground    9  A  9     19266.7434 1.648e-7   195911.3851   176644.6417 .0751135 8.93e-10 0.000000 : pR4,5(9) : v=0 10  3  7 - v=0  9  4  5
+AsymmetricTop Ground    3  A  6 Ground    3  A  1     19311.5507 1.064e-6    38028.6640    18717.1133 .0002474 8.89e-12 0.000000 : tQ0,3(3) : v=0  3  3  1 - v=0  3  0  3
+AsymmetricTop Ground    3  A  7 Ground    3  A  1     19313.8329 1.965e-7    38030.9462    18717.1133 4.571e-5 1.64e-12 0.000000 : tQ0,3(3) : v=0  3  3  0 - v=0  3  0  3
+AsymmetricTop Ground    6  A  3 Ground    5  A  3     19474.6763 .0468689    70849.7725    51375.0962 51.98579 1.031e-6 0.000000 : qR1,4(5) : v=0  6  1  5 - v=0  5  1  4
+AsymmetricTop Ground    8  A  3 Ground    7  A  5     19611.3133 1.011e-5   118876.0161    99264.7027 .1111797 1.722e-9 0.000000 : pR2,5(7) : v=0  8  1  7 - v=0  7  2  5
+AsymmetricTop Ground    6  A  5 Ground    5  A  5     19619.6182 .0339013    76276.8558    56657.2376 48.23568 9.785e-7 0.000000 : qR2,3(5) : v=0  6  2  4 - v=0  5  2  3
+AsymmetricTop Ground   11  A  8 Ground   11  A  5     19675.1198 3.972e-7   243330.3418   223655.2220 1.706723 1.974e-8 0.000000 : sQ2,9(11) : v=0 11  4  8 - v=0 11  2  9
+AsymmetricTop Ground    4  A  6 Ground    4  A  1     19685.4067 2.765e-6    50677.1414    30991.7347 .0011454 3.39e-11 0.000000 : tQ0,4(4) : v=0  4  3  2 - v=0  4  0  4
+AsymmetricTop Ground    4  A  7 Ground    4  A  1     19701.2747 5.072e-7    50693.0094    30991.7347 .0002100 6.23e-12 0.000000 : tQ0,4(4) : v=0  4  3  1 - v=0  4  0  4
+AsymmetricTop Ground    5  A  7 Ground    5  A  2     19756.1810 .0001099    66567.4663    46811.2853 .0970558 2.376e-9 0.000000 : sQ1,5(5) : v=0  5  3  2 - v=0  5  1  5
+AsymmetricTop Ground    4  A  4 Ground    3  A  2     19882.6303 .0005108    39944.4809    20061.8506 .1244966 3.797e-9 0.000000 : rR1,3(3) : v=0  4  2  3 - v=0  3  1  3
+AsymmetricTop Ground    3  A  6 Ground    2  A  5     20053.4007 .0001208    38028.6640    17975.2633 .0265045 1.066e-9 0.000000 : rR2,0(2) : v=0  3  3  1 - v=0  2  2  0
+AsymmetricTop Ground    3  A  7 Ground    2  A  5     20055.6829 .0007831    38030.9462    17975.2633 .1717965 6.913e-9 0.000000 : rR2,0(2) : v=0  3  3  0 - v=0  2  2  0
+AsymmetricTop Ground    9  A  5 Ground    9  A  2     20086.2402 3.007e-7   155133.5775   135047.3373 .0181556 2.70e-10 0.000000 : rQ1,9(9) : v=0  9  2  7 - v=0  9  1  9
+AsymmetricTop Ground    3  A  6 Ground    2  A  4     20086.8419 .0007836    38028.6640    17941.8222 .1714726 6.933e-9 0.000000 : rR2,1(2) : v=0  3  3  1 - v=0  2  2  1
+AsymmetricTop Ground    3  A  7 Ground    2  A  4     20089.1240 .0001209    38030.9462    17941.8222 .0264488 1.070e-9 0.000000 : rR2,1(2) : v=0  3  3  0 - v=0  2  2  1
+AsymmetricTop Ground    5  A  6 Ground    5  A  1     20354.2193 3.430e-6    66504.8373    46150.6180 .0028834 7.72e-11 0.000000 : tQ0,5(5) : v=0  5  3  3 - v=0  5  0  5
+AsymmetricTop Ground    4  A  5 Ground    3  A  2     20360.3004 5.151e-5    40422.1510    20061.8506 .0123804 4.05e-10 0.000000 : rR1,3(3) : v=0  4  2  2 - v=0  3  1  3
+AsymmetricTop Ground    7  A  1 Ground    6  A  2     20381.7905 2.872e-5    84938.1520    64556.3615 .0583536 1.150e-9 0.000000 : pR1,6(6) : v=0  7  0  7 - v=0  6  1  6
+AsymmetricTop Ground    5  A  3 Ground    4  A  1     20383.3616 .0003995    51375.0962    30991.7347 .1621053 4.358e-9 0.000000 : rR0,4(4) : v=0  5  1  4 - v=0  4  0  4
+AsymmetricTop Ground    5  A  7 Ground    5  A  1     20416.8483 6.156e-7    66567.4663    46150.6180 .0005166 1.40e-11 0.000000 : tQ0,5(5) : v=0  5  3  2 - v=0  5  0  5
+AsymmetricTop Ground   10  A  8 Ground   10  A  5     20446.1956 1.467e-6   208306.9935   187860.7979 1.105639 1.571e-8 0.000000 : sQ2,8(10) : v=0 10  4  7 - v=0 10  2  8
+AsymmetricTop Ground    5  A  4 Ground    4  A  3     20564.2566 4.917e-5    55604.9094    35040.6528 .0241069 6.66e-10 0.000000 : rR1,3(4) : v=0  5  2  4 - v=0  4  1  3
+AsymmetricTop Ground    7  A  2 Ground    6  A  2     20631.0221 .0304482    85187.3835    64556.3615 61.43197 1.256e-6 0.000000 : qR1,6(6) : v=0  7  1  7 - v=0  6  1  6
+AsymmetricTop Ground    7  A  1 Ground    6  A  1     20798.2384 .0313478    84938.1520    64139.9136 61.70386 1.292e-6 0.000000 : qR0,6(6) : v=0  7  0  7 - v=0  6  0  6
+AsymmetricTop Ground    7  A  2 Ground    6  A  1     21047.4699 3.030e-5    85187.3835    64139.9136 .0592338 1.286e-9 0.000000 : rR0,6(6) : v=0  7  1  7 - v=0  6  0  6
+AsymmetricTop Ground    6  A  7 Ground    6  A  2     21140.4763 6.513e-5    85696.8378    64556.3615 .1295560 3.288e-9 0.000000 : sQ1,6(6) : v=0  6  3  3 - v=0  6  1  6
+AsymmetricTop Ground    9  A  5 Ground    8  A  7     21176.4679 1.933e-6   155133.5775   133957.1097 .1074174 1.875e-9 0.000000 : pR3,5(8) : v=0  9  2  7 - v=0  8  3  5
+AsymmetricTop Ground    9  A  8 Ground    9  A  5     21356.4800 4.478e-6   176490.0576   155133.5775 .6840521 1.225e-8 0.000000 : sQ2,7(9) : v=0  9  4  6 - v=0  9  2  7
+AsymmetricTop Ground    6  A  6 Ground    6  A  1     21373.4618 2.632e-6    85513.3754    64139.9136 .0050991 1.34e-10 0.000000 : tQ0,6(6) : v=0  6  3  4 - v=0  6  0  6
+AsymmetricTop Ground    6  A  7 Ground    6  A  1     21556.9242 4.487e-7    85696.8378    64139.9136 .0008651 2.33e-11 0.000000 : tQ0,6(6) : v=0  6  3  3 - v=0  6  0  6
+AsymmetricTop Ground    5  A  5 Ground    4  A  3     21616.5847 .0004501    56657.2376    35040.6528 .2143993 6.875e-9 0.000000 : rR1,3(4) : v=0  5  2  3 - v=0  4  1  3
+AsymmetricTop Ground    9  A  3 Ground    8  A  5     21669.5879 3.028e-6   147242.7428   125573.1549 .1110415 2.077e-9 0.000000 : pR2,6(8) : v=0  9  1  8 - v=0  8  2  6
+AsymmetricTop Ground    4  A  5 Ground    3  A  1     21705.0377 .0019291    40422.1510    18717.1133 .4188365 1.662e-8 0.000000 : sR0,3(3) : v=0  4  2  2 - v=0  3  0  3
+AsymmetricTop Ground    7  A  4 Ground    6  A  4     21773.1722 .0184239    96110.2677    74337.0956 57.62226 1.385e-6 0.000000 : qR2,5(6) : v=0  7  2  6 - v=0  6  2  5
+AsymmetricTop Ground    9  A  5 Ground    8  A  6     22089.9076 3.468e-7   155133.5775   133043.6700 .0180028 3.57e-10 0.000000 : pR3,6(8) : v=0  9  2  7 - v=0  8  3  6
+AsymmetricTop Ground    7  A 12 Ground    6  A 12     22123.1764 .0002040   164752.5919   142629.4155 16.76028 4.225e-7 0.000000 : qR6,1(6) : v=0  7  6  2 - v=0  6  6  1
+AsymmetricTop Ground    7  A 13 Ground    6  A 13     22123.1802 .0002040   164752.5960   142629.4158 16.76028 4.225e-7 0.000000 : qR6,0(6) : v=0  7  6  1 - v=0  6  6  0
+AsymmetricTop Ground    7  A 10 Ground    6  A 10     22147.9350 .0011526   141479.7073   119331.7723 30.94016 7.825e-7 0.000000 : qR5,2(6) : v=0  7  5  3 - v=0  6  5  2
+AsymmetricTop Ground    7  A 11 Ground    6  A 11     22148.2939 .0011526   141480.1385   119331.8446 30.94016 7.826e-7 0.000000 : qR5,1(6) : v=0  7  5  2 - v=0  6  5  1
+AsymmetricTop Ground    7  A  6 Ground    6  A  6     22184.0760 .0097322   107697.4514    85513.3754 51.49771 1.309e-6 0.000000 : qR3,4(6) : v=0  7  3  5 - v=0  6  3  4
+AsymmetricTop Ground    7  A  8 Ground    6  A  8     22189.2369 .0039535   122491.4484   100302.2115 42.53435 1.082e-6 0.000000 : qR4,3(6) : v=0  7  4  4 - v=0  6  4  3
+AsymmetricTop Ground    7  A  9 Ground    6  A  9     22204.2713 .0039539   122512.2185   100307.9472 42.53455 1.084e-6 0.000000 : qR4,2(6) : v=0  7  4  3 - v=0  6  4  2
+AsymmetricTop Ground    8  A  8 Ground    8  A  5     22312.1281 1.126e-5   147885.2830   125573.1549 .4061451 9.267e-9 0.000000 : sQ2,6(8) : v=0  8  4  5 - v=0  8  2  6
+AsymmetricTop Ground    7  A  7 Ground    6  A  7     22441.6087 .0097152   108138.4465    85696.8378 51.52919 1.356e-6 0.000000 : qR3,3(6) : v=0  7  3  4 - v=0  6  3  3
+AsymmetricTop Ground    7  A  3 Ground    6  A  3     22531.9888 .0234135    93381.7613    70849.7725 60.76346 1.618e-6 0.000000 : qR1,5(6) : v=0  7  1  6 - v=0  6  1  5
+AsymmetricTop Ground    7  A  6 Ground    7  A  1     22759.2994 1.406e-6   107697.4514    84938.1520 .0071332 1.96e-10 0.000000 : tQ0,7(7) : v=0  7  3  5 - v=0  7  0  7
+AsymmetricTop Ground    8  A  3 Ground    7  A  4     22765.7483 3.961e-6   118876.0161    96110.2677 .0343577 8.33e-10 0.000000 : pR2,6(7) : v=0  8  1  7 - v=0  7  2  6
+AsymmetricTop Ground    7  A  7 Ground    7  A  2     22951.0630 2.794e-5   108138.4465    85187.3835 .1428437 4.020e-9 0.000000 : sQ1,7(7) : v=0  7  3  4 - v=0  7  1  7
+AsymmetricTop Ground    6  A  4 Ground    5  A  3     22961.9993 2.829e-5    74337.0956    51375.0962 .0285309 9.28e-10 0.000000 : rR1,4(5) : v=0  6  2  5 - v=0  5  1  4
+AsymmetricTop Ground    7  A  5 Ground    6  A  5     22987.8469 .0174742    99264.7027    76276.8558 58.19620 1.646e-6 0.000000 : qR2,4(6) : v=0  7  2  5 - v=0  6  2  4
+AsymmetricTop Ground    4  A  6 Ground    3  A  5     23129.7277 8.378e-5    50677.1414    27547.4137 .0268224 1.288e-9 0.000000 : rR2,1(3) : v=0  4  3  2 - v=0  3  2  1
+AsymmetricTop Ground    4  A  7 Ground    3  A  5     23145.5957 .0005844    50693.0094    27547.4137 .1870319 8.998e-9 0.000000 : rR2,1(3) : v=0  4  3  1 - v=0  3  2  1
+AsymmetricTop Ground    9  A 12 Ground    9  A 11     23177.8715 1.899e-7   218544.7175   195366.8460 .1910442 4.372e-9 0.000000 : rQ5,4(9) : v=0  9  6  4 - v=0  9  5  4
+AsymmetricTop Ground    9  A 13 Ground    9  A 10     23184.4193 1.899e-7   218544.8594   195360.4401 .1910311 4.375e-9 0.000000 : rQ5,5(9) : v=0  9  6  3 - v=0  9  5  5
+AsymmetricTop Ground    7  A  7 Ground    7  A  1     23200.2945 2.172e-7   108138.4465    84938.1520 .0010907 3.17e-11 0.000000 : tQ0,7(7) : v=0  7  3  4 - v=0  7  0  7
+AsymmetricTop Ground    7  A  8 Ground    7  A  5     23226.7457 2.303e-5   122491.4484    99264.7027 .2298805 6.706e-9 0.000000 : sQ2,5(7) : v=0  7  4  4 - v=0  7  2  5
+AsymmetricTop Ground    8  A 12 Ground    8  A 11     23234.1992 5.929e-7   190055.1513   166820.9522 .1514081 3.901e-9 0.000000 : rQ5,3(8) : v=0  8  6  3 - v=0  8  5  3
+AsymmetricTop Ground    8  A 13 Ground    8  A 11     23234.2277 1.155e-7   190055.1799   166820.9522 .0294875 7.60e-10 0.000000 : rQ5,3(8) : v=0  8  6  2 - v=0  8  5  3
+AsymmetricTop Ground    8  A 12 Ground    8  A 10     23236.0517 1.155e-7   190055.1513   166819.0996 .0294871 7.60e-10 0.000000 : rQ5,4(8) : v=0  8  6  3 - v=0  8  5  4
+AsymmetricTop Ground    8  A 13 Ground    8  A 10     23236.0803 5.930e-7   190055.1799   166819.0996 .1514052 3.902e-9 0.000000 : rQ5,4(8) : v=0  8  6  2 - v=0  8  5  4
+AsymmetricTop Ground    7  A 12 Ground    7  A 11     23272.4534 1.421e-6   164752.5919   141480.1385 .1074637 3.153e-9 0.000000 : rQ5,2(7) : v=0  7  6  2 - v=0  7  5  2
+AsymmetricTop Ground    7  A 13 Ground    7  A 11     23272.4575 2.714e-7   164752.5960   141480.1385 .0205232 6.02e-10 0.000000 : rQ5,2(7) : v=0  7  6  1 - v=0  7  5  2
+AsymmetricTop Ground    7  A 12 Ground    7  A 10     23272.8846 2.714e-7   164752.5919   141479.7073 .0205232 6.02e-10 0.000000 : rQ5,3(7) : v=0  7  6  2 - v=0  7  5  3
+AsymmetricTop Ground    7  A 13 Ground    7  A 10     23272.8887 1.421e-6   164752.5960   141479.7073 .1074633 3.153e-9 0.000000 : rQ5,3(7) : v=0  7  6  1 - v=0  7  5  3
+AsymmetricTop Ground   10  A  3 Ground    9  A  5     23284.3626 7.200e-7   178417.9401   155133.5775 .1048122 2.200e-9 0.000000 : pR2,7(9) : v=0 10  1  9 - v=0  9  2  7
+AsymmetricTop Ground    4  A  6 Ground    3  A  4     23294.3981 .0005856    50677.1414    27382.7432 .1852993 9.088e-9 0.000000 : rR2,2(3) : v=0  4  3  2 - v=0  3  2  2
+AsymmetricTop Ground    6  A 12 Ground    6  A 11     23297.5709 2.216e-6   142629.4155   119331.8446 .0578366 1.965e-9 0.000000 : rQ5,1(6) : v=0  6  6  1 - v=0  6  5  1
+AsymmetricTop Ground    6  A 13 Ground    6  A 11     23297.5712 4.160e-7   142629.4158   119331.8446 .0108588 3.69e-10 0.000000 : rQ5,1(6) : v=0  6  6  0 - v=0  6  5  1
+AsymmetricTop Ground    6  A 12 Ground    6  A 10     23297.6432 4.160e-7   142629.4155   119331.7723 .0108588 3.69e-10 0.000000 : rQ5,2(6) : v=0  6  6  1 - v=0  6  5  2
+AsymmetricTop Ground    6  A 13 Ground    6  A 10     23297.6435 2.216e-6   142629.4158   119331.7723 .0578366 1.965e-9 0.000000 : rQ5,2(6) : v=0  6  6  0 - v=0  6  5  2
+AsymmetricTop Ground    4  A  7 Ground    3  A  4     23310.2662 8.386e-5    50693.0094    27382.7432 .0265246 1.303e-9 0.000000 : rR2,2(3) : v=0  4  3  1 - v=0  3  2  2
+AsymmetricTop Ground    8  A  1 Ground    7  A  2     23357.4428 1.377e-5   108544.8263    85187.3835 .0697287 1.825e-9 0.000000 : pR1,7(7) : v=0  8  0  8 - v=0  7  1  7
+AsymmetricTop Ground    8  A  2 Ground    7  A  2     23500.9299 .0139691   108688.3134    85187.3835 70.49728 1.879e-6 0.000000 : qR1,7(7) : v=0  8  1  8 - v=0  7  1  7
+AsymmetricTop Ground    8  A  1 Ground    7  A  1     23606.6743 .0141979   108544.8263    84938.1520 70.62869 1.909e-6 0.000000 : qR0,7(7) : v=0  8  0  8 - v=0  7  0  7
+AsymmetricTop Ground    5  A  4 Ground    4  A  2     23632.7178 .0003454    55604.9094    31972.1916 .1351726 5.664e-9 0.000000 : rR1,4(4) : v=0  5  2  4 - v=0  4  1  4
+AsymmetricTop Ground    8  A  2 Ground    7  A  1     23750.1614 1.415e-5   108688.3134    84938.1520 .0701551 1.931e-9 0.000000 : rR0,7(7) : v=0  8  1  8 - v=0  7  0  7
+AsymmetricTop Ground    6  A  8 Ground    6  A  5     24025.3557 3.710e-5   100302.2115    76276.8558 .1206345 4.494e-9 0.000000 : sQ2,4(6) : v=0  6  4  3 - v=0  6  2  4
+AsymmetricTop Ground    8  A  6 Ground    8  A  1     24498.8437 5.635e-7   133043.6700   108544.8263 .0085336 2.58e-10 0.000000 : tQ0,8(8) : v=0  8  3  6 - v=0  8  0  8
+AsymmetricTop Ground   11  A  3 Ground   10  A  5     24511.6332 1.421e-7   212372.4310   187860.7979 .0968304 2.165e-9 0.000000 : pR2,8(10) : v=0 11  1 10 - v=0 10  2  8
+AsymmetricTop Ground    5  A  8 Ground    5  A  5     24650.9857 4.355e-5    81308.2232    56657.2376 .0544930 2.591e-9 0.000000 : sQ2,3(5) : v=0  5  4  2 - v=0  5  2  3
+AsymmetricTop Ground   10  A  5 Ground    9  A  7     24653.5538 6.533e-7   187860.7979   163207.2441 .1358977 3.386e-9 0.000000 : pR3,6(9) : v=0 10  2  8 - v=0  9  3  6
+AsymmetricTop Ground    5  A  5 Ground    4  A  2     24685.0459 2.624e-5    56657.2376    31972.1916 .0100339 4.79e-10 0.000000 : rR1,4(4) : v=0  5  2  3 - v=0  4  1  4
+AsymmetricTop Ground    6  A  3 Ground    5  A  1     24699.1545 .0002188    70849.7725    46150.6180 .1652011 6.686e-9 0.000000 : rR0,5(5) : v=0  6  1  5 - v=0  5  0  5
+AsymmetricTop Ground    8  A  4 Ground    7  A  4     24781.0349 .0080966   120891.3026    96110.2677 67.10518 2.098e-6 0.000000 : qR2,6(7) : v=0  8  2  7 - v=0  7  2  6
+AsymmetricTop Ground    6  A  5 Ground    5  A  3     24901.7596 .0002646    76276.8558    51375.0962 .2555663 1.060e-8 0.000000 : rR1,4(5) : v=0  6  2  4 - v=0  5  1  4
+AsymmetricTop Ground    4  A  8 Ground    4  A  5     25076.9222 2.975e-5    65499.0732    40422.1510 .0169247 1.036e-9 0.000000 : sQ2,2(4) : v=0  4  4  1 - v=0  4  2  2
+AsymmetricTop Ground    7  A  4 Ground    6  A  3     25260.4952 1.401e-5    96110.2677    70849.7725 .0341943 1.283e-9 0.000000 : rR1,5(6) : v=0  7  2  6 - v=0  6  1  5
+AsymmetricTop Ground    8  A  7 Ground    8  A  2     25268.7962 8.934e-6   133957.1097   108688.3134 .1340606 4.443e-9 0.000000 : sQ1,8(8) : v=0  8  3  5 - v=0  8  1  8
+AsymmetricTop Ground    8  A 14 Ground    7  A 14     25280.7679 2.041e-5   217570.4900   192289.7221 16.92171 5.616e-7 0.000000 : qR7,1(7) : v=0  8  7  2 - v=0  7  7  1
+AsymmetricTop Ground    8  A 15 Ground    7  A 15     25280.7681 2.041e-5   217570.4902   192289.7221 16.92171 5.616e-7 0.000000 : qR7,0(7) : v=0  8  7  1 - v=0  7  7  0
+AsymmetricTop Ground    8  A 12 Ground    7  A 12     25302.5595 .0001429   190055.1513   164752.5919 31.58615 1.051e-6 0.000000 : qR6,2(7) : v=0  8  6  3 - v=0  7  6  2
+AsymmetricTop Ground    8  A 13 Ground    7  A 13     25302.5839 .0001429   190055.1799   164752.5960 31.58615 1.051e-6 0.000000 : qR6,1(7) : v=0  8  6  2 - v=0  7  6  1
+AsymmetricTop Ground    8  A 10 Ground    7  A 10     25339.3923 .0006085   166819.0996   141479.7073 43.99141 1.470e-6 0.000000 : qR5,3(7) : v=0  8  5  4 - v=0  7  5  3
+AsymmetricTop Ground    8  A 11 Ground    7  A 11     25340.8137 .0006085   166820.9522   141480.1385 43.99142 1.470e-6 0.000000 : qR5,2(7) : v=0  8  5  3 - v=0  7  5  2
+AsymmetricTop Ground    8  A  6 Ground    7  A  6     25346.2186 .0043337   133043.6700   107697.4514 61.91050 2.071e-6 0.000000 : qR3,5(7) : v=0  8  3  6 - v=0  7  3  5
+AsymmetricTop Ground    8  A  8 Ground    7  A  8     25393.8346 .0018646   147885.2830   122491.4484 54.12785 1.821e-6 0.000000 : qR4,4(7) : v=0  8  4  5 - v=0  7  4  4
+AsymmetricTop Ground    8  A  9 Ground    7  A  9     25434.2026 .0018643   147946.4211   122512.2185 54.12894 1.829e-6 0.000000 : qR4,3(7) : v=0  8  4  4 - v=0  7  4  3
+AsymmetricTop Ground    8  A  3 Ground    7  A  3     25494.2547 .0096796   118876.0161    93381.7613 69.35724 2.361e-6 0.000000 : qR1,6(7) : v=0  8  1  7 - v=0  7  1  6
+AsymmetricTop Ground    4  A  9 Ground    4  A  4     25554.7214 2.974e-5    65499.2022    39944.4809 .0163791 1.061e-9 0.000000 : sQ2,3(4) : v=0  4  4  0 - v=0  4  2  3
+AsymmetricTop Ground    5  A  5 Ground    4  A  1     25665.5029 .0016078    56657.2376    30991.7347 .5749279 3.086e-8 0.000000 : sR0,4(4) : v=0  5  2  3 - v=0  4  0  4
+AsymmetricTop Ground    5  A  9 Ground    5  A  4     25704.4699 4.312e-5    81309.3793    55604.9094 .0502061 2.707e-9 0.000000 : sQ2,4(5) : v=0  5  4  1 - v=0  5  2  4
+AsymmetricTop Ground    8  A  7 Ground    7  A  7     25818.6632 .0042907   133957.1097   108138.4465 62.02227 2.193e-6 0.000000 : qR3,4(7) : v=0  8  3  5 - v=0  7  3  4
+AsymmetricTop Ground    6  A  9 Ground    6  A  4     25970.8517 3.563e-5   100307.9472    74337.0956 .1014053 4.771e-9 0.000000 : sQ2,5(6) : v=0  6  4  2 - v=0  6  2  5
+AsymmetricTop Ground    3  A  7 Ground    2  A  3     26002.1375 .0002311    38030.9462    12028.8087 .0330388 2.897e-9 0.000000 : sR1,1(2) : v=0  3  3  0 - v=0  2  1  1
+AsymmetricTop Ground    5  A  6 Ground    4  A  5     26082.6863 4.927e-5    66504.8373    40422.1510 .0274796 1.548e-9 0.000000 : rR2,2(4) : v=0  5  3  3 - v=0  4  2  2
+AsymmetricTop Ground    5  A  7 Ground    4  A  5     26145.3153 .0003746    66567.4663    40422.1510 .2086773 1.184e-8 0.000000 : rR2,2(4) : v=0  5  3  2 - v=0  4  2  2
+AsymmetricTop Ground    9  A  1 Ground    8  A  2     26278.7733 5.502e-6   134967.0867   108688.3134 .0809328 2.699e-9 0.000000 : pR1,8(8) : v=0  9  0  9 - v=0  8  1  8
+AsymmetricTop Ground    8  A  5 Ground    7  A  5     26308.4522 .0072526   125573.1549    99264.7027 67.83664 2.537e-6 0.000000 : qR2,5(7) : v=0  8  2  6 - v=0  7  2  5
+AsymmetricTop Ground   10  A  5 Ground    9  A  6     26330.2291 1.315e-7   187860.7979   161530.5687 .0244083 7.41e-10 0.000000 : pR3,7(9) : v=0 10  2  8 - v=0  9  3  7
+AsymmetricTop Ground    9  A  3 Ground    8  A  4     26351.4402 1.721e-6   147242.7428   120891.3026 .0454188 1.527e-9 0.000000 : pR2,7(8) : v=0  9  1  8 - v=0  8  2  7
+AsymmetricTop Ground    9  A  2 Ground    8  A  2     26359.0239 .0054148   135047.3373   108688.3134 79.53355 2.677e-6 0.000000 : qR1,8(8) : v=0  9  1  9 - v=0  8  1  8
+AsymmetricTop Ground    7  A  9 Ground    7  A  4     26401.9508 2.076e-5   122512.2185    96110.2677 .1666020 7.138e-9 0.000000 : sQ2,6(7) : v=0  7  4  3 - v=0  7  2  6
+AsymmetricTop Ground    9  A  1 Ground    8  A  1     26422.2604 .0054630   134967.0867   108544.8263 79.59660 2.698e-6 0.000000 : qR0,8(8) : v=0  9  0  9 - v=0  8  0  8
+AsymmetricTop Ground    9  A  2 Ground    8  A  1     26502.5110 5.577e-6   135047.3373   108544.8263 .0811377 2.776e-9 0.000000 : rR0,8(8) : v=0  9  1  9 - v=0  8  0  8
+AsymmetricTop Ground    5  A  6 Ground    4  A  4     26560.3564 .0003757    66504.8373    39944.4809 .2029414 1.207e-8 0.000000 : rR2,3(4) : v=0  5  3  3 - v=0  4  2  3
+AsymmetricTop Ground    9  A  6 Ground    9  A  1     26563.4820 1.784e-7   161530.5687   134967.0867 .0092160 3.17e-10 0.000000 : tQ0,9(9) : v=0  9  3  7 - v=0  9  0  9
+AsymmetricTop Ground    5  A  7 Ground    4  A  4     26622.9854 4.911e-5    66567.4663    39944.4809 .0264938 1.587e-9 0.000000 : rR2,3(4) : v=0  5  3  2 - v=0  4  2  3
+AsymmetricTop Ground    3  A  6 Ground    2  A  2     26925.1673 .0001978    38028.6640    11103.4967 .0265911 2.589e-9 0.000000 : sR1,2(2) : v=0  3  3  1 - v=0  2  1  2
+AsymmetricTop Ground    8  A  9 Ground    8  A  4     27055.1185 9.128e-6   147946.4211   120891.3026 .2377451 9.671e-9 0.000000 : sQ2,7(8) : v=0  8  4  4 - v=0  8  2  7
+AsymmetricTop Ground    4  A  8 Ground    3  A  7     27468.1270 7.699e-5    65499.0732    38030.9462 .0373204 3.001e-9 0.000000 : rR3,0(3) : v=0  4  4  1 - v=0  3  3  0
+AsymmetricTop Ground    4  A  9 Ground    3  A  7     27468.2560 .0004930    65499.2022    38030.9462 .2389877 1.922e-8 0.000000 : rR3,0(3) : v=0  4  4  0 - v=0  3  3  0
+AsymmetricTop Ground    4  A  8 Ground    3  A  6     27470.4092 .0004931    65499.0732    38028.6640 .2389740 1.922e-8 0.000000 : rR3,1(3) : v=0  4  4  1 - v=0  3  3  1
+AsymmetricTop Ground    4  A  9 Ground    3  A  6     27470.5382 7.700e-5    65499.2022    38028.6640 .0373181 3.002e-9 0.000000 : rR3,1(3) : v=0  4  4  0 - v=0  3  3  1
+AsymmetricTop Ground    8  A  4 Ground    7  A  3     27509.5413 5.990e-6   120891.3026    93381.7613 .0413346 1.768e-9 0.000000 : rR1,6(7) : v=0  8  2  7 - v=0  7  1  6
+AsymmetricTop Ground    8  A 14 Ground    8  A 13     27515.3101 1.535e-7   217570.4900   190055.1799 .1096343 4.691e-9 0.000000 : rQ6,2(8) : v=0  8  7  2 - v=0  8  6  2
+AsymmetricTop Ground    8  A 15 Ground    8  A 12     27515.3389 1.535e-7   217570.4902   190055.1513 .1096343 4.691e-9 0.000000 : rQ6,3(8) : v=0  8  7  1 - v=0  8  6  3
+AsymmetricTop Ground    6  A  4 Ground    5  A  2     27525.8103 .0001949    74337.0956    46811.2853 .1438421 8.058e-9 0.000000 : rR1,5(5) : v=0  6  2  5 - v=0  5  1  5
+AsymmetricTop Ground    7  A 14 Ground    7  A 13     27537.1261 2.759e-7   192289.7221   164752.5960 .0584700 2.842e-9 0.000000 : rQ6,1(7) : v=0  7  7  1 - v=0  7  6  1
+AsymmetricTop Ground    7  A 15 Ground    7  A 12     27537.1302 2.759e-7   192289.7221   164752.5919 .0584700 2.842e-9 0.000000 : rQ6,2(7) : v=0  7  7  0 - v=0  7  6  2
+AsymmetricTop Ground   11  A  5 Ground   10  A  7     27743.8369 1.681e-7   223655.2220   195911.3851 .1583665 5.134e-9 0.000000 : pR3,7(10) : v=0 11  2  9 - v=0 10  3  7
+AsymmetricTop Ground    9  A  4 Ground    8  A  4     27755.3525 .0029702   148646.6551   120891.3026 76.41290 3.003e-6 0.000000 : qR2,7(8) : v=0  9  2  8 - v=0  8  2  7
+AsymmetricTop Ground    9  A  9 Ground    9  A  4     27997.9866 3.112e-6   176644.6417   148646.6551 .3020816 1.218e-8 0.000000 : sQ2,8(9) : v=0  9  4  5 - v=0  9  2  8
+AsymmetricTop Ground    9  A  7 Ground    9  A  2     28159.9067 2.183e-6   163207.2441   135047.3373 .1100088 4.515e-9 0.000000 : sQ1,9(9) : v=0  9  3  6 - v=0  9  1  9
+AsymmetricTop Ground    9  A  3 Ground    8  A  3     28366.7268 .0033692   147242.7428   118876.0161 77.87938 3.267e-6 0.000000 : qR1,7(8) : v=0  9  1  8 - v=0  8  1  7
+AsymmetricTop Ground    7  A  5 Ground    6  A  3     28414.9302 .0001258    99264.7027    70849.7725 .2899965 1.549e-8 0.000000 : rR1,5(6) : v=0  7  2  5 - v=0  6  1  5
+AsymmetricTop Ground    9  A 16 Ground    8  A 16     28438.6358 1.409e-6   277785.0309   249346.3950 17.04722 7.206e-7 0.000000 : qR8,1(8) : v=0  9  8  2 - v=0  8  8  1
+AsymmetricTop Ground    9  A 17 Ground    8  A 17     28438.6358 1.409e-6   277785.0309   249346.3950 17.04722 7.206e-7 0.000000 : qR8,0(8) : v=0  9  8  1 - v=0  8  8  0
+AsymmetricTop Ground    9  A 14 Ground    8  A 14     28458.3440 1.219e-5   246028.8340   217570.4900 32.08825 1.359e-6 0.000000 : qR7,2(8) : v=0  9  7  3 - v=0  8  7  2
+AsymmetricTop Ground    9  A 15 Ground    8  A 15     28458.3456 1.219e-5   246028.8358   217570.4902 32.08825 1.359e-6 0.000000 : qR7,1(8) : v=0  9  7  2 - v=0  8  7  1
+AsymmetricTop Ground    9  A  6 Ground    8  A  6     28486.8988 .0015805   161530.5687   133043.6700 71.96564 3.058e-6 0.000000 : qR3,6(8) : v=0  9  3  7 - v=0  8  3  6
+AsymmetricTop Ground    9  A 12 Ground    8  A 12     28489.5662 6.424e-5   218544.7175   190055.1513 45.12222 1.918e-6 0.000000 : qR6,3(8) : v=0  9  6  4 - v=0  8  6  3
+AsymmetricTop Ground    9  A 13 Ground    8  A 13     28489.6795 6.424e-5   218544.8594   190055.1799 45.12222 1.918e-6 0.000000 : qR6,2(8) : v=0  9  6  3 - v=0  8  6  2
+AsymmetricTop Ground    9  A 10 Ground    8  A 10     28541.3404 .0002440   195360.4401   166819.0996 56.14609 2.399e-6 0.000000 : qR5,4(8) : v=0  9  5  5 - v=0  8  5  4
+AsymmetricTop Ground    9  A 11 Ground    8  A 11     28545.8938 .0002440   195366.8460   166820.9522 56.14613 2.400e-6 0.000000 : qR5,3(8) : v=0  9  5  4 - v=0  8  5  3
+AsymmetricTop Ground    9  A  8 Ground    8  A  8     28604.7746 .0007031   176490.0576   147885.2830 65.14205 2.802e-6 0.000000 : qR4,5(8) : v=0  9  4  6 - v=0  8  4  5
+AsymmetricTop Ground    3  A  6 Ground    2  A  1     28621.1894 2.328e-7    38028.6640     9407.4746 2.802e-5 3.28e-12 0.000000 : tR0,2(2) : v=0  3  3  1 - v=0  2  0  2
+AsymmetricTop Ground    3  A  7 Ground    2  A  1     28623.4716 1.256e-6    38030.9462     9407.4746 .0001512 1.77e-11 0.000000 : tR0,2(2) : v=0  3  3  0 - v=0  2  0  2
+AsymmetricTop Ground    9  A  9 Ground    8  A  9     28698.2206 .0007022   176644.6417   147946.4211 65.14692 2.830e-6 0.000000 : qR4,4(8) : v=0  9  4  5 - v=0  8  4  4
+AsymmetricTop Ground    4  A  7 Ground    3  A  3     28782.8283 .0004364    50693.0094    21910.1811 .0954455 8.830e-9 0.000000 : sR1,2(3) : v=0  4  3  1 - v=0  3  1  2
+AsymmetricTop Ground    6  A  6 Ground    5  A  5     28856.1378 2.449e-5    85513.3754    56657.2376 .0283551 1.830e-9 0.000000 : rR2,3(5) : v=0  6  3  4 - v=0  5  2  3
+AsymmetricTop Ground    8  A  8 Ground    8  A  3     29009.2670 2.113e-7   147885.2830   118876.0161 .0048338 2.42e-10 0.000000 : tQ1,7(8) : v=0  8  4  5 - v=0  8  1  7
+AsymmetricTop Ground    6  A  7 Ground    5  A  5     29039.6002 .0002052    85696.8378    56657.2376 .2368520 1.558e-8 0.000000 : rR2,3(5) : v=0  6  3  3 - v=0  5  2  3
+AsymmetricTop Ground    7  A  8 Ground    7  A  3     29109.6871 3.376e-7   122491.4484    93381.7613 .0022681 1.30e-10 0.000000 : tQ1,6(7) : v=0  7  4  4 - v=0  7  1  6
+AsymmetricTop Ground   10  A  1 Ground    9  A  2     29165.1113 1.856e-6   164212.4487   135047.3373 .0920093 3.795e-9 0.000000 : pR1,9(9) : v=0 10  0 10 - v=0  9  1  9
+AsymmetricTop Ground   10  A  2 Ground    9  A  2     29209.0127 .0017871   164256.3501   135047.3373 88.55480 3.669e-6 0.000000 : qR1,9(9) : v=0 10  1 10 - v=0  9  1  9
+AsymmetricTop Ground    7  A  3 Ground    6  A  1     29241.8477 9.964e-5    93381.7613    64139.9136 .1641987 9.558e-9 0.000000 : rR0,6(6) : v=0  7  1  6 - v=0  6  0  6
+AsymmetricTop Ground   10  A  1 Ground    9  A  1     29245.3620 .0017956   164212.4487   134967.0867 88.58506 3.684e-6 0.000000 : qR0,9(9) : v=0 10  0 10 - v=0  9  0  9
+AsymmetricTop Ground    9  A  7 Ground    8  A  7     29250.1344 .0015376   163207.2441   133957.1097 72.26318 3.324e-6 0.000000 : qR3,5(8) : v=0  9  3  6 - v=0  8  3  5
+AsymmetricTop Ground   10  A  2 Ground    9  A  1     29289.2634 1.868e-6   164256.3501   134967.0867 .0921078 3.848e-9 0.000000 : rR0,9(9) : v=0 10  1 10 - v=0  9  0  9
+AsymmetricTop Ground   10  A  9 Ground   10  A  4     29309.0724 8.310e-7   208653.5365   179344.4642 .3445719 1.443e-8 0.000000 : sQ2,9(10) : v=0 10  4  6 - v=0 10  2  9
+AsymmetricTop Ground    6  A  8 Ground    6  A  3     29452.4390 3.824e-7   100302.2115    70849.7725 .0008667 5.95e-11 0.000000 : tQ1,5(6) : v=0  6  4  3 - v=0  6  1  5
+AsymmetricTop Ground    6  A  5 Ground    5  A  2     29465.5705 1.069e-5    76276.8558    46811.2853 .0076434 5.25e-10 0.000000 : rR1,5(5) : v=0  6  2  4 - v=0  5  1  5
+AsymmetricTop Ground    9  A  5 Ground    8  A  5     29560.4226 .0024671   155133.5775   125573.1549 77.16490 3.663e-6 0.000000 : qR2,6(8) : v=0  9  2  7 - v=0  8  2  6
+AsymmetricTop Ground    9  A  4 Ground    8  A  3     29770.6390 2.212e-6   148646.6551   118876.0161 .0500052 2.425e-9 0.000000 : rR1,7(8) : v=0  9  2  8 - v=0  8  1  7
+AsymmetricTop Ground   10  A  3 Ground    9  A  4     29771.2850 6.067e-7   178417.9401   148646.6551 .0572461 2.512e-9 0.000000 : pR2,8(9) : v=0 10  1  9 - v=0  9  2  8
+AsymmetricTop Ground    6  A  6 Ground    5  A  4     29908.4660 .0002050    85513.3754    55604.9094 .2220331 1.596e-8 0.000000 : rR2,4(5) : v=0  6  3  4 - v=0  5  2  4
+AsymmetricTop Ground    5  A  8 Ground    5  A  3     29933.1270 2.866e-7    81308.2232    51375.0962 .0002533 2.16e-11 0.000000 : tQ1,4(5) : v=0  5  4  2 - v=0  5  1  4
+AsymmetricTop Ground    6  A  7 Ground    5  A  4     30091.9284 2.390e-5    85696.8378    55604.9094 .0258066 1.889e-9 0.000000 : rR2,4(5) : v=0  6  3  3 - v=0  5  2  4
+AsymmetricTop Ground    6  A  5 Ground    5  A  1     30126.2378 .0008930    76276.8558    46150.6180 .6123660 4.497e-8 0.000000 : sR0,5(5) : v=0  6  2  4 - v=0  5  0  5
+AsymmetricTop Ground    4  A  8 Ground    4  A  3     30458.4204 1.132e-7    65499.0732    35040.6528 4.532e-5 4.97e-12 0.000000 : tQ1,3(4) : v=0  4  4  1 - v=0  4  1  3
+AsymmetricTop Ground    5  A  8 Ground    4  A  7     30615.2138 4.417e-5    81308.2232    50693.0094 .0373964 3.407e-9 0.000000 : rR3,1(4) : v=0  5  4  2 - v=0  4  3  1
+AsymmetricTop Ground    4  A  6 Ground    3  A  2     30615.2908 .0003191    50677.1414    20061.8506 .0621215 6.916e-9 0.000000 : sR1,3(3) : v=0  4  3  2 - v=0  3  1  3
+AsymmetricTop Ground    5  A  9 Ground    4  A  7     30616.3699 .0002970    81309.3793    50693.0094 .2514418 2.291e-8 0.000000 : rR3,1(4) : v=0  5  4  1 - v=0  4  3  1
+AsymmetricTop Ground    5  A  8 Ground    4  A  6     30631.0819 .0002971    81308.2232    50677.1414 .2513433 2.293e-8 0.000000 : rR3,2(4) : v=0  5  4  2 - v=0  4  3  2
+AsymmetricTop Ground    5  A  9 Ground    4  A  6     30632.2380 4.419e-5    81309.3793    50677.1414 .0373795 3.411e-9 0.000000 : rR3,2(4) : v=0  5  4  1 - v=0  4  3  2
+AsymmetricTop Ground   10  A  4 Ground    9  A  4     30697.8091 .0009196   179344.4642   148646.6551 85.59805 4.117e-6 0.000000 : qR2,8(9) : v=0 10  2  9 - v=0  9  2  8
+AsymmetricTop Ground   11  A  9 Ground   11  A  4     31075.8712 1.742e-7   244032.3003   212956.4290 .3532567 1.610e-8 0.000000 : sQ2,10(11) : v=0 11  4  7 - v=0 11  2 10
+AsymmetricTop Ground   10  A  3 Ground    9  A  3     31175.1973 .0010003   178417.9401   147242.7428 86.46101 4.356e-6 0.000000 : qR1,8(9) : v=0 10  1  9 - v=0  9  1  8
+AsymmetricTop Ground   10  A 10 Ground   10  A  7     31203.3005 3.819e-7   227114.6856   195911.3851 .3410780 1.723e-8 0.000000 : sQ3,7(10) : v=0 10  5  6 - v=0 10  3  7
+AsymmetricTop Ground    7  A  6 Ground    6  A  5     31420.5956 1.036e-5   107697.4514    76276.8558 .0296150 2.139e-9 0.000000 : rR2,4(6) : v=0  7  3  5 - v=0  6  2  4
+AsymmetricTop Ground    5  A  7 Ground    4  A  3     31526.8135 .0005195    66567.4663    35040.6528 .2048945 2.038e-8 0.000000 : sR1,3(4) : v=0  5  3  2 - v=0  4  1  3
+AsymmetricTop Ground    7  A  4 Ground    6  A  2     31553.9063 9.254e-5    96110.2677    64556.3615 .1504247 1.100e-8 0.000000 : rR1,6(6) : v=0  7  2  6 - v=0  6  1  6
+AsymmetricTop Ground   10  A  6 Ground    9  A  6     31599.0639 .0004792   193129.6327   161530.5687 81.75139 4.289e-6 0.000000 : qR3,7(9) : v=0 10  3  8 - v=0  9  3  7
+AsymmetricTop Ground   10  A 16 Ground    9  A 16     31614.8930 7.191e-7   309399.9238   277785.0309 32.48978 1.707e-6 0.000000 : qR8,2(9) : v=0 10  8  3 - v=0  9  8  2
+AsymmetricTop Ground   10  A 17 Ground    9  A 17     31614.8931 7.191e-7   309399.9239   277785.0309 32.48978 1.707e-6 0.000000 : qR8,1(9) : v=0 10  8  2 - v=0  9  8  1
+AsymmetricTop Ground   10  A 14 Ground    9  A 14     31642.1367 4.679e-6   277670.9707   246028.8340 46.02608 2.425e-6 0.000000 : qR7,3(9) : v=0 10  7  4 - v=0  9  7  3
+AsymmetricTop Ground   10  A 15 Ground    9  A 15     31642.1447 4.679e-6   277670.9805   246028.8358 46.02608 2.425e-6 0.000000 : qR7,2(9) : v=0 10  7  3 - v=0  9  7  2
+AsymmetricTop Ground   10  A  7 Ground   10  A  2     31655.0350 4.208e-7   195911.3851   164256.3501 .0817587 4.312e-9 0.000000 : sQ1,10(10) : v=0 10  3  7 - v=0 10  1 10
+AsymmetricTop Ground   10  A 12 Ground    9  A 12     31685.1774 2.197e-5   250229.8949   218544.7175 57.75520 3.055e-6 0.000000 : qR6,4(9) : v=0 10  6  5 - v=0  9  6  4
+AsymmetricTop Ground   10  A 13 Ground    9  A 13     31685.5978 2.197e-5   250230.4572   218544.8594 57.75520 3.055e-6 0.000000 : qR6,3(9) : v=0 10  6  4 - v=0  9  6  3
+AsymmetricTop Ground   10  A 10 Ground    9  A 10     31754.2455 7.839e-5   227114.6856   195360.4401 67.67239 3.603e-6 0.000000 : qR5,5(9) : v=0 10  5  6 - v=0  9  5  5
+AsymmetricTop Ground   10  A 11 Ground    9  A 11     31766.7377 7.838e-5   227133.5837   195366.8460 67.67260 3.607e-6 0.000000 : qR5,4(9) : v=0 10  5  5 - v=0  9  5  4
+AsymmetricTop Ground   10  A  8 Ground    9  A  8     31816.9359 .0002172   208306.9935   176490.0576 75.74440 4.057e-6 0.000000 : qR4,6(9) : v=0 10  4  7 - v=0  9  4  6
+AsymmetricTop Ground    7  A  7 Ground    6  A  5     31861.5907 9.601e-5   108138.4465    76276.8558 .2727897 2.054e-8 0.000000 : rR2,4(6) : v=0  7  3  4 - v=0  6  2  4
+AsymmetricTop Ground    4  A  6 Ground    3  A  1     31960.0281 7.639e-7    50677.1414    18717.1133 .0001369 1.73e-11 0.000000 : tR0,3(3) : v=0  4  3  2 - v=0  3  0  3
+AsymmetricTop Ground    4  A  7 Ground    3  A  1     31975.8961 4.097e-6    50693.0094    18717.1133 .0007338 9.31e-11 0.000000 : tR0,3(3) : v=0  4  3  1 - v=0  3  0  3
+AsymmetricTop Ground   10  A  9 Ground    9  A  9     32008.8949 .0002162   208653.5365   176644.6417 75.76302 4.132e-6 0.000000 : qR4,5(9) : v=0 10  4  6 - v=0  9  4  5
+AsymmetricTop Ground   11  A  1 Ground   10  A  2     32030.1534 5.328e-7   196286.5035   164256.3501 .1030022 5.139e-9 0.000000 : pR1,10(10) : v=0 11  0 11 - v=0 10  1 10
+AsymmetricTop Ground   11  A  2 Ground   10  A  2     32053.7560 .0005049   196310.1061   164256.3501 97.56877 4.878e-6 0.000000 : qR1,10(10) : v=0 11  1 11 - v=0 10  1 10
+AsymmetricTop Ground   11  A  1 Ground   10  A  1     32074.0548 .0005061   196286.5035   164212.4487 97.58330 4.888e-6 0.000000 : qR0,10(10) : v=0 11  0 11 - v=0 10  0 10
+AsymmetricTop Ground   11  A  2 Ground   10  A  1     32097.6574 5.347e-7   196310.1061   164212.4487 .1030495 5.174e-9 0.000000 : rR0,10(10) : v=0 11  1 11 - v=0 10  0 10
+AsymmetricTop Ground   10  A  4 Ground    9  A  3     32101.7213 7.025e-7   179344.4642   147242.7428 .0599608 3.298e-9 0.000000 : rR1,8(9) : v=0 10  2  9 - v=0  9  1  8
+AsymmetricTop Ground    9  A 10 Ground    9  A  7     32153.1960 1.220e-6   195360.4401   163207.2441 .2238185 1.367e-8 0.000000 : sQ3,6(9) : v=0  9  5  5 - v=0  9  3  6
+AsymmetricTop Ground    8  A  5 Ground    7  A  3     32191.3936 4.881e-5   125573.1549    93381.7613 .3137892 2.150e-8 0.000000 : rR1,6(7) : v=0  8  2  6 - v=0  7  1  6
+AsymmetricTop Ground   10  A  7 Ground    9  A  7     32704.1410 .0004519   195911.3851   163207.2441 82.35427 4.790e-6 0.000000 : qR3,6(9) : v=0 10  3  7 - v=0  9  3  6
+AsymmetricTop Ground   10  A  5 Ground    9  A  5     32727.2203 .0006970   187860.7979   155133.5775 86.18942 5.024e-6 0.000000 : qR2,7(9) : v=0 10  2  8 - v=0  9  2  7
+AsymmetricTop Ground    8  A 10 Ground    8  A  7     32861.9899 3.130e-6   166819.0996   133957.1097 .1398702 1.020e-8 0.000000 : sQ3,5(8) : v=0  8  5  4 - v=0  8  3  5
+AsymmetricTop Ground   11  A  3 Ground   10  A  4     33027.9668 1.759e-7   212372.4310   179344.4642 .0692479 3.788e-9 0.000000 : pR2,9(10) : v=0 11  1 10 - v=0 10  2  9
+AsymmetricTop Ground    7  A 10 Ground    7  A  7     33341.2608 6.195e-6   141479.7073   108138.4465 .0797048 6.877e-9 0.000000 : sQ3,4(7) : v=0  7  5  3 - v=0  7  3  4
+AsymmetricTop Ground    7  A  6 Ground    6  A  4     33360.3558 9.489e-5   107697.4514    74337.0956 .2409955 2.083e-8 0.000000 : rR2,5(6) : v=0  7  3  5 - v=0  6  2  5
+AsymmetricTop Ground   11  A  4 Ground   10  A  4     33611.9649 .0002422   212956.4290   179344.4642 94.69968 5.460e-6 0.000000 : qR2,9(10) : v=0 11  2 10 - v=0 10  2  9
+AsymmetricTop Ground    6  A 10 Ground    6  A  7     33634.9345 8.746e-6   119331.7723    85696.8378 .0381914 3.904e-9 0.000000 : sQ3,3(6) : v=0  6  5  2 - v=0  6  3  3
+AsymmetricTop Ground    6  A  8 Ground    5  A  7     33734.7452 2.170e-5   100302.2115    66567.4663 .0377831 3.896e-9 0.000000 : rR3,2(5) : v=0  6  4  3 - v=0  5  3  2
+AsymmetricTop Ground    6  A  9 Ground    5  A  7     33740.4809 .0001542   100307.9472    66567.4663 .2685099 2.770e-8 0.000000 : rR3,2(5) : v=0  6  4  2 - v=0  5  3  2
+AsymmetricTop Ground    8  A 11 Ground    8  A  6     33777.2822 3.197e-6   166820.9522   133043.6700 .1352147 1.070e-8 0.000000 : sQ3,6(8) : v=0  8  5  3 - v=0  8  3  6
+AsymmetricTop Ground    8  A  6 Ground    7  A  5     33778.9673 3.772e-6   133043.6700    99264.7027 .0315288 2.496e-9 0.000000 : rR2,5(7) : v=0  8  3  6 - v=0  7  2  5
+AsymmetricTop Ground    7  A 11 Ground    7  A  6     33782.6871 6.271e-6   141480.1385   107697.4514 .0785785 7.053e-9 0.000000 : sQ3,5(7) : v=0  7  5  2 - v=0  7  3  5
+AsymmetricTop Ground    6  A  8 Ground    5  A  6     33797.3742 .0001545   100302.2115    66504.8373 .2680966 2.780e-8 0.000000 : rR3,3(5) : v=0  6  4  3 - v=0  5  3  3
+AsymmetricTop Ground    5  A 10 Ground    5  A  7     33798.3197 7.075e-6   100365.7860    66567.4663 .0123118 1.509e-9 0.000000 : sQ3,2(5) : v=0  5  5  1 - v=0  5  3  2
+AsymmetricTop Ground    7  A  7 Ground    6  A  4     33801.3509 9.547e-6   108138.4465    74337.0956 .0241212 2.169e-9 0.000000 : rR2,5(6) : v=0  7  3  4 - v=0  6  2  5
+AsymmetricTop Ground    6  A  9 Ground    5  A  6     33803.1099 2.174e-5   100307.9472    66504.8373 .0377119 3.913e-9 0.000000 : rR3,3(5) : v=0  6  4  2 - v=0  5  3  3
+AsymmetricTop Ground    6  A 11 Ground    6  A  6     33818.4692 8.795e-6   119331.8446    85513.3754 .0379865 3.946e-9 0.000000 : sQ3,4(6) : v=0  6  5  1 - v=0  6  3  4
+AsymmetricTop Ground    9  A 11 Ground    9  A  6     33836.2773 1.254e-6   195366.8460   161530.5687 .2079034 1.480e-8 0.000000 : sQ3,7(9) : v=0  9  5  4 - v=0  9  3  7
+AsymmetricTop Ground    5  A 11 Ground    5  A  6     33860.9553 7.089e-6   100365.7926    66504.8373 .0122905 1.515e-9 0.000000 : sQ3,3(5) : v=0  5  5  0 - v=0  5  3  3
+AsymmetricTop Ground    8  A  3 Ground    7  A  1     33937.8641 3.877e-5   118876.0161    84938.1520 .1626339 1.306e-8 0.000000 : rR0,7(7) : v=0  8  1  7 - v=0  7  0  7
+AsymmetricTop Ground   11  A  3 Ground   10  A  3     33954.4909 .0002555   212372.4310   178417.9401 95.16934 5.656e-6 0.000000 : qR1,9(10) : v=0 11  1 10 - v=0 10  1  9
+AsymmetricTop Ground   10  A 11 Ground   10  A  6     34003.9510 3.904e-7   227133.5837   193129.6327 .2944444 1.925e-8 0.000000 : sQ3,8(10) : v=0 10  5  5 - v=0 10  3  8
+AsymmetricTop Ground    6  A  7 Ground    5  A  3     34321.7415 .0004556    85696.8378    51375.0962 .3800693 4.128e-8 0.000000 : sR1,4(5) : v=0  6  3  3 - v=0  5  1  4
+AsymmetricTop Ground    5  A  9 Ground    5  A  2     34498.0940 1.308e-7    81309.3793    46811.2853 8.748e-5 1.14e-11 0.000000 : tQ1,5(5) : v=0  5  4  1 - v=0  5  1  5
+AsymmetricTop Ground    4  A  8 Ground    4  A  1     34507.3385 6.190e-7    65499.0732    30991.7347 .0001937 3.09e-11 0.000000 : uQ0,4(4) : v=0  4  4  1 - v=0  4  0  4
+AsymmetricTop Ground    5  A  6 Ground    4  A  2     34532.6456 .0003105    66504.8373    31972.1916 .1018483 1.331e-8 0.000000 : sR1,4(4) : v=0  5  3  3 - v=0  4  1  4
+AsymmetricTop Ground   11  A  4 Ground   10  A  3     34538.4889 1.912e-7   212956.4290   178417.9401 .0707356 4.425e-9 0.000000 : rR1,9(10) : v=0 11  2 10 - v=0 10  1  9
+AsymmetricTop Ground   11  A  6 Ground   10  A  6     34677.3614 .0001220   227806.9941   193129.6327 91.32450 5.782e-6 0.000000 : qR3,8(10) : v=0 11  3  9 - v=0 10  3  8
+AsymmetricTop Ground    8  A  7 Ground    7  A  5     34692.4069 3.826e-5   133957.1097    99264.7027 .3164678 2.714e-8 0.000000 : rR2,5(7) : v=0  8  3  5 - v=0  7  2  5
+AsymmetricTop Ground    7  A  5 Ground    6  A  2     34708.3413 3.613e-6    99264.7027    64556.3615 .0056492 5.50e-10 0.000000 : rR1,6(6) : v=0  7  2  5 - v=0  6  1  6
+AsymmetricTop Ground   11  A 16 Ground   10  A 16     34796.3643 2.360e-7   344196.2881   309399.9238 46.76527 2.991e-6 0.000000 : qR8,3(10) : v=0 11  8  4 - v=0 10  8  3
+AsymmetricTop Ground   11  A 17 Ground   10  A 17     34796.3648 2.360e-7   344196.2887   309399.9239 46.76527 2.991e-6 0.000000 : qR8,2(10) : v=0 11  8  3 - v=0 10  8  2
+AsymmetricTop Ground   11  A 14 Ground   10  A 14     34832.8831 1.368e-6   312503.8539   277670.9707 59.07019 3.790e-6 0.000000 : qR7,4(10) : v=0 11  7  5 - v=0 10  7  4
+AsymmetricTop Ground   11  A 15 Ground   10  A 15     34832.9170 1.368e-6   312503.8974   277670.9805 59.07019 3.790e-6 0.000000 : qR7,3(10) : v=0 11  7  4 - v=0 10  7  3
+AsymmetricTop Ground    5  A 10 Ground    4  A  9     34866.5838 2.948e-5   100365.7860    65499.2022 .0481386 6.477e-9 0.000000 : rR4,0(4) : v=0  5  5  1 - v=0  4  4  0
+AsymmetricTop Ground    5  A 11 Ground    4  A  9     34866.5904 .0001876   100365.7926    65499.2022 .3063944 4.123e-8 0.000000 : rR4,0(4) : v=0  5  5  0 - v=0  4  4  0
+AsymmetricTop Ground    5  A 10 Ground    4  A  8     34866.7129 .0001876   100365.7860    65499.0732 .3063938 4.123e-8 0.000000 : rR4,1(4) : v=0  5  5  1 - v=0  4  4  1
+AsymmetricTop Ground    5  A 11 Ground    4  A  8     34866.7194 2.948e-5   100365.7926    65499.0732 .0481385 6.477e-9 0.000000 : rR4,1(4) : v=0  5  5  0 - v=0  4  4  1
+AsymmetricTop Ground   12  A  1 Ground   11  A  2     34882.7401 1.310e-7   231192.8462   196310.1061 .1139421 6.755e-9 0.000000 : pR1,11(11) : v=0 12  0 12 - v=0 11  1 11
+AsymmetricTop Ground   11  A 12 Ground   10  A 12     34890.3365 6.029e-6   285120.2314   250229.8949 69.73114 4.497e-6 0.000000 : qR6,5(10) : v=0 11  6  6 - v=0 10  6  5
+AsymmetricTop Ground   11  A 13 Ground   10  A 13     34891.6632 6.029e-6   285122.1204   250230.4572 69.73115 4.497e-6 0.000000 : qR6,4(10) : v=0 11  6  5 - v=0 10  6  4
+AsymmetricTop Ground   12  A  2 Ground   11  A  2     34895.2528 .0001226   231205.3589   196310.1061 106.5795 6.325e-6 0.000000 : qR1,11(11) : v=0 12  1 12 - v=0 11  1 11
+AsymmetricTop Ground   12  A  1 Ground   11  A  1     34906.3427 .0001227   231192.8462   196286.5035 106.5865 6.332e-6 0.000000 : qR0,11(11) : v=0 12  0 12 - v=0 11  0 11
+AsymmetricTop Ground   12  A  2 Ground   11  A  1     34918.8554 1.312e-7   231205.3589   196286.5035 .1139648 6.778e-9 0.000000 : rR0,11(11) : v=0 12  1 12 - v=0 11  0 11
+AsymmetricTop Ground   11  A 10 Ground   10  A 10     34977.6982 2.066e-5   262092.3838   227114.6856 78.74048 5.116e-6 0.000000 : qR5,6(10) : v=0 11  5  7 - v=0 10  5  6
+AsymmetricTop Ground   11  A 11 Ground   10  A 11     35008.0627 2.065e-5   262141.6464   227133.5837 78.74135 5.129e-6 0.000000 : qR5,5(10) : v=0 11  5  6 - v=0 10  5  5
+AsymmetricTop Ground   11  A  8 Ground   10  A  8     35023.3483 5.571e-5   243330.3418   208306.9935 86.03724 5.612e-6 0.000000 : qR4,7(10) : v=0 11  4  8 - v=0 10  4  7
+AsymmetricTop Ground    7  A  5 Ground    6  A  1     35124.7892 .0003593    99264.7027    64139.9136 .5480800 5.529e-8 0.000000 : sR0,6(6) : v=0  7  2  5 - v=0  6  0  6
+AsymmetricTop Ground    5  A  8 Ground    5  A  1     35157.6052 1.702e-6    81308.2232    46150.6180 .0010945 1.51e-10 0.000000 : uQ0,5(5) : v=0  5  4  2 - v=0  5  0  5
+AsymmetricTop Ground   11  A  9 Ground   10  A  9     35378.7637 5.504e-5   244032.3003   208653.5365 86.09901 5.788e-6 0.000000 : qR4,6(10) : v=0 11  4  7 - v=0 10  4  6
+AsymmetricTop Ground    5  A  6 Ground    4  A  1     35513.1026 1.214e-6    66504.8373    30991.7347 .0003757 5.34e-11 0.000000 : tR0,4(4) : v=0  5  3  3 - v=0  4  0  4
+AsymmetricTop Ground    5  A  7 Ground    4  A  1     35575.7316 6.372e-6    66567.4663    30991.7347 .0019712 2.82e-10 0.000000 : tR0,4(4) : v=0  5  3  2 - v=0  4  0  4
+AsymmetricTop Ground    8  A  4 Ground    7  A  2     35703.9191 3.727e-5   120891.3026    85187.3835 .1551714 1.451e-8 0.000000 : rR1,7(7) : v=0  8  2  7 - v=0  7  1  7
+AsymmetricTop Ground    6  A  9 Ground    6  A  2     35751.5858 1.315e-7   100307.9472    64556.3615 .0002033 2.50e-11 0.000000 : tQ1,6(6) : v=0  6  4  2 - v=0  6  1  6
+AsymmetricTop Ground   11  A  5 Ground   10  A  5     35794.4241 .0001653   223655.2220   187860.7979 94.92985 6.610e-6 0.000000 : qR2,8(10) : v=0 11  2  9 - v=0 10  2  8
+AsymmetricTop Ground    9  A  6 Ground    8  A  5     35957.4138 1.192e-6   161530.5687   125573.1549 .0343668 2.936e-9 0.000000 : rR2,6(8) : v=0  9  3  7 - v=0  8  2  6
+AsymmetricTop Ground   11  A  7 Ground   10  A  7     36138.2207 .0001096   232049.6058   195911.3851 92.28497 6.612e-6 0.000000 : qR3,7(10) : v=0 11  3  8 - v=0 10  3  7
+AsymmetricTop Ground    6  A  8 Ground    6  A  1     36162.2980 2.115e-6   100302.2115    64139.9136 .0031913 4.05e-10 0.000000 : uQ0,6(6) : v=0  6  4  3 - v=0  6  0  6
+AsymmetricTop Ground    9  A  5 Ground    8  A  3     36257.5615 1.562e-5   155133.5775   118876.0161 .3257295 2.853e-8 0.000000 : rR1,7(8) : v=0  9  2  7 - v=0  8  1  7
+AsymmetricTop Ground   12  A  4 Ground   11  A  4     36502.6363 5.458e-5   249459.0654   212956.4290 103.7474 7.048e-6 0.000000 : qR2,10(11) : v=0 12  2 11 - v=0 11  2 10
+AsymmetricTop Ground   12  A  3 Ground   11  A  3     36731.9156 5.639e-5   249104.3466   212372.4310 103.9922 7.199e-6 0.000000 : qR1,10(11) : v=0 12  1 11 - v=0 11  1 10
+AsymmetricTop Ground    7  A  8 Ground    6  A  7     36794.6106 9.057e-6   122491.4484    85696.8378 .0382117 4.431e-9 0.000000 : rR3,3(6) : v=0  7  4  4 - v=0  6  3  3
+AsymmetricTop Ground    7  A  9 Ground    6  A  7     36815.3807 6.853e-5   122512.2185    85696.8378 .2890854 3.358e-8 0.000000 : rR3,3(6) : v=0  7  4  3 - v=0  6  3  3
+AsymmetricTop Ground    8  A  6 Ground    7  A  4     36933.4023 3.724e-5   133043.6700    96110.2677 .2586368 2.676e-8 0.000000 : rR2,6(7) : v=0  8  3  6 - v=0  7  2  6
+AsymmetricTop Ground    7  A  8 Ground    6  A  6     36978.0730 6.893e-5   122491.4484    85513.3754 .2877650 3.387e-8 0.000000 : rR3,4(6) : v=0  7  4  4 - v=0  6  3  4
+AsymmetricTop Ground    7  A  9 Ground    6  A  6     36998.8431 9.101e-6   122512.2185    85513.3754 .0379837 4.478e-9 0.000000 : rR3,4(6) : v=0  7  4  3 - v=0  6  3  4
+AsymmetricTop Ground    7  A  7 Ground    6  A  3     37288.6740 .0003034   108138.4465    70849.7725 .6246494 7.539e-8 0.000000 : sR1,5(6) : v=0  7  3  4 - v=0  6  1  5
+AsymmetricTop Ground    7  A  8 Ground    7  A  1     37553.2964 1.581e-6   122491.4484    84938.1520 .0063866 7.87e-10 0.000000 : uQ0,7(7) : v=0  7  4  4 - v=0  7  0  7
+AsymmetricTop Ground    9  A  7 Ground    8  A  5     37634.0892 1.286e-5   163207.2441   125573.1549 .3647167 3.573e-8 0.000000 : rR2,6(8) : v=0  9  3  6 - v=0  8  2  6
+AsymmetricTop Ground   12  A  6 Ground   11  A  6     37718.5603 2.629e-5   265525.5544   227806.9941 100.7262 7.550e-6 0.000000 : qR3,9(11) : v=0 12  3 10 - v=0 11  3  9
+AsymmetricTop Ground   13  A  2 Ground   12  A  2     37734.7979 2.563e-5   268940.1568   231205.3589 115.5890 8.032e-6 0.000000 : qR1,12(12) : v=0 13  1 13 - v=0 12  1 12
+AsymmetricTop Ground   13  A  1 Ground   12  A  1     37740.7533 2.565e-5   268933.5996   231192.8462 115.5923 8.036e-6 0.000000 : qR0,12(12) : v=0 13  0 13 - v=0 12  0 12
+AsymmetricTop Ground    8  A  7 Ground    7  A  4     37846.8419 3.106e-6   133957.1097    96110.2677 .0213809 2.381e-9 0.000000 : rR2,6(7) : v=0  8  3  5 - v=0  7  2  6
+AsymmetricTop Ground    4  A  9 Ground    3  A  5     37951.7885 .0001089    65499.2022    27547.4137 .0278848 5.914e-9 0.000000 : sR2,1(3) : v=0  4  4  0 - v=0  3  2  1
+AsymmetricTop Ground   10  A  6 Ground    9  A  5     37996.0551 3.286e-7   193129.6327   155133.5775 .0383861 3.501e-9 0.000000 : rR2,7(9) : v=0 10  3  8 - v=0  9  2  7
+AsymmetricTop Ground    6  A 10 Ground    5  A  9     38022.3930 1.424e-5   119331.7723    81309.3793 .0480870 7.100e-9 0.000000 : rR4,1(5) : v=0  6  5  2 - v=0  5  4  1
+AsymmetricTop Ground    6  A 11 Ground    5  A  9     38022.4652 9.397e-5   119331.8446    81309.3793 .3174428 4.687e-8 0.000000 : rR4,1(5) : v=0  6  5  1 - v=0  5  4  1
+AsymmetricTop Ground    6  A 10 Ground    5  A  8     38023.5491 9.398e-5   119331.7723    81308.2232 .3174377 4.687e-8 0.000000 : rR4,2(5) : v=0  6  5  2 - v=0  5  4  2
+AsymmetricTop Ground    6  A 11 Ground    5  A  8     38023.6213 1.424e-5   119331.8446    81308.2232 .0480861 7.101e-9 0.000000 : rR4,2(5) : v=0  6  5  1 - v=0  5  4  2
+AsymmetricTop Ground   12  A 14 Ground   11  A 14     38031.3443 3.211e-7   350535.1981   312503.8539 71.44390 5.489e-6 0.000000 : qR7,5(11) : v=0 12  7  6 - v=0 11  7  5
+AsymmetricTop Ground   12  A 15 Ground   11  A 15     38031.4647 3.211e-7   350535.3621   312503.8974 71.44390 5.489e-6 0.000000 : qR7,4(11) : v=0 12  7  5 - v=0 11  7  4
+AsymmetricTop Ground   12  A 12 Ground   11  A 12     38105.8654 1.359e-6   323226.0968   285120.2314 81.21399 6.277e-6 0.000000 : qR6,6(11) : v=0 12  6  7 - v=0 11  6  6
+AsymmetricTop Ground   12  A 13 Ground   11  A 13     38109.5556 1.359e-6   323231.6760   285122.1204 81.21404 6.278e-6 0.000000 : qR6,5(11) : v=0 12  6  6 - v=0 11  6  5
+AsymmetricTop Ground    4  A  8 Ground    3  A  4     38116.3300 .0001088    65499.0732    27382.7432 .0275992 5.930e-9 0.000000 : sR2,2(3) : v=0  4  4  1 - v=0  3  2  2
+AsymmetricTop Ground   12  A 10 Ground   11  A 10     38209.9973 4.526e-6   300302.3811   262092.3838 89.46287 6.971e-6 0.000000 : qR5,7(11) : v=0 12  5  8 - v=0 11  5  7
+AsymmetricTop Ground   12  A  8 Ground   11  A  8     38215.8898 1.196e-5   281546.2316   243330.3418 96.08408 7.490e-6 0.000000 : qR4,8(11) : v=0 12  4  9 - v=0 11  4  8
+AsymmetricTop Ground   12  A 11 Ground   11  A 11     38276.8024 4.518e-6   300418.4488   262141.6464 89.46596 7.008e-6 0.000000 : qR5,6(11) : v=0 12  5  7 - v=0 11  5  6
+AsymmetricTop Ground    9  A  3 Ground    8  A  1     38697.9165 1.306e-5   147242.7428   108544.8263 .1620105 1.725e-8 0.000000 : rR0,8(8) : v=0  9  1  8 - v=0  8  0  8
+AsymmetricTop Ground    6  A  6 Ground    5  A  2     38702.0901 .0002172    85513.3754    46811.2853 .1392766 2.169e-8 0.000000 : sR1,5(5) : v=0  6  3  4 - v=0  5  1  5
+AsymmetricTop Ground   12  A  5 Ground   11  A  5     38754.1702 3.327e-5   262409.3922   223655.2220 103.4449 8.410e-6 0.000000 : qR2,9(11) : v=0 12  2 10 - v=0 11  2  9
+AsymmetricTop Ground   12  A  9 Ground   11  A  9     38813.5067 1.165e-5   282845.8070   244032.3003 96.25891 7.862e-6 0.000000 : qR4,7(11) : v=0 12  4  8 - v=0 11  4  7
+AsymmetricTop Ground    8  A  8 Ground    8  A  1     39340.4567 8.074e-7   147885.2830   108544.8263 .0099614 1.246e-9 0.000000 : uQ0,8(8) : v=0  8  4  5 - v=0  8  0  8
+AsymmetricTop Ground    6  A  6 Ground    5  A  1     39362.7574 1.180e-6    85513.3754    46150.6180 .0007287 1.19e-10 0.000000 : tR0,5(5) : v=0  6  3  4 - v=0  5  0  5
+AsymmetricTop Ground   13  A  4 Ground   12  A  4     39375.0794 1.057e-5   288834.1448   249459.0654 112.7627 8.903e-6 0.000000 : qR2,11(12) : v=0 13  2 12 - v=0 12  2 11
+AsymmetricTop Ground   12  A  7 Ground   11  A  7     39515.1532 2.207e-5   271564.7590   232049.6058 101.9800 8.789e-6 0.000000 : qR3,8(11) : v=0 12  3  9 - v=0 11  3  8
+AsymmetricTop Ground   13  A  3 Ground   12  A  3     39520.5619 1.077e-5   288624.9085   249104.3466 112.8884 9.012e-6 0.000000 : qR1,11(12) : v=0 13  1 12 - v=0 12  1 11
+AsymmetricTop Ground    6  A  7 Ground    5  A  1     39546.2198 5.885e-6    85696.8378    46150.6180 .0036289 6.03e-10 0.000000 : tR0,5(5) : v=0  6  3  3 - v=0  5  0  5
+AsymmetricTop Ground    8  A  8 Ground    7  A  7     39746.8365 3.198e-6   147885.2830   108138.4465 .0385578 4.973e-9 0.000000 : rR3,4(7) : v=0  8  4  5 - v=0  7  3  4
+AsymmetricTop Ground    8  A  9 Ground    7  A  7     39807.9746 2.597e-5   147946.4211   108138.4465 .3129769 4.055e-8 0.000000 : rR3,4(7) : v=0  8  4  4 - v=0  7  3  4
+AsymmetricTop Ground    9  A  4 Ground    8  A  2     39958.3417 1.282e-5   148646.6551   108688.3134 .1584787 1.858e-8 0.000000 : rR1,8(8) : v=0  9  2  8 - v=0  8  1  8
+AsymmetricTop Ground    8  A  8 Ground    7  A  6     40187.8316 2.630e-5   147885.2830   107697.4514 .3093994 4.125e-8 0.000000 : rR3,5(7) : v=0  8  4  5 - v=0  7  3  5
+AsymmetricTop Ground    8  A  9 Ground    7  A  6     40248.9697 3.227e-6   147946.4211   107697.4514 .0379395 5.081e-9 0.000000 : rR3,5(7) : v=0  8  4  4 - v=0  7  3  5
+AsymmetricTop Ground    8  A  5 Ground    7  A  2     40385.7714 1.048e-6   125573.1549    85187.3835 .0041786 5.65e-10 0.000000 : rR1,7(7) : v=0  8  2  6 - v=0  7  1  7
+AsymmetricTop Ground   14  A  2 Ground   13  A  2     40573.1796 4.630e-6   309513.3363   268940.1568 124.5982 1.002e-5 0.000000 : qR1,13(13) : v=0 14  1 14 - v=0 13  1 13
+AsymmetricTop Ground    8  A  7 Ground    7  A  3     40575.3484 .0001523   133957.1097    93381.7613 .8985351 1.233e-7 0.000000 : sR1,6(7) : v=0  8  3  5 - v=0  7  1  6
+AsymmetricTop Ground   14  A  1 Ground   13  A  1     40576.3337 4.632e-6   309509.9333   268933.5996 124.5998 1.002e-5 0.000000 : qR0,13(13) : v=0 14  0 14 - v=0 13  0 13
+AsymmetricTop Ground   10  A  5 Ground    9  A  3     40618.0550 4.193e-6   187860.7979   147242.7428 .3278795 3.654e-8 0.000000 : rR1,8(9) : v=0 10  2  8 - v=0  9  1  8
+AsymmetricTop Ground    8  A  5 Ground    7  A  1     40635.0030 .0001137   125573.1549    84938.1520 .4469892 6.160e-8 0.000000 : sR0,7(7) : v=0  8  2  6 - v=0  7  0  7
+AsymmetricTop Ground    9  A  6 Ground    8  A  4     40639.2661 1.242e-5   161530.5687   120891.3026 .2741226 3.381e-8 0.000000 : rR2,7(8) : v=0  9  3  7 - v=0  8  2  7
+AsymmetricTop Ground   13  A  6 Ground   12  A  6     40721.7639 4.821e-6   306247.3183   265525.5544 109.9906 9.606e-6 0.000000 : qR3,10(12) : v=0 13  3 11 - v=0 12  3 10
+AsymmetricTop Ground   10  A  7 Ground    9  A  5     40777.8076 3.608e-6   195911.3851   155133.5775 .4115574 4.640e-8 0.000000 : rR2,7(9) : v=0 10  3  7 - v=0  9  2  7
+AsymmetricTop Ground    5  A  9 Ground    4  A  5     40887.2284 .0001458    81309.3793    40422.1510 .0675651 1.466e-8 0.000000 : sR2,2(4) : v=0  5  4  1 - v=0  4  2  2
+AsymmetricTop Ground    7  A 10 Ground    6  A  9     41171.7601 5.910e-6   141479.7073   100307.9472 .0483821 7.861e-9 0.000000 : rR4,2(6) : v=0  7  5  3 - v=0  6  4  2
+AsymmetricTop Ground    7  A 11 Ground    6  A  9     41172.1912 4.062e-5   141480.1385   100307.9472 .3325500 5.403e-8 0.000000 : rR4,2(6) : v=0  7  5  2 - v=0  6  4  2
+AsymmetricTop Ground    7  A 10 Ground    6  A  8     41177.4958 4.063e-5   141479.7073   100302.2115 .3325238 5.405e-8 0.000000 : rR4,3(6) : v=0  7  5  3 - v=0  6  4  3
+AsymmetricTop Ground    7  A 11 Ground    6  A  8     41177.9269 5.911e-6   141480.1385   100302.2115 .0483775 7.863e-9 0.000000 : rR4,3(6) : v=0  7  5  2 - v=0  6  4  3
+AsymmetricTop Ground   13  A 12 Ground   12  A 12     41332.3125 2.550e-7   364558.4093   323226.0968 92.31715 8.430e-6 0.000000 : qR6,7(12) : v=0 13  6  8 - v=0 12  6  7
+AsymmetricTop Ground   13  A 13 Ground   12  A 13     41341.5767 2.549e-7   364573.2527   323231.6760 92.31732 8.436e-6 0.000000 : qR6,6(12) : v=0 13  6  7 - v=0 12  6  6
+AsymmetricTop Ground    5  A  8 Ground    4  A  4     41363.7424 .0001450    81308.2232    39944.4809 .0654029 1.469e-8 0.000000 : sR2,3(4) : v=0  5  4  2 - v=0  4  2  3
+AsymmetricTop Ground   13  A  8 Ground   12  A  8     41386.2486 2.163e-6   322932.4802   281546.2316 105.9248 9.711e-6 0.000000 : qR4,9(12) : v=0 13  4 10 - v=0 12  4  9
+AsymmetricTop Ground   13  A 10 Ground   12  A 10     41447.7815 8.299e-7   341750.1626   300302.3811 99.91570 9.201e-6 0.000000 : qR5,8(12) : v=0 13  5  9 - v=0 12  5  8
+AsymmetricTop Ground    9  A  8 Ground    9  A  1     41522.9709 3.029e-7   176490.0576   134967.0867 .0130494 1.717e-9 0.000000 : uQ0,9(9) : v=0  9  4  6 - v=0  9  0  9
+AsymmetricTop Ground   13  A 11 Ground   12  A 11     41582.6311 8.262e-7   342001.0799   300418.4488 99.92589 9.292e-6 0.000000 : qR5,7(12) : v=0 13  5  8 - v=0 12  5  7
+AsymmetricTop Ground   13  A  5 Ground   12  A  5     41613.6933 5.733e-6   304023.0855   262409.3922 111.8546 1.042e-5 0.000000 : qR2,10(12) : v=0 13  2 11 - v=0 12  2 10
+AsymmetricTop Ground    9  A 12 Ground    9  A  9     41900.0758 3.347e-7   218544.7175   176644.6417 .1062885 1.437e-8 0.000000 : sQ4,5(9) : v=0  9  6  4 - v=0  9  4  5
+AsymmetricTop Ground   10  A 13 Ground   10  A  8     41923.4637 1.132e-7   250230.4572   208306.9935 .1642931 2.013e-8 0.000000 : sQ4,7(10) : v=0 10  6  4 - v=0 10  4  7
+AsymmetricTop Ground    9  A 13 Ground    9  A  8     42054.8018 3.367e-7   218544.8594   176490.0576 .1060088 1.449e-8 0.000000 : sQ4,6(9) : v=0  9  6  3 - v=0  9  4  6
+AsymmetricTop Ground    8  A 12 Ground    8  A  9     42108.7302 7.712e-7   190055.1513   147946.4211 .0616804 9.460e-9 0.000000 : sQ4,4(8) : v=0  8  6  3 - v=0  8  4  4
+AsymmetricTop Ground    8  A 13 Ground    8  A  8     42169.8969 7.731e-7   190055.1799   147885.2830 .0616196 9.492e-9 0.000000 : sQ4,5(8) : v=0  8  6  2 - v=0  8  4  5
+AsymmetricTop Ground   14  A  4 Ground   13  A  4     42234.2402 1.764e-6   331068.3849   288834.1448 121.7605 1.104e-5 0.000000 : qR2,12(13) : v=0 14  2 13 - v=0 13  2 12
+AsymmetricTop Ground    7  A 12 Ground    7  A  9     42240.3734 1.270e-6   164752.5919   122512.2185 .0299467 5.254e-9 0.000000 : sQ4,3(7) : v=0  7  6  2 - v=0  7  4  3
+AsymmetricTop Ground    7  A 13 Ground    7  A  8     42261.1476 1.271e-6   164752.5960   122491.4484 .0299370 5.260e-9 0.000000 : sQ4,4(7) : v=0  7  6  1 - v=0  7  4  4
+AsymmetricTop Ground    6  A 12 Ground    5  A 11     42263.6229 7.240e-6   142629.4155   100365.7926 .0589498 1.195e-8 0.000000 : rR5,0(5) : v=0  6  6  1 - v=0  5  5  0
+AsymmetricTop Ground    6  A 13 Ground    5  A 11     42263.6232 4.591e-5   142629.4158   100365.7926 .3738401 7.581e-8 0.000000 : rR5,0(5) : v=0  6  6  0 - v=0  5  5  0
+AsymmetricTop Ground    6  A 12 Ground    5  A 10     42263.6295 4.591e-5   142629.4155   100365.7860 .3738400 7.581e-8 0.000000 : rR5,1(5) : v=0  6  6  1 - v=0  5  5  1
+AsymmetricTop Ground    6  A 13 Ground    5  A 10     42263.6298 7.240e-6   142629.4158   100365.7860 .0589498 1.195e-8 0.000000 : rR5,1(5) : v=0  6  6  0 - v=0  5  5  1
+AsymmetricTop Ground   13  A  9 Ground   12  A  9     42302.5327 2.054e-6   325148.3396   282845.8070 106.3358 1.041e-5 0.000000 : qR4,8(12) : v=0 13  4  9 - v=0 12  4  8
+AsymmetricTop Ground    9  A  7 Ground    8  A  4     42315.9415 8.222e-7   163207.2441   120891.3026 .0179209 2.496e-9 0.000000 : rR2,7(8) : v=0  9  3  6 - v=0  8  2  7
+AsymmetricTop Ground    6  A 12 Ground    6  A  9     42321.4683 1.201e-6   142629.4155   100307.9472 .0097516 1.986e-9 0.000000 : sQ4,2(6) : v=0  6  6  1 - v=0  6  4  2
+AsymmetricTop Ground   14  A  3 Ground   13  A  3     42322.9014 1.784e-6   330947.8100   288624.9085 121.8248 1.112e-5 0.000000 : qR1,12(13) : v=0 14  1 13 - v=0 13  1 12
+AsymmetricTop Ground    6  A 13 Ground    6  A  8     42327.2043 1.202e-6   142629.4158   100302.2115 .0097507 1.986e-9 0.000000 : sQ4,3(6) : v=0  6  6  0 - v=0  6  4  3
+AsymmetricTop Ground    9  A  8 Ground    8  A  7     42532.9479 9.527e-7   176490.0576   133957.1097 .0388139 5.489e-9 0.000000 : rR3,5(8) : v=0  9  4  6 - v=0  8  3  5
+AsymmetricTop Ground    9  A  9 Ground    8  A  7     42687.5320 8.374e-6   176644.6417   133957.1097 .3407991 4.872e-8 0.000000 : rR3,5(8) : v=0  9  4  5 - v=0  8  3  5
+AsymmetricTop Ground   13  A  7 Ground   12  A  7     42809.0987 3.711e-6   314373.8577   271564.7590 111.3720 1.130e-5 0.000000 : qR3,9(12) : v=0 13  3 10 - v=0 12  3  9
+AsymmetricTop Ground    7  A  6 Ground    6  A  2     43141.0899 .0001163   107697.4514    64556.3615 .1688039 3.155e-8 0.000000 : sR1,6(6) : v=0  7  3  5 - v=0  6  1  6
+AsymmetricTop Ground   15  A  2 Ground   14  A  2     43410.8537 7.234e-7   352924.1900   309513.3363 133.6076 1.231e-5 0.000000 : qR1,14(14) : v=0 15  1 15 - v=0 14  1 14
+AsymmetricTop Ground   15  A  1 Ground   14  A  1     43412.5052 7.235e-7   352922.4385   309509.9333 133.6083 1.231e-5 0.000000 : qR0,14(14) : v=0 15  0 15 - v=0 14  0 14
+AsymmetricTop Ground    9  A  8 Ground    8  A  6     43446.3876 8.572e-6   176490.0576   133043.6700 .3321498 5.006e-8 0.000000 : rR3,6(8) : v=0  9  4  6 - v=0  8  3  6
+AsymmetricTop Ground   10  A  3 Ground    9  A  1     43450.8534 3.819e-6   178417.9401   134967.0867 .1622858 2.214e-8 0.000000 : rR0,9(9) : v=0 10  1  9 - v=0  9  0  9
+AsymmetricTop Ground    7  A  6 Ground    6  A  1     43557.5378 7.768e-7   107697.4514    64139.9136 .0011017 2.12e-10 0.000000 : tR0,6(6) : v=0  7  3  5 - v=0  6  0  6
+AsymmetricTop Ground    4  A  9 Ground    3  A  3     43589.0212 1.982e-7    65499.2022    21910.1811 3.704e-5 1.19e-11 0.000000 : tR1,2(3) : v=0  4  4  0 - v=0  3  1  2
+AsymmetricTop Ground    9  A  9 Ground    8  A  6     43600.9717 9.642e-7   176644.6417   133043.6700 .0373215 5.685e-9 0.000000 : rR3,6(8) : v=0  9  4  5 - v=0  8  3  6
+AsymmetricTop Ground    6  A  9 Ground    5  A  5     43650.7097 .0001249   100307.9472    56657.2376 .1235784 2.761e-8 0.000000 : sR2,3(5) : v=0  6  4  2 - v=0  5  2  3
+AsymmetricTop Ground   14  A  6 Ground   13  A  6     43688.3962 7.560e-7   349935.7145   306247.3183 119.1480 1.196e-5 0.000000 : qR3,11(13) : v=0 14  3 12 - v=0 13  3 11
+AsymmetricTop Ground    7  A  7 Ground    6  A  1     43998.5329 3.504e-6   108138.4465    64139.9136 .0049546 9.82e-10 0.000000 : tR0,6(6) : v=0  7  3  4 - v=0  6  0  6
+AsymmetricTop Ground   11  A  7 Ground   10  A  5     44188.8079 8.417e-7   232049.6058   187860.7979 .4505722 5.902e-8 0.000000 : rR2,8(10) : v=0 11  3  8 - v=0 10  2  8
+AsymmetricTop Ground   10  A  4 Ground    9  A  2     44297.1268 3.790e-6   179344.4642   135047.3373 .1607528 2.323e-8 0.000000 : rR1,9(9) : v=0 10  2  9 - v=0  9  1  9
+AsymmetricTop Ground    8  A 10 Ground    7  A  9     44306.8811 2.100e-6   166819.0996   122512.2185 .0487973 8.718e-9 0.000000 : rR4,3(7) : v=0  8  5  4 - v=0  7  4  3
+AsymmetricTop Ground    8  A 11 Ground    7  A  9     44308.7337 1.509e-5   166820.9522   122512.2185 .3506564 6.266e-8 0.000000 : rR4,3(7) : v=0  8  5  3 - v=0  7  4  3
+AsymmetricTop Ground    8  A 10 Ground    7  A  8     44327.6512 1.510e-5   166819.0996   122491.4484 .3505569 6.272e-8 0.000000 : rR4,4(7) : v=0  8  5  4 - v=0  7  4  4
+AsymmetricTop Ground    8  A 11 Ground    7  A  8     44329.5038 2.101e-6   166820.9522   122491.4484 .0487801 8.728e-9 0.000000 : rR4,4(7) : v=0  8  5  3 - v=0  7  4  4
+AsymmetricTop Ground    9  A  7 Ground    8  A  3     44331.2280 5.688e-5   163207.2441   118876.0161 1.110111 1.777e-7 0.000000 : sR1,7(8) : v=0  9  3  6 - v=0  8  1  7
+AsymmetricTop Ground   14  A  5 Ground   13  A  5     44399.3650 8.533e-7   348422.4505   304023.0855 120.3049 1.268e-5 0.000000 : qR2,11(13) : v=0 14  2 12 - v=0 13  2 11
+AsymmetricTop Ground   10  A  6 Ground    9  A  4     44482.9776 3.527e-6   193129.6327   148646.6551 .2870051 4.201e-8 0.000000 : rR2,8(9) : v=0 10  3  8 - v=0  9  2  8
+AsymmetricTop Ground   14  A  8 Ground   13  A  8     44526.9016 3.311e-7   367459.3817   322932.4802 115.5858 1.229e-5 0.000000 : qR4,10(13) : v=0 14  4 11 - v=0 13  4 10
+AsymmetricTop Ground   14  A 10 Ground   13  A 10     44685.8595 1.280e-7   386436.0221   341750.1626 110.1506 1.183e-5 0.000000 : qR5,9(13) : v=0 14  5 10 - v=0 13  5  9
+AsymmetricTop Ground    6  A  8 Ground    5  A  4     44697.3021 .0001220   100302.2115    55604.9094 .1139966 2.734e-8 0.000000 : sR2,4(5) : v=0  6  4  3 - v=0  5  2  4
+AsymmetricTop Ground   14  A 11 Ground   13  A 11     44937.5744 1.267e-7   386938.6544   342001.0799 110.1819 1.204e-5 0.000000 : qR5,8(13) : v=0 14  5  9 - v=0 13  5  8
+AsymmetricTop Ground   15  A  4 Ground   14  A  4     45084.2652 2.544e-7   376152.6502   331068.3849 130.7500 1.350e-5 0.000000 : qR2,13(14) : v=0 15  2 14 - v=0 14  2 13
+AsymmetricTop Ground   10  A  8 Ground    9  A  7     45099.7494 2.400e-7   208306.9935   163207.2441 .0391188 5.967e-9 0.000000 : rR3,6(9) : v=0 10  4  7 - v=0  9  3  6
+AsymmetricTop Ground   15  A  3 Ground   14  A  3     45136.6610 2.560e-7   376084.4709   330947.8100 130.7829 1.355e-5 0.000000 : qR1,13(14) : v=0 15  1 14 - v=0 14  1 13
+AsymmetricTop Ground   11  A  5 Ground   10  A  3     45237.2819 9.610e-7   223655.2220   178417.9401 .3248028 4.565e-8 0.000000 : rR1,9(10) : v=0 11  2  9 - v=0 10  1  9
+AsymmetricTop Ground    7  A 12 Ground    6  A 11     45420.7473 2.968e-6   164752.5919   119331.8446 .0588013 1.283e-8 0.000000 : rR5,1(6) : v=0  7  6  2 - v=0  6  5  1
+AsymmetricTop Ground    7  A 13 Ground    6  A 11     45420.7514 1.938e-5   164752.5960   119331.8446 .3839350 8.375e-8 0.000000 : rR5,1(6) : v=0  7  6  1 - v=0  6  5  1
+AsymmetricTop Ground    7  A 12 Ground    6  A 10     45420.8196 1.938e-5   164752.5919   119331.7723 .3839347 8.375e-8 0.000000 : rR5,2(6) : v=0  7  6  2 - v=0  6  5  2
+AsymmetricTop Ground    7  A 13 Ground    6  A 10     45420.8237 2.968e-6   164752.5960   119331.7723 .0588013 1.283e-8 0.000000 : rR5,2(6) : v=0  7  6  1 - v=0  6  5  2
+AsymmetricTop Ground    4  A  8 Ground    3  A  2     45437.2226 1.419e-7    65499.0732    20061.8506 2.398e-5 8.73e-12 0.000000 : tR1,3(3) : v=0  4  4  1 - v=0  3  1  3
+AsymmetricTop Ground   10  A  9 Ground    9  A  7     45446.2925 2.299e-6   208653.5365   163207.2441 .3740482 5.838e-8 0.000000 : rR3,6(9) : v=0 10  4  6 - v=0  9  3  6
+AsymmetricTop Ground   14  A  9 Ground   13  A  9     45814.5325 3.021e-7   370962.8721   325148.3396 116.3757 1.348e-5 0.000000 : qR4,9(13) : v=0 14  4 10 - v=0 13  4  9
+AsymmetricTop Ground   14  A  7 Ground   13  A  7     46002.3215 5.250e-7   360376.1792   314373.8577 120.4299 1.412e-5 0.000000 : qR3,10(13) : v=0 14  3 11 - v=0 13  3 10
+AsymmetricTop Ground    7  A  9 Ground    6  A  5     46235.3627 8.157e-5   122512.2185    76276.8558 .2036643 4.686e-8 0.000000 : sR2,4(6) : v=0  7  4  3 - v=0  6  2  4
+AsymmetricTop Ground    5  A  9 Ground    4  A  3     46268.7265 5.231e-7    81309.3793    35040.6528 .0001805 5.68e-11 0.000000 : tR1,3(4) : v=0  5  4  1 - v=0  4  1  3
+AsymmetricTop Ground    9  A  5 Ground    8  A  2     46445.2641 2.680e-7   155133.5775   108688.3134 .0031666 5.83e-10 0.000000 : rR1,8(8) : v=0  9  2  7 - v=0  8  1  8
+AsymmetricTop Ground    9  A  5 Ground    8  A  1     46588.7512 3.021e-5   155133.5775   108544.8263 .3541651 6.582e-8 0.000000 : sR0,8(8) : v=0  9  2  7 - v=0  8  0  8
+AsymmetricTop Ground   10  A  8 Ground    9  A  6     46776.4247 2.385e-6   208306.9935   161530.5687 .3551194 6.044e-8 0.000000 : rR3,7(9) : v=0 10  4  7 - v=0  9  3  7
+AsymmetricTop Ground    4  A  9 Ground    3  A  1     46782.0889 7.964e-7    65499.2022    18717.1133 .0001252 4.97e-11 0.000000 : uR0,3(3) : v=0  4  4  0 - v=0  3  0  3
+AsymmetricTop Ground   10  A  9 Ground    9  A  6     47122.9678 2.413e-7   208653.5365   161530.5687 .0358606 6.240e-9 0.000000 : rR3,7(9) : v=0 10  4  6 - v=0  9  3  7
+AsymmetricTop Ground   10  A  7 Ground    9  A  4     47264.7300 1.792e-7   195911.3851   148646.6551 .0143426 2.518e-9 0.000000 : rR2,8(9) : v=0 10  3  7 - v=0  9  2  8
+AsymmetricTop Ground    9  A 10 Ground    8  A  9     47414.0189 6.363e-7   195360.4401   147946.4211 .0491947 9.637e-9 0.000000 : rR4,4(8) : v=0  9  5  5 - v=0  8  4  4
+AsymmetricTop Ground    9  A 11 Ground    8  A  9     47420.4249 4.801e-6   195366.8460   147946.4211 .3712307 7.275e-8 0.000000 : rR4,4(8) : v=0  9  5  4 - v=0  8  4  4
+AsymmetricTop Ground    9  A 10 Ground    8  A  8     47475.1570 4.813e-6   195360.4401   147885.2830 .3709204 7.294e-8 0.000000 : rR4,5(8) : v=0  9  5  5 - v=0  8  4  5
+AsymmetricTop Ground    9  A 11 Ground    8  A  8     47481.5630 6.377e-7   195366.8460   147885.2830 .0491409 9.668e-9 0.000000 : rR4,5(8) : v=0  9  5  4 - v=0  8  4  5
+AsymmetricTop Ground    8  A  6 Ground    7  A  2     47856.2865 4.943e-5   133043.6700    85187.3835 .1875544 4.222e-8 0.000000 : sR1,7(7) : v=0  8  3  6 - v=0  7  1  7
+AsymmetricTop Ground   12  A  7 Ground   11  A  5     47909.5370 1.635e-7   271564.7590   223655.2220 .4772128 7.330e-8 0.000000 : rR2,9(11) : v=0 12  3  9 - v=0 11  2  9
+AsymmetricTop Ground    8  A 10 Ground    8  A  3     47943.0836 1.588e-7   166819.0996   118876.0161 .0030336 6.87e-10 0.000000 : uQ1,7(8) : v=0  8  5  4 - v=0  8  1  7
+AsymmetricTop Ground    7  A 10 Ground    7  A  3     48097.9460 1.747e-7   141479.7073    93381.7613 .0009808 2.54e-10 0.000000 : uQ1,6(7) : v=0  7  5  3 - v=0  7  1  6
+AsymmetricTop Ground    8  A  6 Ground    7  A  1     48105.5180 3.726e-7   133043.6700    84938.1520 .0013950 3.19e-10 0.000000 : tR0,7(7) : v=0  8  3  6 - v=0  7  0  7
+AsymmetricTop Ground   11  A  9 Ground   10  A  7     48120.9152 5.385e-7   244032.3003   195911.3851 .4145405 7.013e-8 0.000000 : rR3,7(10) : v=0 11  4  7 - v=0 10  3  7
+AsymmetricTop Ground    7  A  8 Ground    6  A  4     48154.3528 7.643e-5   122491.4484    74337.0956 .1720179 4.471e-8 0.000000 : sR2,5(6) : v=0  7  4  4 - v=0  6  2  5
+AsymmetricTop Ground   11  A  3 Ground   10  A  1     48159.9823 9.695e-7   212372.4310   164212.4487 .1629735 2.764e-8 0.000000 : rR0,10(10) : v=0 11  1 10 - v=0 10  0 10
+AsymmetricTop Ground   11  A  6 Ground   10  A  4     48462.5299 8.566e-7   227806.9941   179344.4642 .2972121 5.136e-8 0.000000 : rR2,9(10) : v=0 11  3  9 - v=0 10  2  9
+AsymmetricTop Ground    6  A 10 Ground    6  A  3     48481.9998 1.199e-7   119331.7723    70849.7725 .0002280 6.98e-11 0.000000 : uQ1,5(6) : v=0  6  5  2 - v=0  6  1  5
+AsymmetricTop Ground    8  A 12 Ground    7  A 11     48575.0129 1.047e-6   190055.1513   141480.1385 .0590077 1.389e-8 0.000000 : rR5,2(7) : v=0  8  6  3 - v=0  7  5  2
+AsymmetricTop Ground    8  A 13 Ground    7  A 11     48575.0414 7.059e-6   190055.1799   141480.1385 .3976961 9.363e-8 0.000000 : rR5,2(7) : v=0  8  6  2 - v=0  7  5  2
+AsymmetricTop Ground    8  A 12 Ground    7  A 10     48575.4440 7.059e-6   190055.1513   141479.7073 .3976946 9.363e-8 0.000000 : rR5,3(7) : v=0  8  6  3 - v=0  7  5  3
+AsymmetricTop Ground    8  A 13 Ground    7  A 10     48575.4726 1.047e-6   190055.1799   141479.7073 .0590075 1.389e-8 0.000000 : rR5,3(7) : v=0  8  6  2 - v=0  7  5  3
+AsymmetricTop Ground   10  A  7 Ground    9  A  3     48668.6423 1.584e-5   195911.3851   147242.7428 1.175984 2.254e-7 0.000000 : sR1,8(9) : v=0 10  3  7 - v=0  9  1  8
+AsymmetricTop Ground    8  A  9 Ground    7  A  5     48681.7184 4.317e-5   147946.4211    99264.7027 .3205329 7.596e-8 0.000000 : sR2,5(7) : v=0  8  4  4 - v=0  7  2  5
+AsymmetricTop Ground   11  A  4 Ground   10  A  2     48700.0789 9.664e-7   212956.4290   164256.3501 .1623321 2.847e-8 0.000000 : rR1,10(10) : v=0 11  2 10 - v=0 10  1 10
+AsymmetricTop Ground    6  A  8 Ground    5  A  3     48927.1153 1.420e-7   100302.2115    51375.0962 .0001057 3.33e-11 0.000000 : tR1,4(5) : v=0  6  4  3 - v=0  5  1  4
+AsymmetricTop Ground    6  A  9 Ground    5  A  3     48932.8510 7.666e-7   100307.9472    51375.0962 .0005709 1.80e-10 0.000000 : tR1,4(5) : v=0  6  4  2 - v=0  5  1  4
+AsymmetricTop Ground    8  A  7 Ground    7  A  1     49018.9577 1.424e-6   133957.1097    84938.1520 .0053070 1.284e-9 0.000000 : tR0,7(7) : v=0  8  3  5 - v=0  7  0  7
+AsymmetricTop Ground    5  A  8 Ground    4  A  2     49336.0316 3.003e-7    81308.2232    31972.1916 8.795e-5 3.35e-11 0.000000 : tR1,4(4) : v=0  5  4  2 - v=0  4  1  4
+AsymmetricTop Ground    7  A 14 Ground    6  A 13     49660.3062 1.178e-6   192289.7221   142629.4158 .0697571 1.989e-8 0.000000 : rR6,0(6) : v=0  7  7  1 - v=0  6  6  0
+AsymmetricTop Ground    7  A 15 Ground    6  A 13     49660.3062 7.453e-6   192289.7221   142629.4158 .4413034 1.258e-7 0.000000 : rR6,0(6) : v=0  7  7  0 - v=0  6  6  0
+AsymmetricTop Ground    7  A 14 Ground    6  A 12     49660.3065 7.453e-6   192289.7221   142629.4155 .4413034 1.258e-7 0.000000 : rR6,1(6) : v=0  7  7  1 - v=0  6  6  1
+AsymmetricTop Ground    7  A 15 Ground    6  A 12     49660.3066 1.178e-6   192289.7221   142629.4155 .0697571 1.989e-8 0.000000 : rR6,1(6) : v=0  7  7  0 - v=0  6  6  1
+AsymmetricTop Ground    5  A 11 Ground    4  A  7     49672.7832 3.731e-5   100365.7926    50693.0094 .0267942 1.042e-8 0.000000 : sR3,1(4) : v=0  5  5  0 - v=0  4  3  1
+AsymmetricTop Ground    5  A 10 Ground    4  A  6     49688.6447 3.733e-5   100365.7860    50677.1414 .0267829 1.043e-8 0.000000 : sR3,2(4) : v=0  5  5  1 - v=0  4  3  2
+AsymmetricTop Ground   12  A  5 Ground   11  A  3     50036.9612 1.911e-7   262409.3922   212372.4310 .3210387 5.618e-8 0.000000 : rR1,10(11) : v=0 12  2 10 - v=0 11  1 10
+AsymmetricTop Ground   11  A  8 Ground   10  A  6     50200.7091 5.661e-7   243330.3418   193129.6327 .3773658 7.248e-8 0.000000 : rR3,8(10) : v=0 11  4  8 - v=0 10  3  8
+AsymmetricTop Ground    5  A  9 Ground    4  A  1     50317.6447 2.773e-6    81309.3793    30991.7347 .0007713 3.12e-10 0.000000 : uR0,4(4) : v=0  5  4  1 - v=0  4  0  4
+AsymmetricTop Ground   10  A 10 Ground    9  A  9     50470.0439 1.640e-7   227114.6856   176644.6417 .0494810 1.058e-8 0.000000 : rR4,5(9) : v=0 10  5  6 - v=0  9  4  5
+AsymmetricTop Ground   10  A 11 Ground    9  A  9     50488.9420 1.306e-6   227133.5837   176644.6417 .3940428 8.433e-8 0.000000 : rR4,5(9) : v=0 10  5  5 - v=0  9  4  5
+AsymmetricTop Ground   10  A 10 Ground    9  A  8     50624.6280 1.314e-6   227114.6856   176490.0576 .3931969 8.483e-8 0.000000 : rR4,6(9) : v=0 10  5  6 - v=0  9  4  6
+AsymmetricTop Ground   10  A 11 Ground    9  A  8     50643.5261 1.648e-7   227133.5837   176490.0576 .0493340 1.066e-8 0.000000 : rR4,6(9) : v=0 10  5  5 - v=0  9  4  6
+AsymmetricTop Ground    8  A 14 Ground    8  A 11     50749.5378 1.311e-7   217570.4900   166820.9522 .0246691 6.623e-9 0.000000 : sQ5,3(8) : v=0  8  7  2 - v=0  8  5  3
+AsymmetricTop Ground    8  A 15 Ground    8  A 10     50751.3906 1.312e-7   217570.4902   166819.0996 .0246687 6.624e-9 0.000000 : sQ5,4(8) : v=0  8  7  1 - v=0  8  5  4
+AsymmetricTop Ground    7  A 14 Ground    7  A 11     50809.5836 1.450e-7   192289.7221   141480.1385 .0080792 2.467e-9 0.000000 : sQ5,2(7) : v=0  7  7  1 - v=0  7  5  2
+AsymmetricTop Ground    7  A 15 Ground    7  A 10     50810.0148 1.450e-7   192289.7221   141479.7073 .0080792 2.467e-9 0.000000 : sQ5,3(7) : v=0  7  7  0 - v=0  7  5  3
+AsymmetricTop Ground    9  A  9 Ground    8  A  5     51071.4868 1.894e-5   176644.6417   125573.1549 .4914173 1.203e-7 0.000000 : sR2,6(8) : v=0  9  4  5 - v=0  8  2  6
+AsymmetricTop Ground    7  A  8 Ground    6  A  3     51641.6759 1.434e-7   122491.4484    70849.7725 .0002684 8.61e-11 0.000000 : tR1,5(6) : v=0  7  4  4 - v=0  6  1  5
+AsymmetricTop Ground    7  A  9 Ground    6  A  3     51662.4460 7.718e-7   122512.2185    70849.7725 .0014448 4.64e-10 0.000000 : tR1,5(6) : v=0  7  4  3 - v=0  6  1  5
+AsymmetricTop Ground    9  A 12 Ground    8  A 11     51723.7654 3.171e-7   218544.7175   166820.9522 .0593842 1.510e-8 0.000000 : rR5,3(8) : v=0  9  6  4 - v=0  8  5  3
+AsymmetricTop Ground    9  A 13 Ground    8  A 11     51723.9072 2.212e-6   218544.8594   166820.9522 .4142206 1.053e-7 0.000000 : rR5,3(8) : v=0  9  6  3 - v=0  8  5  3
+AsymmetricTop Ground    9  A 12 Ground    8  A 10     51725.6179 2.212e-6   218544.7175   166819.0996 .4142139 1.054e-7 0.000000 : rR5,4(8) : v=0  9  6  4 - v=0  8  5  4
+AsymmetricTop Ground    9  A 13 Ground    8  A 10     51725.7598 3.171e-7   218544.8594   166819.0996 .0593831 1.510e-8 0.000000 : rR5,4(8) : v=0  9  6  3 - v=0  8  5  4
+AsymmetricTop Ground    8  A  8 Ground    7  A  4     51775.0153 3.750e-5   147885.2830    96110.2677 .2358702 6.724e-8 0.000000 : sR2,6(7) : v=0  8  4  5 - v=0  7  2  6
+AsymmetricTop Ground   12  A  6 Ground   11  A  4     52569.1254 1.785e-7   265525.5544   212956.4290 .3049745 6.188e-8 0.000000 : rR2,10(11) : v=0 12  3 10 - v=0 11  2 10
+AsymmetricTop Ground    6  A 11 Ground    5  A  7     52764.3783 4.049e-5   119331.8446    66567.4663 .0614329 2.424e-8 0.000000 : sR3,2(5) : v=0  6  5  1 - v=0  5  3  2
+AsymmetricTop Ground   12  A  3 Ground   11  A  1     52817.8432 2.136e-7   249104.3466   196286.5035 .1637307 3.370e-8 0.000000 : rR0,11(11) : v=0 12  1 11 - v=0 11  0 11
+AsymmetricTop Ground    8  A 14 Ground    7  A 13     52817.8940 4.119e-7   217570.4900   164752.5960 .0695325 2.104e-8 0.000000 : rR6,1(7) : v=0  8  7  2 - v=0  7  6  1
+AsymmetricTop Ground    8  A 15 Ground    7  A 13     52817.8942 2.670e-6   217570.4902   164752.5960 .4506977 1.364e-7 0.000000 : rR6,1(7) : v=0  8  7  1 - v=0  7  6  1
+AsymmetricTop Ground    8  A 14 Ground    7  A 12     52817.8981 2.670e-6   217570.4900   164752.5919 .4506977 1.364e-7 0.000000 : rR6,2(7) : v=0  8  7  2 - v=0  7  6  2
+AsymmetricTop Ground    8  A 15 Ground    7  A 12     52817.8983 4.119e-7   217570.4902   164752.5919 .0695324 2.104e-8 0.000000 : rR6,2(7) : v=0  8  7  1 - v=0  7  6  2
+AsymmetricTop Ground    6  A 10 Ground    5  A  6     52826.9350 4.056e-5   119331.7723    66504.8373 .0613271 2.428e-8 0.000000 : sR3,3(5) : v=0  6  5  2 - v=0  5  3  3
+AsymmetricTop Ground    9  A  6 Ground    8  A  2     52842.2553 1.709e-5   161530.5687   108688.3134 .1956518 5.306e-8 0.000000 : sR1,8(8) : v=0  9  3  7 - v=0  8  1  8
+AsymmetricTop Ground   10  A  5 Ground    9  A  1     52893.7112 7.029e-6   187860.7979   134967.0867 .2839915 6.988e-8 0.000000 : sR0,9(9) : v=0 10  2  8 - v=0  9  0  9
+AsymmetricTop Ground    9  A  6 Ground    8  A  1     52985.7424 1.379e-7   161530.5687   108544.8263 .0015666 4.28e-10 0.000000 : tR0,8(8) : v=0  9  3  7 - v=0  8  0  8
+AsymmetricTop Ground   12  A  4 Ground   11  A  2     53148.9593 2.133e-7   249459.0654   196310.1061 .1634623 3.428e-8 0.000000 : rR1,11(11) : v=0 12  2 11 - v=0 11  1 11
+AsymmetricTop Ground   11  A 11 Ground   10  A  9     53488.1099 3.028e-7   262141.6464   208653.5365 .4191091 9.737e-8 0.000000 : rR4,6(10) : v=0 11  5  6 - v=0 10  4  6
+AsymmetricTop Ground    6  A  8 Ground    5  A  2     53490.9262 3.373e-7   100302.2115    46811.2853 .0001977 8.13e-11 0.000000 : tR1,5(5) : v=0  6  4  3 - v=0  5  1  5
+AsymmetricTop Ground   10  A  9 Ground    9  A  5     53519.9590 6.903e-6   208653.5365   155133.5775 .7322768 1.867e-7 0.000000 : sR2,7(9) : v=0 10  4  6 - v=0  9  2  7
+AsymmetricTop Ground   11  A  7 Ground   10  A  3     53631.6656 3.383e-6   232049.6058   178417.9401 1.096673 2.568e-7 0.000000 : sR1,9(10) : v=0 11  3  8 - v=0 10  1  9
+AsymmetricTop Ground   12  A  8 Ground   11  A  6     53739.2375 1.148e-7   281546.2316   227806.9941 .3979923 8.627e-8 0.000000 : rR3,9(11) : v=0 12  4  9 - v=0 11  3  9
+AsymmetricTop Ground   11  A 10 Ground   10  A  8     53785.3903 3.067e-7   262092.3838   208306.9935 .4170160 9.851e-8 0.000000 : rR4,7(10) : v=0 11  5  7 - v=0 10  4  7
+AsymmetricTop Ground    6  A  9 Ground    5  A  1     54157.3292 4.352e-6   100307.9472    46150.6180 .0024645 1.052e-9 0.000000 : uR0,5(5) : v=0  6  4  2 - v=0  5  0  5
+AsymmetricTop Ground    8  A  9 Ground    7  A  3     54564.6598 5.656e-7   147946.4211    93381.7613 .0030856 1.030e-9 0.000000 : tR1,6(7) : v=0  8  4  4 - v=0  7  1  6
+AsymmetricTop Ground    9  A  7 Ground    8  A  1     54662.4178 4.171e-7   163207.2441   108544.8263 .0047084 1.413e-9 0.000000 : tR0,8(8) : v=0  9  3  6 - v=0  8  0  8
+AsymmetricTop Ground   10  A 13 Ground    9  A 11     54863.6112 5.950e-7   250230.4572   195366.8460 .4329888 1.189e-7 0.000000 : rR5,4(9) : v=0 10  6  4 - v=0  9  5  4
+AsymmetricTop Ground   10  A 12 Ground    9  A 10     54869.4549 5.952e-7   250229.8949   195360.4401 .4329648 1.189e-7 0.000000 : rR5,5(9) : v=0 10  6  5 - v=0  9  5  5
+AsymmetricTop Ground    9  A  8 Ground    8  A  4     55598.7550 1.474e-5   176490.0576   120891.3026 .2999631 9.475e-8 0.000000 : sR2,7(8) : v=0  9  4  6 - v=0  8  2  7
+AsymmetricTop Ground    7  A 11 Ground    6  A  7     55783.3007 2.809e-5   141480.1385    85696.8378 .1055036 4.263e-8 0.000000 : sR3,3(6) : v=0  7  5  2 - v=0  6  3  3
+AsymmetricTop Ground    7  A 10 Ground    6  A  6     55966.3319 2.821e-5   141479.7073    85513.3754 .1049431 4.283e-8 0.000000 : sR3,4(6) : v=0  7  5  3 - v=0  6  3  4
+AsymmetricTop Ground    9  A 14 Ground    8  A 13     55973.6541 1.240e-7   246028.8340   190055.1799 .0696561 2.245e-8 0.000000 : rR6,2(8) : v=0  9  7  3 - v=0  8  6  2
+AsymmetricTop Ground    9  A 15 Ground    8  A 13     55973.6559 8.250e-7   246028.8358   190055.1799 .4634342 1.494e-7 0.000000 : rR6,2(8) : v=0  9  7  2 - v=0  8  6  2
+AsymmetricTop Ground    9  A 14 Ground    8  A 12     55973.6827 8.250e-7   246028.8340   190055.1513 .4634341 1.494e-7 0.000000 : rR6,3(8) : v=0  9  7  3 - v=0  8  6  3
+AsymmetricTop Ground    9  A 15 Ground    8  A 12     55973.6844 1.240e-7   246028.8358   190055.1513 .0696561 2.245e-8 0.000000 : rR6,3(8) : v=0  9  7  2 - v=0  8  6  3
+AsymmetricTop Ground   11  A  9 Ground   10  A  5     56171.5024 2.062e-6   244032.3003   187860.7979 1.041552 2.803e-7 0.000000 : sR2,8(10) : v=0 11  4  7 - v=0 10  2  8
+AsymmetricTop Ground    8  A 16 Ground    7  A 15     57056.6730 1.293e-7   249346.3950   192289.7221 .0805623 3.074e-8 0.000000 : rR7,0(7) : v=0  8  8  1 - v=0  7  7  0
+AsymmetricTop Ground    8  A 17 Ground    7  A 15     57056.6730 8.167e-7   249346.3950   192289.7221 .5087769 1.941e-7 0.000000 : rR7,0(7) : v=0  8  8  0 - v=0  7  7  0
+AsymmetricTop Ground    8  A 16 Ground    7  A 14     57056.6730 8.167e-7   249346.3950   192289.7221 .5087769 1.941e-7 0.000000 : rR7,1(7) : v=0  8  8  1 - v=0  7  7  1
+AsymmetricTop Ground    8  A 17 Ground    7  A 14     57056.6730 1.293e-7   249346.3950   192289.7221 .0805623 3.074e-8 0.000000 : rR7,1(7) : v=0  8  8  0 - v=0  7  7  1
+AsymmetricTop Ground    9  A  9 Ground    8  A  3     57768.6256 3.050e-7   176644.6417   118876.0161 .0055925 1.981e-9 0.000000 : tR1,7(8) : v=0  9  4  5 - v=0  8  1  7
+AsymmetricTop Ground    7  A  8 Ground    6  A  2     57935.0869 2.530e-7   122491.4484    64556.3615 .0003420 1.55e-10 0.000000 : tR1,6(6) : v=0  7  4  4 - v=0  6  1  6
+AsymmetricTop Ground   11  A 13 Ground   10  A 11     57988.5367 1.372e-7   285122.1204   227133.5837 .4536952 1.343e-7 0.000000 : rR5,5(10) : v=0 11  6  5 - v=0 10  5  5
+AsymmetricTop Ground   11  A 12 Ground   10  A 10     58005.5458 1.373e-7   285120.2314   227114.6856 .4536210 1.344e-7 0.000000 : rR5,6(10) : v=0 11  6  6 - v=0 10  5  6
+AsymmetricTop Ground   10  A  6 Ground    9  A  2     58082.2953 4.905e-6   193129.6327   135047.3373 .1952310 6.361e-8 0.000000 : sR1,9(9) : v=0 10  3  8 - v=0  9  1  9
+AsymmetricTop Ground    7  A  9 Ground    6  A  1     58372.3049 4.009e-6   122512.2185    64139.9136 .0053045 2.456e-9 0.000000 : uR0,6(6) : v=0  7  4  3 - v=0  6  0  6
+AsymmetricTop Ground    8  A 11 Ground    7  A  7     58682.5057 1.472e-5   166820.9522   108138.4465 .1607689 6.673e-8 0.000000 : sR3,4(7) : v=0  8  5  3 - v=0  7  3  4
+AsymmetricTop Ground    8  A 10 Ground    7  A  6     59121.6482 1.485e-5   166819.0996   107697.4514 .1585343 6.729e-8 0.000000 : sR3,5(7) : v=0  8  5  4 - v=0  7  3  5
+AsymmetricTop Ground   10  A 15 Ground    9  A 13     59126.1211 2.194e-7   277670.9805   218544.8594 .4787484 1.645e-7 0.000000 : rR6,3(9) : v=0 10  7  3 - v=0  9  6  3
+AsymmetricTop Ground   10  A 14 Ground    9  A 12     59126.2532 2.194e-7   277670.9707   218544.7175 .4787480 1.645e-7 0.000000 : rR6,4(9) : v=0 10  7  4 - v=0  9  6  4
+AsymmetricTop Ground   12  A  9 Ground   11  A  5     59190.5850 4.931e-7   282845.8070   223655.2220 1.374893 3.982e-7 0.000000 : sR2,9(11) : v=0 12  4  8 - v=0 11  2  9
+AsymmetricTop Ground   12  A  7 Ground   11  A  3     59192.3280 5.808e-7   271564.7590   212372.4310 .9422694 2.730e-7 0.000000 : sR1,10(11) : v=0 12  3  9 - v=0 11  1 10
+AsymmetricTop Ground   11  A  5 Ground   10  A  1     59442.7733 1.464e-6   223655.2220   164212.4487 .2352131 7.501e-8 0.000000 : sR0,10(10) : v=0 11  2  9 - v=0 10  0 10
+AsymmetricTop Ground   10  A  8 Ground    9  A  4     59660.3384 4.702e-6   208306.9935   148646.6551 .3577943 1.263e-7 0.000000 : sR2,8(9) : v=0 10  4  7 - v=0  9  2  8
+AsymmetricTop Ground    9  A 17 Ground    8  A 15     60214.5407 2.494e-7   277785.0309   217570.4902 .5176335 2.077e-7 0.000000 : rR7,1(8) : v=0  9  8  1 - v=0  8  7  1
+AsymmetricTop Ground    9  A 16 Ground    8  A 14     60214.5409 2.494e-7   277785.0309   217570.4900 .5176335 2.077e-7 0.000000 : rR7,2(8) : v=0  9  8  2 - v=0  8  7  2
+AsymmetricTop Ground    6  A 13 Ground    5  A  9     61320.0365 8.759e-6   142629.4158    81309.3793 .0261986 1.623e-8 0.000000 : sR4,1(5) : v=0  6  6  0 - v=0  5  4  1
+AsymmetricTop Ground    6  A 12 Ground    5  A  8     61321.1923 8.759e-6   142629.4155    81308.2232 .0261981 1.623e-8 0.000000 : sR4,2(5) : v=0  6  6  1 - v=0  5  4  2
+AsymmetricTop Ground    9  A 11 Ground    8  A  7     61409.7363 6.143e-6   195366.8460   133957.1097 .2298483 9.783e-8 0.000000 : sR3,5(8) : v=0  9  5  4 - v=0  8  3  5
+AsymmetricTop Ground   10  A  9 Ground    9  A  3     61410.7937 1.203e-7   208653.5365   147242.7428 .0085171 3.280e-9 0.000000 : tR1,8(9) : v=0 10  4  6 - v=0  9  1  8
+AsymmetricTop Ground    9  A 10 Ground    8  A  6     62316.7701 6.225e-6   195360.4401   133043.6700 .2223870 9.891e-8 0.000000 : sR3,6(8) : v=0  9  5  5 - v=0  8  3  6
+AsymmetricTop Ground    8  A  8 Ground    7  A  2     62697.8995 1.379e-7   147885.2830    85187.3835 .0004949 2.51e-10 0.000000 : tR1,7(7) : v=0  8  4  5 - v=0  7  1  7
+AsymmetricTop Ground    8  A  9 Ground    7  A  1     63008.2692 2.436e-6   147946.4211    84938.1520 .0086348 4.437e-9 0.000000 : uR0,7(7) : v=0  8  4  4 - v=0  7  0  7
+AsymmetricTop Ground   11  A  6 Ground   10  A  2     63550.6440 1.187e-6   227806.9941   164256.3501 .1891130 7.369e-8 0.000000 : sR1,10(10) : v=0 11  3  9 - v=0 10  1 10
+AsymmetricTop Ground   10  A 11 Ground    9  A  7     63926.3396 2.098e-6   227133.5837   163207.2441 .3175469 1.379e-7 0.000000 : sR3,6(9) : v=0 10  5  5 - v=0  9  3  6
+AsymmetricTop Ground   11  A  8 Ground   10  A  4     63985.8776 1.230e-6   243330.3418   179344.4642 .4036437 1.605e-7 0.000000 : sR2,9(10) : v=0 11  4  8 - v=0 10  2  9
+AsymmetricTop Ground    7  A 13 Ground    6  A  9     64444.6488 7.905e-6   164752.5960   100307.9472 .0583911 3.638e-8 0.000000 : sR4,2(6) : v=0  7  6  1 - v=0  6  4  2
+AsymmetricTop Ground    7  A 12 Ground    6  A  8     64450.3803 7.907e-6   164752.5919   100302.2115 .0583860 3.639e-8 0.000000 : sR4,3(6) : v=0  7  6  2 - v=0  6  4  3
+AsymmetricTop Ground   10  A 10 Ground    9  A  6     65584.1169 2.126e-6   227114.6856   161530.5687 .2957663 1.387e-7 0.000000 : sR3,7(9) : v=0 10  5  6 - v=0  9  3  7
+AsymmetricTop Ground   12  A  5 Ground   11  A  1     66122.8887 2.745e-7   262409.3922   196286.5035 .2022361 8.166e-8 0.000000 : sR0,11(11) : v=0 12  2 10 - v=0 11  0 11
+AsymmetricTop Ground   11  A 11 Ground   10  A  7     66230.2613 5.981e-7   262141.6464   195911.3851 .4327022 1.908e-7 0.000000 : sR3,7(10) : v=0 11  5  6 - v=0 10  3  7
+AsymmetricTop Ground    8  A 13 Ground    7  A  9     67542.9614 4.581e-6   190055.1799   122512.2185 .0975834 6.176e-8 0.000000 : sR4,3(7) : v=0  8  6  2 - v=0  7  4  3
+AsymmetricTop Ground    8  A 12 Ground    7  A  8     67563.7029 4.584e-6   190055.1513   122491.4484 .0975522 6.180e-8 0.000000 : sR4,4(7) : v=0  8  6  3 - v=0  7  4  4
+AsymmetricTop Ground    6  A 11 Ground    5  A  3     67956.7483 2.146e-7   119331.8446    51375.0962 .0001503 1.27e-10 0.000000 : uR1,4(5) : v=0  6  5  1 - v=0  5  1  4
+AsymmetricTop Ground    9  A  9 Ground    8  A  1     68099.8154 1.047e-6   176644.6417   108544.8263 .0114011 6.617e-9 0.000000 : uR0,8(8) : v=0  9  4  5 - v=0  8  0  8
+AsymmetricTop Ground   12  A 11 Ground   11  A  7     68368.8430 1.444e-7   300418.4488   232049.6058 .5893634 2.631e-7 0.000000 : sR3,8(11) : v=0 12  5  7 - v=0 11  3  8
+AsymmetricTop Ground   12  A  8 Ground   11  A  4     68589.8025 2.660e-7   281546.2316   212956.4290 .4341287 1.957e-7 0.000000 : sR2,10(11) : v=0 12  4  9 - v=0 11  2 10
+AsymmetricTop Ground   11  A 10 Ground   10  A  6     68962.7512 5.978e-7   262092.3838   193129.6327 .3764458 1.874e-7 0.000000 : sR3,8(10) : v=0 11  5  7 - v=0 10  3  8
+AsymmetricTop Ground   12  A  6 Ground   11  A  2     69215.4483 2.453e-7   265525.5544   196310.1061 .1798488 8.330e-8 0.000000 : sR1,11(11) : v=0 12  3 10 - v=0 11  1 11
+AsymmetricTop Ground    9  A 13 Ground    8  A  9     70598.4382 2.016e-6   218544.8594   147946.4211 .1447179 9.359e-8 0.000000 : sR4,4(8) : v=0  9  6  3 - v=0  8  4  4
+AsymmetricTop Ground    7  A 11 Ground    6  A  3     70630.3659 3.537e-7   141480.1385    70849.7725 .0006277 5.15e-10 0.000000 : uR1,5(6) : v=0  7  5  2 - v=0  6  1  5
+AsymmetricTop Ground    9  A 12 Ground    8  A  8     70659.4345 2.020e-6   218544.7175   147885.2830 .1445772 9.374e-8 0.000000 : sR4,5(8) : v=0  9  6  4 - v=0  8  4  5
+AsymmetricTop Ground   12  A 10 Ground   11  A  6     72495.3870 1.393e-7   300302.3811   227806.9941 .4604082 2.450e-7 0.000000 : sR3,9(11) : v=0 12  5  8 - v=0 11  3  9
+AsymmetricTop Ground    7  A 15 Ground    6  A 11     72957.8775 1.424e-6   192289.7221   119331.8446 .0258012 2.333e-8 0.000000 : sR5,1(6) : v=0  7  7  0 - v=0  6  5  1
+AsymmetricTop Ground    7  A 14 Ground    6  A 10     72957.9497 1.424e-6   192289.7221   119331.7723 .0258011 2.333e-8 0.000000 : sR5,2(6) : v=0  7  7  1 - v=0  6  5  2
+AsymmetricTop Ground    8  A 11 Ground    7  A  3     73439.1909 3.774e-7   166820.9522    93381.7613 .0019663 1.600e-9 0.000000 : uR1,6(7) : v=0  8  5  3 - v=0  7  1  6
+AsymmetricTop Ground   10  A 13 Ground    9  A  9     73585.8155 7.087e-7   250230.4572   176644.6417 .2007789 1.330e-7 0.000000 : sR4,5(9) : v=0 10  6  4 - v=0  9  4  5
+AsymmetricTop Ground   10  A  9 Ground    9  A  1     73686.4499 3.326e-7   208653.5365   134967.0867 .0127477 8.481e-9 0.000000 : uR0,9(9) : v=0 10  4  6 - v=0  9  0  9
+AsymmetricTop Ground   10  A 12 Ground    9  A  8     73739.8374 7.123e-7   250229.8949   176490.0576 .2002601 1.335e-7 0.000000 : sR4,6(9) : v=0 10  6  5 - v=0  9  4  6
+AsymmetricTop Ground    8  A 15 Ground    7  A 11     76090.3517 1.081e-6   217570.4902   141480.1385 .0564428 5.108e-8 0.000000 : sR5,2(7) : v=0  8  7  1 - v=0  7  5  2
+AsymmetricTop Ground    8  A 14 Ground    7  A 10     76090.7827 1.081e-6   217570.4900   141479.7073 .0564426 5.108e-8 0.000000 : sR5,3(7) : v=0  8  7  2 - v=0  7  5  3
+AsymmetricTop Ground   11  A 13 Ground   10  A  9     76468.5838 2.036e-7   285122.1204   208653.5365 .2669299 1.812e-7 0.000000 : sR4,6(10) : v=0 11  6  5 - v=0 10  4  6
+AsymmetricTop Ground    9  A 11 Ground    8  A  3     76490.8300 2.796e-7   195366.8460   118876.0161 .0049313 4.056e-9 0.000000 : uR1,7(8) : v=0  9  5  4 - v=0  8  1  7
+AsymmetricTop Ground   11  A 12 Ground   10  A  8     76813.2380 2.058e-7   285120.2314   208306.9935 .2652619 1.825e-7 0.000000 : sR4,7(10) : v=0 11  6  6 - v=0 10  4  7
+AsymmetricTop Ground    7  A 10 Ground    6  A  2     76923.3459 1.135e-7   141479.7073    64556.3615 .0001476 1.56e-10 0.000000 : uR1,6(6) : v=0  7  5  3 - v=0  6  1  6
+AsymmetricTop Ground    9  A 15 Ground    8  A 11     79207.8836 5.277e-7   246028.8358   166820.9522 .0926475 8.461e-8 0.000000 : sR5,3(8) : v=0  9  7  2 - v=0  8  5  3
+AsymmetricTop Ground    9  A 14 Ground    8  A 10     79209.7344 5.278e-7   246028.8340   166819.0996 .0926459 8.462e-8 0.000000 : sR5,4(8) : v=0  9  7  3 - v=0  8  5  4
+AsymmetricTop Ground   10  A 11 Ground    9  A  3     79890.8409 1.476e-7   227133.5837   147242.7428 .0101196 8.580e-9 0.000000 : uR1,8(9) : v=0 10  5  5 - v=0  9  1  8
+AsymmetricTop Ground   10  A 15 Ground    9  A 11     82304.1344 1.961e-7   277670.9805   195366.8460 .1350752 1.252e-7 0.000000 : sR5,4(9) : v=0 10  7  3 - v=0  9  5  4
+AsymmetricTop Ground   10  A 14 Ground    9  A 10     82310.5307 1.962e-7   277670.9707   195360.4401 .1350667 1.252e-7 0.000000 : sR5,5(9) : v=0 10  7  4 - v=0  9  5  5
+AsymmetricTop Ground    8  A 17 Ground    7  A 13     84593.7991 1.613e-7   249346.3950   164752.5960 .0255158 3.173e-8 0.000000 : sR6,1(7) : v=0  8  8  0 - v=0  7  6  1
+AsymmetricTop Ground    8  A 16 Ground    7  A 12     84593.8032 1.613e-7   249346.3950   164752.5919 .0255158 3.173e-8 0.000000 : sR6,2(7) : v=0  8  8  1 - v=0  7  6  2
+904 Lines above OThreshold, Total intensity = 2.015251082068
