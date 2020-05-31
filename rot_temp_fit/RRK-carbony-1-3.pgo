@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<Mixture Units="MHz" Version="PGOPHER 10.1.182 4 Dec 2018 16:58 64 bit Unicode (Delphi 32/32)" PlotUnits="MHz" UseUpper="True">
+  <Species Name="Species" Jmax="40">
+    <AsymmetricMolecule Name="AsymmetricTop" Jmax="40">
+      <AsymmetricManifold Name="Ground" Initial="True" Jmax="40">
+        <AsymmetricTop Name="v=0">
+          <Parameter Name="A" Value="884.993583156261" Float="true" StdDev="0.000246629927115617"/>
+          <Parameter Name="B" Value="291.839859652711" Float="true" StdDev="0.000173663836014685"/>
+          <Parameter Name="C" Value="260.041398942461" Float="true" StdDev="0.000167524079971501"/>
+          <Parameter Name="DK" Value="0.000610726979674625" Float="true" StdDev="7.16292366048706E-6"/>
+          <Parameter Name="DJK" Value="-0.000366149738667732" Float="true" StdDev="3.08894414540106E-6"/>
+          <Parameter Name="DJ" Value="9.08967802710219E-5" Float="true" StdDev="7.48760927136858E-7"/>
+          <Parameter Name="deltaK" Value="0.000212923446766336" Float="true" StdDev="3.48194452748172E-5"/>
+          <Parameter Name="deltaJ" Value="1.07743409819938E-5" Float="true" StdDev="3.86555598796013E-7"/>
+        </AsymmetricTop>
+      </AsymmetricManifold>
+      <TransitionMoments Bra="Ground" Ket="Ground">
+        <CartesianTransitionMoment Bra="v=0" Ket="v=0">
+          <Parameter Name="Strength" Value="1.7"/>
+        </CartesianTransitionMoment>
+        <CartesianTransitionMoment Axis="b" Bra="v=0" Ket="v=0">
+          <Parameter Name="Strength" Value="2.9"/>
+        </CartesianTransitionMoment>
+        <CartesianTransitionMoment Axis="c" Bra="v=0" Ket="v=0">
+          <Parameter Name="Strength" Value="1.5"/>
+        </CartesianTransitionMoment>
+      </TransitionMoments>
+    </AsymmetricMolecule>
+  </Species>
+  <Correlations Name="Correlations">
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.B" Col="Species.AsymmetricTop.Ground.v=0.A" Value="0.0538265382138055"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.C" Col="Species.AsymmetricTop.Ground.v=0.A" Value="-0.00383708294360388"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.C" Col="Species.AsymmetricTop.Ground.v=0.B" Value="-0.114427523499443"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DK" Col="Species.AsymmetricTop.Ground.v=0.A" Value="0.594246544480991"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DK" Col="Species.AsymmetricTop.Ground.v=0.B" Value="-0.107911966917363"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DK" Col="Species.AsymmetricTop.Ground.v=0.C" Value="-0.41908449341856"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJK" Col="Species.AsymmetricTop.Ground.v=0.A" Value="0.23838002870205"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJK" Col="Species.AsymmetricTop.Ground.v=0.B" Value="-0.315741071999588"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJK" Col="Species.AsymmetricTop.Ground.v=0.C" Value="0.56400432843521"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJK" Col="Species.AsymmetricTop.Ground.v=0.DK" Value="-0.397418938319278"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJ" Col="Species.AsymmetricTop.Ground.v=0.A" Value="0.0107197254978312"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJ" Col="Species.AsymmetricTop.Ground.v=0.B" Value="0.849016908003244"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJ" Col="Species.AsymmetricTop.Ground.v=0.C" Value="0.164840939595681"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJ" Col="Species.AsymmetricTop.Ground.v=0.DK" Value="-0.140185844365407"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.DJ" Col="Species.AsymmetricTop.Ground.v=0.DJK" Value="-0.325241187717082"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.A" Value="-0.0158785180906119"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.B" Value="0.438733828916929"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.C" Value="-0.640882831729709"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.DK" Value="0.274063652204184"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.DJK" Value="-0.790156658331263"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaK" Col="Species.AsymmetricTop.Ground.v=0.DJ" Value="0.414752558631124"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.A" Value="0.0248518607242508"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.B" Value="0.703350204650433"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.C" Value="-0.176139513424949"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.DK" Value="-0.0890246870325733"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.DJK" Value="-0.0393782831231001"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.DJ" Value="0.539549569944019"/>
+    <Correlation Row="Species.AsymmetricTop.Ground.v=0.deltaJ" Col="Species.AsymmetricTop.Ground.v=0.deltaK" Value="0.0587963684321243"/>
+  </Correlations>
+  <Parameter Name="OThreshold" Value="1E-10"/>
+  <Parameter Name="Temperature" Value="1"/>
+  <Parameter Name="Fmin" Value="-425.334569575511"/>
+  <Parameter Name="Fmax" Value="8942.15792025741"/>
+  <FormSettings Name="LineWindow" Auto="False"
+Lines="
+AsymmetricTop	Ground	5	0	2	Ground	4	0	2	2674.7486	1	.00373046018938781	0	qR1,4(4)	v=0  5  1  5 - v=0  4  1  4
+AsymmetricTop	Ground	5	0	3	Ground	4	0	3	2833.0862	1	.0037689488702063	0	qR1,3(4)	v=0  5  1  4 - v=0  4  1  3
+AsymmetricTop	Ground	6	0	1	Ground	5	0	2	2864.4691	1	.00585481987653017	0	pR1,5(5)	v=0  6  0  6 - v=0  5  1  5
+AsymmetricTop	Ground	2	0	4	Ground	1	0	3	2915.0107	1	.00648250783883433	0	rR1,0(1)	v=0  2  2  1 - v=0  1  1  0
+AsymmetricTop	Ground	7	0	7	Ground	7	0	5	2943.7428	1	.00211586576838258	0	rQ2,5(7)	v=0  7  3  4 - v=0  7  2  5
+AsymmetricTop	Ground	2	0	4	Ground	1	0	2	2946.805	1	.00175676665084239	0	rR1,1(1)	v=0  2  2  1 - v=0  1  1  1
+AsymmetricTop	Ground	2	0	5	Ground	1	0	2	2948.0515	1	.00639521488406371	0	rR1,1(1)	v=0  2  2  0 - v=0  1  1  1
+AsymmetricTop	Ground	4	0	3	Ground	3	0	1	2978.377	1	.00219050715258397	0	rR0,3(3)	v=0  4  1  3 - v=0  3  0  3
+AsymmetricTop	Ground	6	0	7	Ground	6	0	5	2985.8823	1	.00279356084824547	0	rQ2,4(6)	v=0  6  3  3 - v=0  6  2  4
+AsymmetricTop	Ground	5	0	7	Ground	5	0	5	3014.1227	1	.00327096885163312	0	rQ2,3(5)	v=0  5  3  2 - v=0  5  2  3
+AsymmetricTop	Ground	3	0	7	Ground	3	0	5	3039.8267	1	.00233661978053162	0	rQ2,1(3)	v=0  3  3  0 - v=0  3  2  1
+AsymmetricTop	Ground	4	0	6	Ground	4	0	4	3049.3861	1	.00325612348223594	0	rQ2,3(4)	v=0  4  3  2 - v=0  4  2  3
+AsymmetricTop	Ground	4	0	7	Ground	4	0	4	3049.5987	1	.000801895431566645	0	rQ2,3(4)	v=0  4  3  1 - v=0  4  2  3
+AsymmetricTop	Ground	5	0	6	Ground	5	0	4	3056.1322	1	.00329652674166175	0	rQ2,4(5)	v=0  5  3  3 - v=0  5  2  4
+AsymmetricTop	Ground	6	0	6	Ground	6	0	4	3067.7623	1	.00283503713319694	0	rQ2,5(6)	v=0  6  3  4 - v=0  6  2  5
+AsymmetricTop	Ground	7	0	6	Ground	7	0	4	3085.9451	1	.00216819575987818	0	rQ2,6(7)	v=0  7  3  5 - v=0  7  2  6
+AsymmetricTop	Ground	5	0	2	Ground	4	0	1	3140.1968	1	.00883628196171258	0	rR0,4(4)	v=0  5  1  5 - v=0  4  0  4
+AsymmetricTop	Ground	6	0	2	Ground	5	0	2	3206.7041	1	.00382530135496527	0	qR1,5(5)	v=0  6  1  6 - v=0  5  1  5
+AsymmetricTop	Ground	6	0	1	Ground	5	0	1	3269.6284	1	.00417844467478005	0	qR0,5(5)	v=0  6  0  6 - v=0  5  0  5
+AsymmetricTop	Ground	6	0	4	Ground	5	0	4	3305.6405	1	.00279781635572613	0	qR2,4(5)	v=0  6  2  5 - v=0  5  2  4
+AsymmetricTop	Ground	6	0	10	Ground	5	0	10	3314.427	1	.000207763811278567	0	qR5,1(5)	v=0  6  5  2 - v=0  5  5  1
+AsymmetricTop	Ground	6	0	11	Ground	5	0	11	3314.427	1	.000207763816783117	0	qR5,0(5)	v=0  6  5  1 - v=0  5  5  0
+AsymmetricTop	Ground	6	0	8	Ground	5	0	8	3315.5024	1	.000729138584910333	0	qR4,2(5)	v=0  6  4  3 - v=0  5  4  2
+AsymmetricTop	Ground	6	0	9	Ground	5	0	9	3315.5253	1	.000729142079446379	0	qR4,1(5)	v=0  6  4  2 - v=0  5  4  1
+AsymmetricTop	Ground	6	0	6	Ground	5	0	6	3317.2706	1	.00164165266156964	0	qR3,3(5)	v=0  6  3  4 - v=0  5  3  3
+AsymmetricTop	Ground	6	0	7	Ground	5	0	7	3318.9646	1	.00164216202536496	0	qR3,2(5)	v=0  6  3  3 - v=0  5  3  2
+AsymmetricTop	Ground	6	0	5	Ground	5	0	5	3347.2052	1	.00281276730009299	0	qR2,3(5)	v=0  6  2  4 - v=0  5  2  3
+AsymmetricTop	Ground	6	0	3	Ground	5	0	3	3395.7795	1	.00378444159626826	0	qR1,4(5)	v=0  6  1  5 - v=0  5  1  4
+AsymmetricTop	Ground	3	0	4	Ground	2	0	3	3435.0946	1	.00719339800888777	0	rR1,1(2)	v=0  3  2  2 - v=0  2  1  1
+AsymmetricTop	Ground	3	0	5	Ground	2	0	3	3441.3044	1	.00207551214456546	0	rR1,1(2)	v=0  3  2  1 - v=0  2  1  1
+AsymmetricTop	Ground	7	0	1	Ground	6	0	2	3456.6319	1	.00590867344827965	0	pR1,6(6)	v=0  7  0  7 - v=0  6  1  6
+AsymmetricTop	Ground	3	0	4	Ground	2	0	2	3530.4856	1	.00199008745741529	0	rR1,2(2)	v=0  3  2  2 - v=0  2  1  2
+AsymmetricTop	Ground	3	0	5	Ground	2	0	2	3536.6961	1	.00686114612854684	0	rR1,2(2)	v=0  3  2  1 - v=0  2  1  2
+AsymmetricTop	Ground	6	0	2	Ground	5	0	1	3611.8641	1	.0086883148421831	0	rR0,5(5)	v=0  6  1  6 - v=0  5  0  5
+AsymmetricTop	Ground	5	0	3	Ground	4	0	1	3616.2883	1	.00227099658862278	0	rR0,4(4)	v=0  5  1  4 - v=0  4  0  4
+AsymmetricTop	Ground	7	0	2	Ground	6	0	2	3737.276	1	.00346184046562116	0	qR1,6(6)	v=0  7  1  7 - v=0  6  1  6
+AsymmetricTop	Ground	7	0	1	Ground	6	0	1	3798.8695	1	.00370995461181583	0	qR0,6(6)	v=0  7  0  7 - v=0  6  0  6
+AsymmetricTop	Ground	7	0	4	Ground	6	0	4	3853.4223	1	.00256402057553071	0	qR2,5(6)	v=0  7  2  6 - v=0  6  2  5
+AsymmetricTop	Ground	7	0	6	Ground	6	0	6	3871.6055	1	.00158439555783258	0	qR3,4(6)	v=0  7  3  5 - v=0  6  3  4
+AsymmetricTop	Ground	7	0	5	Ground	6	0	5	3917.5311	1	.00257299092125488	0	qR2,4(6)	v=0  7  2  5 - v=0  6  2  4
+AsymmetricTop	Ground	4	0	4	Ground	3	0	3	3939.1042	1	.007406210578719	0	rR1,2(3)	v=0  4  2  3 - v=0  3  1  2
+AsymmetricTop	Ground	7	0	3	Ground	6	0	3	3956.0472	1	.00334066712578915	0	qR1,5(6)	v=0  7  1  6 - v=0  6  1  5
+AsymmetricTop	Ground	4	0	5	Ground	3	0	3	3957.6418	1	.00226336761168767	0	rR1,2(3)	v=0  4  2  2 - v=0  3  1  2
+AsymmetricTop	Ground	8	0	1	Ground	7	0	2	4042.6728	1	.00524655799140819	0	pR1,7(7)	v=0  8  0  8 - v=0  7  1  7
+AsymmetricTop	Ground	13	0	9	Ground	13	0	7	4058.5066	1	.000366305288069679	0	rQ3,10(13)	v=0 13  4  9 - v=0 13  3 10
+AsymmetricTop	Ground	7	0	2	Ground	6	0	1	4079.5139	1	.00774781308788924	0	rR0,6(6)	v=0  7  1  7 - v=0  6  0  6
+AsymmetricTop	Ground	12	0	9	Ground	12	0	7	4120.4714	1	.000474046408726365	0	rQ3,9(12)	v=0 12  4  8 - v=0 12  3  9
+AsymmetricTop	Ground	4	0	4	Ground	3	0	2	4129.8544	1	.000320180427492671	0	rR1,3(3)	v=0  4  2  3 - v=0  3  1  3
+AsymmetricTop	Ground	4	0	5	Ground	3	0	2	4148.3936	1	.00666153453205415	0	rR1,3(3)	v=0  4  2  2 - v=0  3  1  3
+AsymmetricTop	Ground	11	0	9	Ground	11	0	7	4167.0977	1	.000590238570008751	0	rQ3,8(11)	v=0 11  4  7 - v=0 11  3  8
+AsymmetricTop	Ground	10	0	9	Ground	10	0	7	4200.7765	1	8.37956595671988e-5	0	rQ3,7(10)	v=0 10  4  6 - v=0 10  3  7
+AsymmetricTop	Ground	9	0	9	Ground	9	0	7	4224.152	1	9.58313339051961e-5	0	rQ3,6(9)	v=0  9  4  5 - v=0  9  3  6
+AsymmetricTop	Ground	8	0	9	Ground	8	0	7	4239.718	1	.00119793973279001	0	rQ3,5(8)	v=0  8  4  4 - v=0  8  3  5
+AsymmetricTop	Ground	10	0	8	Ground	10	0	6	4249.0521	1	.000711047463403573	0	rQ3,8(10)	v=0 10  4  7 - v=0 10  3  8
+AsymmetricTop	Ground	11	0	8	Ground	11	0	6	4249.1816	1	.000598283345556632	0	rQ3,9(11)	v=0 11  4  8 - v=0 11  3  9
+AsymmetricTop	Ground	7	0	9	Ground	7	0	7	4249.6492	1	.000896104457720708	0	rQ3,4(7)	v=0  7  4  3 - v=0  7  3  4
+AsymmetricTop	Ground	9	0	8	Ground	9	0	6	4250.7309	1	.000774084120358092	0	rQ3,7(9)	v=0  9  4  6 - v=0  9  3  7
+AsymmetricTop	Ground	10	0	9	Ground	10	0	6	4250.8827	1	.000162014143780788	0	rQ3,8(10)	v=0 10  4  6 - v=0 10  3  8
+AsymmetricTop	Ground	9	0	9	Ground	9	0	6	4251.5175	1	.000188713811548733	0	rQ3,7(9)	v=0  9  4  5 - v=0  9  3  7
+AsymmetricTop	Ground	11	0	9	Ground	11	0	6	4253.0793	1	.000132912113881426	0	rQ3,9(11)	v=0 11  4  7 - v=0 11  3  9
+AsymmetricTop	Ground	8	0	8	Ground	8	0	6	4253.2418	1	.00120137542677757	0	rQ3,6(8)	v=0  8  4  5 - v=0  8  3  6
+AsymmetricTop	Ground	8	0	9	Ground	8	0	6	4253.5464	1	.00020878675928988	0	rQ3,6(8)	v=0  8  4  4 - v=0  8  3  6
+AsymmetricTop	Ground	6	0	8	Ground	6	0	7	4255.6459	1	.000516379862706139	0	rQ3,3(6)	v=0  6  4  3 - v=0  6  3  3
+AsymmetricTop	Ground	6	0	9	Ground	6	0	7	4255.673	1	.00210117700246315	0	rQ3,3(6)	v=0  6  4  2 - v=0  6  3  3
+AsymmetricTop	Ground	7	0	8	Ground	7	0	6	4255.8761	1	.00168778248331973	0	rQ3,5(7)	v=0  7  4  4 - v=0  7  3  5
+AsymmetricTop	Ground	6	0	8	Ground	6	0	6	4258.1889	1	.000100190961446172	0	rQ3,4(6)	v=0  6  4  3 - v=0  6  3  4
+AsymmetricTop	Ground	6	0	9	Ground	6	0	6	4258.2169	1	.000516651172424447	0	rQ3,4(6)	v=0  6  4  2 - v=0  6  3  4
+AsymmetricTop	Ground	5	0	8	Ground	5	0	7	4259.1067	1	.000550659092140347	0	rQ3,2(5)	v=0  5  4  2 - v=0  5  3  2
+AsymmetricTop	Ground	5	0	9	Ground	5	0	7	4259.1112	1	.00221149129926703	0	rQ3,2(5)	v=0  5  4  1 - v=0  5  3  2
+AsymmetricTop	Ground	5	0	8	Ground	5	0	6	4259.9561	1	.00221188471169074	0	rQ3,3(5)	v=0  5  4  2 - v=0  5  3  3
+AsymmetricTop	Ground	4	0	8	Ground	4	0	7	4260.9211	1	.000420973973852197	0	rQ3,1(4)	v=0  4  4  1 - v=0  4  3  1
+AsymmetricTop	Ground	4	0	8	Ground	4	0	6	4261.1337	1	5.17452192845868e-5	0	rQ3,2(4)	v=0  4  4  1 - v=0  4  3  2
+AsymmetricTop	Ground	8	0	2	Ground	7	0	2	4266.424	1	.00281432032825815	0	qR1,7(7)	v=0  8  1  8 - v=0  7  1  7
+AsymmetricTop	Ground	6	0	3	Ground	5	0	1	4277.0281	1	.0020573142940122	0	rR0,5(5)	v=0  6  1  5 - v=0  5  0  5
+AsymmetricTop	Ground	8	0	1	Ground	7	0	1	4323.3172	1	.00296882849353056	0	qR0,7(7)	v=0  8  0  8 - v=0  7  0  7
+AsymmetricTop	Ground	8	0	4	Ground	7	0	4	4399.7704	1	.00208678214294847	0	qR2,6(7)	v=0  8  2  7 - v=0  7  2  6
+AsymmetricTop	Ground	8	0	14	Ground	7	0	14	4419.0118	1	6.01127741184347e-5	0	qR7,1(7)	v=0  8  7  2 - v=0  7  7  1
+AsymmetricTop	Ground	8	0	15	Ground	7	0	15	4419.0118	1	6.01127741189744e-5	0	qR7,0(7)	v=0  8  7  1 - v=0  7  7  0
+AsymmetricTop	Ground	8	0	12	Ground	7	0	12	4419.7642	1	.000164077681348549	0	qR6,2(7)	v=0  8  6  3 - v=0  7  6  2
+AsymmetricTop	Ground	8	0	13	Ground	7	0	13	4419.7642	1	.000164077681835201	0	qR6,1(7)	v=0  8  6  2 - v=0  7  6  1
+AsymmetricTop	Ground	8	0	10	Ground	7	0	10	4421.096	1	.00029281220881161	0	qR5,3(7)	v=0  8  5  4 - v=0  7  5  3
+AsymmetricTop	Ground	8	0	11	Ground	7	0	11	4421.0996	1	.000292812307673917	0	qR5,2(7)	v=0  8  5  3 - v=0  7  5  2
+AsymmetricTop	Ground	8	0	8	Ground	7	0	8	4423.6141	1	.000695481743331455	0	qR4,4(7)	v=0  8  4  5 - v=0  7  4  4
+AsymmetricTop	Ground	8	0	9	Ground	7	0	9	4423.8179	1	.000695497446607089	0	qR4,3(7)	v=0  8  4  4 - v=0  7  4  3
+AsymmetricTop	Ground	8	0	6	Ground	7	0	6	4426.249	1	.00132832610134852	0	qR3,5(7)	v=0  8  3  6 - v=0  7  3  5
+AsymmetricTop	Ground	8	0	7	Ground	7	0	7	4433.7468	1	.00132903395758614	0	qR3,4(7)	v=0  8  3  5 - v=0  7  3  4
+AsymmetricTop	Ground	5	0	5	Ground	4	0	3	4470.0602	1	.00227549017789844	0	rR1,3(4)	v=0  5  2  3 - v=0  4  1  3
+AsymmetricTop	Ground	8	0	5	Ground	7	0	5	4491.1169	1	.00208461085860779	0	qR2,5(7)	v=0  8  2  6 - v=0  7  2  5
+AsymmetricTop	Ground	8	0	3	Ground	7	0	3	4513.2587	1	.00263893268156605	0	qR1,6(7)	v=0  8  1  7 - v=0  7  1  6
+AsymmetricTop	Ground	8	0	2	Ground	7	0	1	4547.068	1	.00630853188133298	0	rR0,7(7)	v=0  8  1  8 - v=0  7  0  7
+AsymmetricTop	Ground	9	0	1	Ground	8	0	2	4620.2963	1	.00415813081602996	0	pR1,8(8)	v=0  9  0  9 - v=0  8  1  8
+AsymmetricTop	Ground	3	0	6	Ground	2	0	5	4700.4057	1	.00021181234839633	0	rR2,0(2)	v=0  3  3  1 - v=0  2  2  0
+AsymmetricTop	Ground	3	0	7	Ground	2	0	4	4701.6825	1	.000210339670523714	0	rR2,1(2)	v=0  3  3  0 - v=0  2  2  1
+AsymmetricTop	Ground	5	0	4	Ground	4	0	2	4744.955	1	.00197315048178414	0	rR1,4(4)	v=0  5  2  4 - v=0  4  1  4
+AsymmetricTop	Ground	5	0	5	Ground	4	0	2	4787.814	1	.00577488902124115	0	rR1,4(4)	v=0  5  2  3 - v=0  4  1  4
+AsymmetricTop	Ground	9	0	2	Ground	8	0	2	4794.1617	1	.00207815966255093	0	qR1,8(8)	v=0  9  1  9 - v=0  8  1  8
+AsymmetricTop	Ground	9	0	1	Ground	8	0	1	4844.0476	1	.00216402265386551	0	qR0,8(8)	v=0  9  0  9 - v=0  8  0  8
+AsymmetricTop	Ground	6	0	4	Ground	5	0	3	4899.752	1	.000725992872705638	0	rR1,4(5)	v=0  6  2  5 - v=0  5  1  4
+AsymmetricTop	Ground	9	0	4	Ground	8	0	4	4944.508	1	.00153140596294176	0	qR2,7(8)	v=0  9  2  8 - v=0  8  2  7
+AsymmetricTop	Ground	9	0	12	Ground	8	0	12	4973.0893	1	8.63879394858877e-5	0	qR6,3(8)	v=0  9  6  4 - v=0  8  6  3
+AsymmetricTop	Ground	9	0	13	Ground	8	0	13	4973.0893	1	8.63879402046757e-5	0	qR6,2(8)	v=0  9  6  3 - v=0  8  6  2
+AsymmetricTop	Ground	9	0	10	Ground	8	0	10	4975.0024	1	.000240089758430701	0	qR5,4(8)	v=0  9  5  5 - v=0  8  5  4
+AsymmetricTop	Ground	9	0	11	Ground	8	0	11	4975.0102	1	.000240089950478592	0	qR5,3(8)	v=0  9  5  4 - v=0  8  5  3
+AsymmetricTop	Ground	9	0	8	Ground	8	0	8	4978.5204	1	.000537672782450618	0	qR4,5(8)	v=0  9  4  6 - v=0  8  4  5
+AsymmetricTop	Ground	9	0	9	Ground	8	0	9	4979.0025	1	.000537691463444267	0	qR4,4(8)	v=0  9  4  5 - v=0  8  4  4
+AsymmetricTop	Ground	9	0	6	Ground	8	0	6	4981.0291	1	.000992286664774665	0	qR3,6(8)	v=0  9  3  7 - v=0  8  3  6
+AsymmetricTop	Ground	6	0	5	Ground	5	0	3	4984.1771	1	.00209994525759565	0	rR1,4(5)	v=0  6  2  4 - v=0  5  1  4
+AsymmetricTop	Ground	9	0	7	Ground	8	0	7	4994.5724	1	.000992635064135333	0	qR3,5(8)	v=0  9  3  6 - v=0  8  3  5
+AsymmetricTop	Ground	9	0	2	Ground	8	0	1	5017.915	1	.000559889633083957	0	rR0,8(8)	v=0  9  1  9 - v=0  8  0  8
+AsymmetricTop	Ground	9	0	5	Ground	8	0	5	5066.645	1	.00151759490862274	0	qR2,6(8)	v=0  9  2  7 - v=0  8  2  6
+AsymmetricTop	Ground	9	0	3	Ground	8	0	3	5066.7214	1	.00188651581113562	0	qR1,7(8)	v=0  9  1  8 - v=0  8  1  7
+AsymmetricTop	Ground	10	0	1	Ground	9	0	2	5188.4848	1	.00297157304537022	0	pR1,9(9)	v=0 10  0 10 - v=0  9  1  9
+AsymmetricTop	Ground	4	0	6	Ground	3	0	5	5249.725	1	.0012093745477374	0	rR2,1(3)	v=0  4  3  2 - v=0  3  2  1
+AsymmetricTop	Ground	4	0	7	Ground	3	0	5	5249.941	1	.00282981888139301	0	rR2,1(3)	v=0  4  3  1 - v=0  3  2  1
+AsymmetricTop	Ground	4	0	6	Ground	3	0	4	5255.937	1	.0028307297539527	0	rR2,2(3)	v=0  4  3  2 - v=0  3  2  2
+AsymmetricTop	Ground	4	0	7	Ground	3	0	4	5256.1497	1	.00120973394628172	0	rR2,2(3)	v=0  4  3  1 - v=0  3  2  2
+AsymmetricTop	Ground	10	0	2	Ground	9	0	2	5320.5598	1	.00140428414182792	0	qR1,9(9)	v=0 10  1 10 - v=0  9  1  9
+AsymmetricTop	Ground	7	0	4	Ground	6	0	3	5357.399	1	.000584199607081346	0	rR1,5(6)	v=0  7  2  6 - v=0  6  1  5
+AsymmetricTop	Ground	6	0	4	Ground	5	0	2	5375.8454	1	.0017104128673428	0	rR1,5(5)	v=0  6  2  5 - v=0  5  1  5
+AsymmetricTop	Ground	13	0	11	Ground	13	0	9	5429.567	1	.000356664636740131	0	rQ4,9(13)	v=0 13  5  8 - v=0 13  4  9
+AsymmetricTop	Ground	14	0	10	Ground	14	0	8	5433.985	1	.000270585037074526	0	rQ4,11(14)	v=0 14  5 10 - v=0 14  4 11
+AsymmetricTop	Ground	13	0	10	Ground	13	0	8	5443.541	1	.000357452828633632	0	rQ4,10(13)	v=0 13  5  9 - v=0 13  4 10
+AsymmetricTop	Ground	12	0	11	Ground	12	0	9	5444.5554	1	.000454724871783022	0	rQ4,8(12)	v=0 12  5  7 - v=0 12  4  8
+AsymmetricTop	Ground	12	0	10	Ground	12	0	8	5452.0698	1	.000455267383625112	0	rQ4,9(12)	v=0 12  5  8 - v=0 12  4  9
+AsymmetricTop	Ground	11	0	10	Ground	11	0	8	5459.3488	1	.000557525164614562	0	rQ4,8(11)	v=0 11  5  7 - v=0 11  4  8
+AsymmetricTop	Ground	6	0	5	Ground	5	0	2	5460.2689	1	.00446303176252905	0	rR1,5(5)	v=0  6  2  4 - v=0  5  1  5
+AsymmetricTop	Ground	10	0	10	Ground	10	0	9	5463.4774	1	7.12012000874142e-5	0	rQ4,6(10)	v=0 10  5  6 - v=0 10  4  6
+AsymmetricTop	Ground	10	0	11	Ground	10	0	9	5463.5117	1	.000297452400005023	0	rQ4,6(10)	v=0 10  5  5 - v=0 10  4  6
+AsymmetricTop	Ground	10	0	10	Ground	10	0	8	5465.3036	1	.000297560035815619	0	rQ4,7(10)	v=0 10  5  6 - v=0 10  4  7
+AsymmetricTop	Ground	10	0	11	Ground	10	0	8	5465.3397	1	7.12268686827107e-5	0	rQ4,7(10)	v=0 10  5  5 - v=0 10  4  7
+AsymmetricTop	Ground	9	0	11	Ground	9	0	9	5469.2031	1	.000494350977326577	0	rQ4,5(9)	v=0  9  5  4 - v=0  9  4  5
+AsymmetricTop	Ground	9	0	10	Ground	9	0	8	5469.9792	1	.000494428092043461	0	rQ4,6(9)	v=0  9  5  5 - v=0  9  4  6
+AsymmetricTop	Ground	6	0	10	Ground	6	0	9	5477.6959	1	.000276416335487263	0	rQ4,2(6)	v=0  6  5  2 - v=0  6  4  2
+AsymmetricTop	Ground	6	0	10	Ground	6	0	8	5477.7243	1	.00110432438894992	0	rQ4,3(6)	v=0  6  5  2 - v=0  6  4  3
+AsymmetricTop	Ground	10	0	4	Ground	9	0	4	5487.4732	1	.00102303630720582	0	qR2,8(9)	v=0 10  2  9 - v=0  9  2  8
+AsymmetricTop	Ground	10	0	2	Ground	9	0	1	5494.4319	1	.000273151698876228	0	rR0,9(9)	v=0 10  1 10 - v=0  9  0  9
+AsymmetricTop	Ground	7	0	5	Ground	6	0	3	5505.9271	1	.00177376697476567	0	rR1,5(6)	v=0  7  2  5 - v=0  6  1  5
+AsymmetricTop	Ground	10	0	8	Ground	9	0	8	5534.0327	1	.000371265419987296	0	qR4,6(9)	v=0 10  4  7 - v=0  9  4  6
+AsymmetricTop	Ground	10	0	9	Ground	9	0	9	5535.074	1	.000371279744938979	0	qR4,5(9)	v=0 10  4  6 - v=0  9  4  5
+AsymmetricTop	Ground	10	0	6	Ground	9	0	6	5535.71	1	.000669756708800771	0	qR3,7(9)	v=0 10  3  8 - v=0  9  3  7
+AsymmetricTop	Ground	10	0	3	Ground	9	0	3	5615.6852	1	.00122989593938591	0	qR1,8(9)	v=0 10  1  9 - v=0  9  1  8
+AsymmetricTop	Ground	10	0	5	Ground	9	0	5	5642.5386	1	.00100156580521626	0	qR2,7(9)	v=0 10  2  8 - v=0  9  2  7
+AsymmetricTop	Ground	8	0	3	Ground	7	0	1	5677.8412	1	.00119459158174094	0	rR0,7(7)	v=0  8  1  7 - v=0  7  0  7
+AsymmetricTop	Ground	11	0	1	Ground	10	0	2	5747.3234	1	.00193013651943435	0	pR1,10(10)	v=0 11  0 11 - v=0 10  1 10
+AsymmetricTop	Ground	5	0	6	Ground	4	0	5	5794.2113	1	.00877769171286633	0	rR2,2(4)	v=0  5  3  3 - v=0  4  2  2
+AsymmetricTop	Ground	5	0	7	Ground	4	0	5	5795.0626	1	.00251815790046678	0	rR2,2(4)	v=0  5  3  2 - v=0  4  2  2
+AsymmetricTop	Ground	8	0	4	Ground	7	0	3	5801.1206	1	.00366436682372112	0	rR1,6(7)	v=0  8  2  7 - v=0  7  1  6
+AsymmetricTop	Ground	5	0	6	Ground	4	0	4	5812.7492	1	.00251975469111615	0	rR2,3(4)	v=0  5  3  3 - v=0  4  2  3
+AsymmetricTop	Ground	5	0	7	Ground	4	0	4	5813.602	1	.00878172709439439	0	rR2,3(4)	v=0  5  3  2 - v=0  4  2  3
+AsymmetricTop	Ground	11	0	2	Ground	10	0	2	5845.7263	1	.000872943199252509	0	qR1,10(10)	v=0 11  1 11 - v=0 10  1 10
+AsymmetricTop	Ground	11	0	1	Ground	10	0	1	5879.3995	1	.000892358855049306	0	qR0,10(10)	v=0 11  0 11 - v=0 10  0 10
+AsymmetricTop	Ground	11	0	2	Ground	10	0	1	5977.8061	1	.00204014850893632	0	rR0,10(10)	v=0 11  1 11 - v=0 10  0 10
+AsymmetricTop	Ground	11	0	4	Ground	10	0	4	6028.533	1	.000626139008471338	0	qR2,9(10)	v=0 11  2 10 - v=0 10  2  9
+AsymmetricTop	Ground	8	0	5	Ground	7	0	3	6041.004	1	.00136800525310624	0	rR1,6(7)	v=0  8  2  6 - v=0  7  1  6
+AsymmetricTop	Ground	11	0	6	Ground	10	0	6	6090.017	1	.000411974916611113	0	qR3,8(10)	v=0 11  3  9 - v=0 10  3  8
+AsymmetricTop	Ground	11	0	8	Ground	10	0	8	6090.15	1	.000232059212490093	0	qR4,7(10)	v=0 11  4  8 - v=0 10  4  7
+AsymmetricTop	Ground	11	0	9	Ground	10	0	9	6092.218	1	.000232061972999014	0	qR4,6(10)	v=0 11  4  7 - v=0 10  4  6
+AsymmetricTop	Ground	11	0	7	Ground	10	0	7	6125.902	1	.000411198609727969	0	qR3,7(10)	v=0 11  3  8 - v=0 10  3  7
+AsymmetricTop	Ground	9	0	4	Ground	8	0	3	6232.3691	1	.00254055408552423	0	rR1,7(8)	v=0  9  2  8 - v=0  8  1  7
+AsymmetricTop	Ground	12	0	1	Ground	11	0	2	6297.6776	1	.00114679252538	0	pR1,11(11)	v=0 12  0 12 - v=0 11  1 11
+AsymmetricTop	Ground	6	0	6	Ground	5	0	5	6330.5436	1	.00703433356010203	0	rR2,3(5)	v=0  6  3  4 - v=0  5  2  3
+AsymmetricTop	Ground	6	0	7	Ground	5	0	5	6333.0906	1	.0020901184410179	0	rR2,3(5)	v=0  6  3  3 - v=0  5  2  3
+AsymmetricTop	Ground	12	0	2	Ground	11	0	2	6369.807	1	.00050112906174238	0	qR1,11(11)	v=0 12  1 12 - v=0 11  1 11
+AsymmetricTop	Ground	6	0	6	Ground	5	0	4	6373.4034	1	.00209173256085374	0	rR2,4(5)	v=0  6  3  4 - v=0  5  2  4
+AsymmetricTop	Ground	6	0	7	Ground	5	0	4	6375.9492	1	.0070348109405166	0	rR2,4(5)	v=0  6  3  3 - v=0  5  2  4
+AsymmetricTop	Ground	12	0	1	Ground	11	0	1	6396.0819	1	.000509136712399384	0	qR0,11(11)	v=0 12  0 12 - v=0 11  0 11
+AsymmetricTop	Ground	10	0	4	Ground	9	0	3	6653.1229	1	.00164117617707176	0	rR1,8(9)	v=0 10  2  9 - v=0  9  1  8
+AsymmetricTop	Ground	9	0	13	Ground	9	0	11	6692.2935	1	.000249868340585332	0	rQ5,4(9)	v=0  9  6  3 - v=0  9  5  4
+AsymmetricTop	Ground	9	0	12	Ground	9	0	10	6692.3057	1	.000249868862948735	0	rQ5,5(9)	v=0  9  6  4 - v=0  9  5  5
+AsymmetricTop	Ground	8	0	13	Ground	8	0	11	6694.2089	1	.000354067881406057	0	rQ5,3(8)	v=0  8  6  2 - v=0  8  5  3
+AsymmetricTop	Ground	8	0	12	Ground	8	0	10	6694.2124	1	.000354068093260802	0	rQ5,4(8)	v=0  8  6  3 - v=0  8  5  4
+AsymmetricTop	Ground	7	0	12	Ground	7	0	11	6695.5441	1	.000105766259292876	0	rQ5,2(7)	v=0  7  6  2 - v=0  7  5  2
+AsymmetricTop	Ground	7	0	13	Ground	7	0	11	6695.546	1	.000421263500707985	0	rQ5,2(7)	v=0  7  6  1 - v=0  7  5  2
+AsymmetricTop	Ground	7	0	6	Ground	6	0	5	6854.9447	1	.00521880168013366	0	rR2,4(6)	v=0  7  3  5 - v=0  6  2  4
+AsymmetricTop	Ground	7	0	7	Ground	6	0	4	6945.7001	1	.00520835790229461	0	rR2,5(6)	v=0  7  3  4 - v=0  6  2  5
+AsymmetricTop	Ground	13	0	2	Ground	12	0	1	6965.0805	1	.00169870622917233	0	rR0,12(12)	v=0 13  1 13 - v=0 12  0 12
+AsymmetricTop	Ground	13	0	1	Ground	12	0	1	6912.928	1	.00071199312636674	0	qR0,12(12)	v=0 13  0 13 - v=0 12  0 12
+"/>
+  <FormSettings Name="ConstantsWindow" ActiveObject="AsymmetricTop: Species - AsymmetricTop - Ground - v=0"/>
+  <FormSettings Name="LogWindow" ObsFileName="..\thfad2list.lin"/>
+</Mixture>
